@@ -51,7 +51,7 @@ take a look!
   
 <img align="right" height="270px" width="450px" src="https://raw.githubusercontent.com/Silcott/ISTA_Project/master/myProject/Project_Track!T/Pictures/Cover.svg" alt="html" style="vertical-align:top; margin:4px">  
   
-  * **Repository:**  https://github.com/Silcott/PORTFOLIO-OF-PROJECTS/tree/master/Project_Track!T
+  * **Repository:**  https://github.com/Silcott/ISTA_Project/tree/master/myProject/Project_Track!T
   * **Description:**  This program will consist of a multi-role, ticket creation log in page, dashboard for users, dashboard for administrators, report page for a database that will hold ticket information such as auto-generated ticket ID, requester names, assigned groups, dates, phone numbers and email address. This will allow ticket searches and updates or deletes. There be profiles created through the log in screen that will be added to the database as well. Roles can be assigned by the administrators and levels of security will be established by those levels given. The database creation will be done with Microsoft SQL server and the coding will be written with C# programming language. This overall will allow me to gain and use the knowledge needed to be a Software Engineer.
   * **Tools:**  C#, SQL, JavaScript, HTML, CSS
   
