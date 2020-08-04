@@ -38,19 +38,18 @@ a Horse, name him MrEd, and call the speak() method. When Mr. Ed speaks, he migh
 ## My Conclusion
 
 I really enjoyed this project.  I first started with the class creation of the pig and created the methods. 
-I realized I wanted to center my Console.Writeline text which litteraly started me down a path that I 
+I realized I wanted to center my Console.Writeline text which literally started me down a path that I 
 couldn't (didn't want to stop).  I found that I could maximize the screen to full screen and find the value
 of the pixels across the width of the screen.  I took this value, divided by two and "wal-lah", it worked!  
 
 <br>My text now had a center starting ground to work from.  Then I wanted to add some ASCII text, which if you
 don't know that text that looks like a shape made out of keyboard characters.  I googled searched these and
 found some that fit great for the animals I choose.  Next up was color and this was easy.  I already have 
-experience working in CSS/HTML so I jsut applied the foreground and background colors whereever I saw fit.
+experience working in CSS/HTML so I just applied the foreground and background colors wherever I saw fit.
 
 <br>Finally I knew this project was now becoming dynamic, but it was missing a noise, so I searched the web
 again and found a script that called the notification and hand bells from WIN32 default file.  I spent awhile
 on this, just to later find out that the 30 lines of code I used really could be replaced by one line of code.
-Well thats how coding works in a way.  If you want something go research it and then try it out using it
-towards your program.  Overall, this was a great little project that can really test your creativity, if you let it. 
-
+Well that’s how coding works in a way.  If you want something go research it and then try it out using it
+towards your program.  Overall, this was a great little project that can really test your creativity if you let it. 
 
