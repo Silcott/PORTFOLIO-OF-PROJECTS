@@ -4,7 +4,7 @@
 
 <div align="center"><img align="Center" height="480px" width="600px" src="https://raw.githubusercontent.com/Silcott/PORTFOLIO-OF-PROJECTS/master/PROJECTS/AnimalFarm_CSharp/AnimalFarmGif.gif">
 
-# Console Appilcation - My Animal Farm
+# Console Application - My Animal Farm
 
 [Click HERE to see my Code!](https://github.com/Silcott/PORTFOLIO-OF-PROJECTS/blob/master/PROJECTS/AnimalFarm_CSharp/program04/Program.cs)
 
@@ -17,25 +17,26 @@ Hello, my name is James Silcott.  I am currently attending MSSA.  This was a pro
 Using classes and objects, I needed to implement a farm.  Create a class containing a Main() function that exercises other classes.  Create classes representing several types of domesticated animals, such as cows, sheep, chickens, goats, etc.  Instantiate several objects of each class.  For example, for my Pig class has instantiated objects named Miss Piggy, Porky, and Wilber.
 
 ## Grading Criteria
+```
 - 70 points: Implement one class of a farm animal. You can choose your type
 of animal: horses, cows, pigs, sheep, etc. For our class, implement at least one field, such as a name field,
 and at least two methods, such as a speak or an eat method. Also implement two constructors, a default
 constructor that takes no parameters and another constructor that takes at least one parameter, such as (for
 example) the object name.
 
-- 80 points For your class for the previous step, implement a unit test that invokes each
+- 80 points: For your class for the previous step, implement a unit test that invokes each
 method. You should create a Test project and create unit test for your class. Test all methods.
 
-- 90 points Create four or more animals from your class. Invoke all methods for each. If
+- 90 points: Create four or more animals from your class. Invoke all methods for each. If
 you create pigs, you can have Porky, Wilbur, Miss Piggy, and Napoleon (the pig leader in Orwell’s Animal
 Farm). You can implement a speak() method for each animal. A pig can say, “Oink.” A cow can say,
 “Moo.” A chicken can say, “Cluck.” You get the idea.
 
-- 100 points Implement one farm animal by creating a class and a method.
+- 100 points: Implement one farm animal by creating a class and a method.
 For example, you may elect to create a Horse type, and a speak() method. In your main program, instantiate
-a Horse, name him MrEd, and call the speak() method. When Mr. Ed speaks, he might say something like,
+a Horse, name him Mr. Ed, and call the speak() method. When Mr. Ed speaks, he might say something like,
 “Hello, my name is Mr. Ed, and I am a horse. I say neigh.”
-
+```
 
 ## My Conclusion
 
