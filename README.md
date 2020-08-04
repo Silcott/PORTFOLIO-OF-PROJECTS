@@ -49,7 +49,7 @@ take a look!
 <img align="right" height="270px" width="450px" alt="GIF" src="https://raw.githubusercontent.com/Silcott/PORTFOLIO-OF-PROJECTS/master/PROJECTS/AnimalFarm_CSharp/AnimalFarmGif.gif" />
   
   * **Repository:**  https://github.com/Silcott/PORTFOLIO-OF-PROJECTS/tree/master/PROJECTS/AnimalFarm_CSharp
-  * **Description:**  This is a program I designed in C# to show methods and class creations.  I created 3 pigs, 3 horses, 3 cows, and 3 chickens.  Each has their own function of speak, eat, produce, and move.  I got a little carrried away with this project and wanted to maximze the screen and center the writelines, add some sounds, bring a little color and some ACSII text into the mix.  I had a lot of fun building this, please enjoy!
+  * **Description:**  This is a program I designed in C# to show methods and class creations. I created 3 pigs, 3 horses, 3 cows, and 3 chickens. Each has their own function of speak, eat, produce, and move. I got a little carried away with this project and wanted to maximize the screen and center the WriteLine’s, add some sounds, bring a little color and some ACSII text into the mix. I had a lot of fun building this, please enjoy!
   * **Tools:**  C#, CSS
   
   
