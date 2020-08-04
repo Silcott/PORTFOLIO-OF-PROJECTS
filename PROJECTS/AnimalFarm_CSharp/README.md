@@ -6,6 +6,8 @@
 
 # Console Appilcation - My Animal Farm
 
+[Click HERE to see my Code!](https://github.com/Silcott/PORTFOLIO-OF-PROJECTS/blob/master/PROJECTS/AnimalFarm_CSharp/program04/Program.cs)
+
 ## Project Length: 2 hours
 
 ## Intro
