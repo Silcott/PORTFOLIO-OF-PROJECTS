@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Github\\repo\\PORTFOLIO-OF-PROJECTS\\PROJECTS\\AnimalFarm_CSharp\\program04\\progex04.csproj": {}
+    "C:\\Github\\repo\\PORTFOLIO-OF-PROJECTS\\PROJECTS\\CardDealer\\CardDealer\\CardDealer.csproj": {}
   },
   "projects": {
-    "C:\\Github\\repo\\PORTFOLIO-OF-PROJECTS\\PROJECTS\\AnimalFarm_CSharp\\program04\\progex04.csproj": {
+    "C:\\Github\\repo\\PORTFOLIO-OF-PROJECTS\\PROJECTS\\CardDealer\\CardDealer\\CardDealer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Github\\repo\\PORTFOLIO-OF-PROJECTS\\PROJECTS\\AnimalFarm_CSharp\\program04\\progex04.csproj",
-        "projectName": "progex04",
-        "projectPath": "C:\\Github\\repo\\PORTFOLIO-OF-PROJECTS\\PROJECTS\\AnimalFarm_CSharp\\program04\\progex04.csproj",
+        "projectUniqueName": "C:\\Github\\repo\\PORTFOLIO-OF-PROJECTS\\PROJECTS\\CardDealer\\CardDealer\\CardDealer.csproj",
+        "projectName": "CardDealer",
+        "projectPath": "C:\\Github\\repo\\PORTFOLIO-OF-PROJECTS\\PROJECTS\\CardDealer\\CardDealer\\CardDealer.csproj",
         "packagesPath": "C:\\Users\\silco\\.nuget\\packages\\",
-        "outputPath": "C:\\Github\\repo\\PORTFOLIO-OF-PROJECTS\\PROJECTS\\AnimalFarm_CSharp\\program04\\obj\\",
+        "outputPath": "C:\\Github\\repo\\PORTFOLIO-OF-PROJECTS\\PROJECTS\\CardDealer\\CardDealer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
