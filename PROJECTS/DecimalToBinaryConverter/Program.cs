@@ -18,7 +18,7 @@ public class ConversionExample
             if (answer == "1")
             {
 
-
+                // Decimal ------> Binary
                 int n, i;
                 int[] a = new int[10];
                 Console.Write("Enter the number to convert: ");
@@ -72,10 +72,11 @@ public class ConversionExample
                 Console.WriteLine("Try again");
                 CallThisMethod();
             }
+            CallAnotherMethod();
         }
 
         CallThisMethod();
-        CallAnotherMethod();
+        
 
         void CallAnotherMethod()
         {
