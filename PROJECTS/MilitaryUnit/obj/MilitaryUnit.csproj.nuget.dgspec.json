@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Github\\repo\\PORTFOLIO-OF-PROJECTS\\PROJECTS\\CardDealer\\CardDealer.csproj": {}
+    "C:\\Github\\repo\\PORTFOLIO-OF-PROJECTS\\PROJECTS\\MilitaryUnit\\MilitaryUnit.csproj": {}
   },
   "projects": {
-    "C:\\Github\\repo\\PORTFOLIO-OF-PROJECTS\\PROJECTS\\CardDealer\\CardDealer.csproj": {
+    "C:\\Github\\repo\\PORTFOLIO-OF-PROJECTS\\PROJECTS\\MilitaryUnit\\MilitaryUnit.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Github\\repo\\PORTFOLIO-OF-PROJECTS\\PROJECTS\\CardDealer\\CardDealer.csproj",
-        "projectName": "CardDealer",
-        "projectPath": "C:\\Github\\repo\\PORTFOLIO-OF-PROJECTS\\PROJECTS\\CardDealer\\CardDealer.csproj",
+        "projectUniqueName": "C:\\Github\\repo\\PORTFOLIO-OF-PROJECTS\\PROJECTS\\MilitaryUnit\\MilitaryUnit.csproj",
+        "projectName": "MilitaryUnit",
+        "projectPath": "C:\\Github\\repo\\PORTFOLIO-OF-PROJECTS\\PROJECTS\\MilitaryUnit\\MilitaryUnit.csproj",
         "packagesPath": "C:\\Users\\silco\\.nuget\\packages\\",
-        "outputPath": "C:\\Github\\repo\\PORTFOLIO-OF-PROJECTS\\PROJECTS\\CardDealer\\obj\\",
+        "outputPath": "C:\\Github\\repo\\PORTFOLIO-OF-PROJECTS\\PROJECTS\\MilitaryUnit\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

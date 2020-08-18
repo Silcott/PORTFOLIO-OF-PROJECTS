@@ -303,13 +303,8 @@ namespace progex04
         }
     }
     //This is used to count the spaces in the string 
-    public static class CharExtensions
-    {
-        public static string Repeat(this char c, int count)
-        {
-            return new String(c, count);
-        }
-    }
+    1
+
 
 
     class Program
