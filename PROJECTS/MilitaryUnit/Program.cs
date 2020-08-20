@@ -618,7 +618,9 @@ namespace MilitaryUnit
             Console.ResetColor();
             Console.WriteLine((spaces.Remove(0, 18) + ""));
             Console.ForegroundColor = ConsoleColor.Yellow;
-            Console.WriteLine((spaces.Remove(0, 18) + "        This program will begin in:  " + i.ToString()));
+
+            //This shows the countdown numbers
+            //Console.WriteLine((spaces.Remove(0, 18) + "        This program will begin in:  " + i.ToString()));
 
             //This loops through to print the string array list - explosion 1-16
             var indexTankShooting = TankArtShooting[i];
