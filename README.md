@@ -55,7 +55,7 @@ take a look!
   * ### Console App - Military Units
   <!--* **View Project:**  http://www.insertpage.com-->
   
-<img align="right" height="270px" width="450px" alt="GIF" src="https://raw.githubusercontent.com/Silcott/PORTFOLIO-OF-PROJECTS/master/PROJECTS/MilitaryUnit/militaryUnit.gif" />
+<img align="right" height="270px" width="450px" alt="GIF" src="https://raw.githubusercontent.com/Silcott/PORTFOLIO-OF-PROJECTS/master/PROJECTS/MilitaryUnit/militaryUnits.gif" />
   
   * **Repository:**  https://github.com/Silcott/PORTFOLIO-OF-PROJECTS/tree/master/PROJECTS/MilitaryUnit
   * **Description:**  Another C# program built with fun! Using inheritance, abstraction, classes and objects, I implemented a military unit of tanks.  I created several classes of World War 1 and 2 tanks.  Added the flare of ASCII Text charcters I learned from the animal farm, inputted a little WIN32 defualt sounds, created a fullscreen funtion, and created my first easter egg in a program.  It wasn;t that hard to find, but I fiqwured it qould be a cool addition.  Overall, lots of fun and learned a lot.  I used dictionary and lists for the first time which turns out to make the ASCII art a lot easier to do animation. Enjoy!
