@@ -199,7 +199,7 @@ namespace MilitaryUnit
 
         //Start up screen with a timer
         #region TIMER
-        static Timer timer = new Timer(250);
+        static Timer timer = new Timer(4500);
         static int i = 16;
 
         static void timer_Elapsed(object sender, ElapsedEventArgs e)
