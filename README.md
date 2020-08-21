@@ -74,7 +74,7 @@ take a look!
   * **Tools:**  C#
   * **NO. Lines of code:**  1,082
 
-<img align="right" height="270px" width="450px" alt="GIF" src="https://raw.githubusercontent.com/Silcott/PORTFOLIO-OF-PROJECTS/master/PROJECTS/WaterDashBoard/dashboard.gif />
+<img align="right" height="270px" width="450px" alt="GIF" src="https://raw.githubusercontent.com/Silcott/PORTFOLIO-OF-PROJECTS/master/PROJECTS/WaterDashBoard/dashboard.gif/>
   
   * **Repository:**  https://github.com/Silcott/PORTFOLIO-OF-PROJECTS/tree/master/PROJECTS/WaterDashBoard
   * **Description:**  This is an overkill excel spreadheet with all the bells and whistles.  I used a lot of formulas and coded in VBA to make fullscreen modes and create a dashboard that felt like an app to capture all the data my team was getting from a deployment to Suadi Arbaia.  We were in charge of all teh water on base and this helped us win the Team of the Month award and many praises from leaders. Enjoy!
