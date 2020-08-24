@@ -789,12 +789,12 @@ namespace RouletteWheel
 
                                 Random randAll = new Random();
                                 //37 and 38 are 0 and 00
-                                //int[] all_numbers = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38 };
-                                //var randomNum = random.Next(1, all_numbers.Length);
+                                int[] all_numbers = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38 };
+                                var randomNum = random.Next(1, all_numbers.Length);
 
                                 //Used to Debug - wage max and pick a number - number 0
-                                int[] all_numbers = { 35 };
-                                var randomNum = random.Next(35, 35);
+                                //int[] all_numbers = { 35 };
+                                //var randomNum = random.Next(35, 35);
                                 ballNumber = randomNum;
                                 return randomNum;
                             }
