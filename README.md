@@ -71,7 +71,7 @@ https://silcott.github.io/
 <img align="right" height="270px" width="450px" alt="GIF" src="https://raw.githubusercontent.com/Silcott/PORTFOLIO-OF-PROJECTS/master/PROJECTS/RouletteWheel/rouletteTable.svg" />
   
   * **Repository:**  https://github.com/Silcott/PORTFOLIO-OF-PROJECTS/tree/master/PROJECTS/RouletteWheel
-  * **Description:**  These projects have been the hardest to date.  Lots of time and effort went into figuring out the correct way to randomize card shuffles and ball drops.  Not easy is an understatement for the first experience.  Overall create learning project.  Enjoy!  * **Tools:**  C#
+  * **Description:**  These projects have been the hardest to date.  Lots of time and effort went into figuring out the correct way to randomize card shuffles and ball drops.  Not easy is an understatement for the first experience.  Overall this was a great learning project.  Enjoy!  * **Tools:**  C#
   * **NO. Lines of code:**  4,464
   
   * ### Visual Basic & Excel App - Water Dashboard
