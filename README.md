@@ -63,6 +63,7 @@ https://silcott.github.io/
   
   * **Repository:**  https://github.com/Silcott/PORTFOLIO-OF-PROJECTS/tree/master/PROJECTS/MilitaryUnit
   * **Description:**  Another C# program built with fun! Using inheritance, abstraction, classes, and objects, I implemented a military unit of tanks.  I created several classes of World War 1 and 2 tanks.  Added the flare of ASCII Text characters I learned from the animal farm, inputted a little WIN32 default sounds, created a Fullscreen function, and created my first Easter egg in a program.  It was not that hard to find, but I figured it would be a cool addition.  Overall, lots of fun and learned a lot.  I used dictionary and lists for the first time which turns out to make the ASCII art a lot easier to do animation. Enjoy!
+  * **Tools:**  C#
   * **NO. Lines of code:**  1,814
 
   * ### Console App - Casino - Cards & Roulette
@@ -71,7 +72,9 @@ https://silcott.github.io/
 <img align="right" height="270px" width="450px" alt="GIF" src="https://raw.githubusercontent.com/Silcott/PORTFOLIO-OF-PROJECTS/master/PROJECTS/RouletteWheel/rouletteTable.svg" />
   
   * **Repository:**  https://github.com/Silcott/PORTFOLIO-OF-PROJECTS/tree/master/PROJECTS/RouletteWheel
-  * **Description:**  These projects have been the hardest to date.  Lots of time and effort went into figuring out the correct way to randomize card shuffles and ball drops.  Not easy is an understatement for the first experience.  Overall this was a great learning project.  Enjoy!  * **Tools:**  C#
+  * **Description:**  These projects have been the hardest to date.  Lots of time and effort went into figuring out the correct way to randomize card shuffles and ball drops.  Not easy is an understatement for the first experience.  Overall this was a great learning project.  Enjoy!  
+  * **Tools:**  C#
+  
   * **NO. Lines of code:**  4,464
   
   * ### Visual Basic & Excel App - Water Dashboard
