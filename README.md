@@ -72,7 +72,7 @@ https://silcott.github.io/
   
   * **Repository:**  https://github.com/Silcott/PORTFOLIO-OF-PROJECTS/tree/master/PROJECTS/RouletteWheel
   * **Description:**  These projects have been the hardest to date.  Lots of time and effort went into figuring out the correct way to randomize card shuffles and ball drops.  Not easy is an understatement for the first experience.  Overall create learning project.  Enjoy!  * **Tools:**  C#
-  * **NO. Lines of code:**  1,082
+  * **NO. Lines of code:**  4,464
   
   * ### Visual Basic & Excel App - Water Dashboard
   <!--* **View Project:**  http://www.insertpage.com-->
