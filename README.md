@@ -35,7 +35,7 @@ https://silcott.github.io/
 
 ## My Top Repositories
 
-* ### Ticket Application - "Trackin!T"
+### Ticket Application - "Trackin!T"
   <!--* **View Project:**  http://www.insertpage.com-->
   
 <img align="right" height="270px" width="450px" src="https://raw.githubusercontent.com/Silcott/ISTA_Project/master/myProject/Project_Track!T/Pictures/gif/trackIT.gif" alt="html" style="vertical-align:top; margin:4px">  
@@ -46,7 +46,7 @@ https://silcott.github.io/
   * **NO. Lines of code:**  412 - working
 
   
-* ### Console App - My Animal Farm
+### Console App - My Animal Farm
   <!--* **View Project:**  http://www.insertpage.com-->
   
 <img align="right" height="270px" width="450px" alt="GIF" src="https://raw.githubusercontent.com/Silcott/PORTFOLIO-OF-PROJECTS/master/PROJECTS/AnimalFarm_CSharp/AnimalFarmGif.gif" />
@@ -56,7 +56,7 @@ https://silcott.github.io/
   * **Tools:**  C#
   * **NO. Lines of code:**  639
 
-  * ### Console App - Military Units
+  ### Console App - Military Units
   <!--* **View Project:**  http://www.insertpage.com-->
   
 <img align="right" height="270px" width="450px" alt="GIF" src="https://raw.githubusercontent.com/Silcott/PORTFOLIO-OF-PROJECTS/master/PROJECTS/MilitaryUnit/militaryUnits.gif" />
@@ -66,7 +66,7 @@ https://silcott.github.io/
   * **Tools:**  C#
   * **NO. Lines of code:**  1,814
 
-  * ### Console App - Casino - Cards & Roulette
+  ### Console App - Casino - Cards & Roulette
   <!--* **View Project:**  http://www.insertpage.com-->
   
 <img align="right" height="270px" width="450px" alt="GIF" src="https://raw.githubusercontent.com/Silcott/PORTFOLIO-OF-PROJECTS/master/PROJECTS/RouletteWheel/rouletteTable.svg" />
@@ -77,7 +77,7 @@ https://silcott.github.io/
   
   * **NO. Lines of code:**  4,464
   
-  * ### Visual Basic & Excel App - Water Dashboard
+  ### Visual Basic & Excel App - Water Dashboard
   <!--* **View Project:**  http://www.insertpage.com-->
 <img align="right" height="270px" width="450px" alt="GIF" src="https://raw.githubusercontent.com/Silcott/PORTFOLIO-OF-PROJECTS/master/PROJECTS/WaterDashBoard/dashboard.gif">
   
