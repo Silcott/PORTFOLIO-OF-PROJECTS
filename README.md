@@ -46,7 +46,7 @@ https://silcott.github.io/
   * **NO. Lines of code:**  412 - working
 
   
-### Console App - My Animal Farm
+### C# Console App - My Animal Farm
   <!--* **View Project:**  http://www.insertpage.com-->
   
 <img align="right" height="270px" width="450px" alt="GIF" src="https://raw.githubusercontent.com/Silcott/PORTFOLIO-OF-PROJECTS/master/PROJECTS/AnimalFarm_CSharp/AnimalFarmGif.gif" />
@@ -56,7 +56,7 @@ https://silcott.github.io/
   * **Tools:**  C#
   * **NO. Lines of code:**  639
 
-  ### Console App - Military Units
+  ### C# Console App - Military Units
   <!--* **View Project:**  http://www.insertpage.com-->
   
 <img align="right" height="270px" width="450px" alt="GIF" src="https://raw.githubusercontent.com/Silcott/PORTFOLIO-OF-PROJECTS/master/PROJECTS/MilitaryUnit/militaryUnits.gif" />
@@ -66,7 +66,7 @@ https://silcott.github.io/
   * **Tools:**  C#
   * **NO. Lines of code:**  1,814
 
-  ### Console App - Casino - Cards & Roulette
+  ### C# Console App - Casino - Cards & Roulette
   <!--* **View Project:**  http://www.insertpage.com-->
   
 <img align="right" height="270px" width="450px" alt="GIF" src="https://raw.githubusercontent.com/Silcott/PORTFOLIO-OF-PROJECTS/master/PROJECTS/RouletteWheel/rouletteTable.svg" />
@@ -77,7 +77,7 @@ https://silcott.github.io/
   
   * **NO. Lines of code:**  4,464
   
-  ### Console App -  Number Guessing Game
+  ### C# Console App -  Number Guessing Game
   <!--* **View Project:**  http://www.insertpage.com-->
   
 <img align="right" height="270px" width="450px" alt="GIF" src="https://raw.githubusercontent.com/Silcott/PORTFOLIO-OF-PROJECTS/master/PROJECTS/NumberGuessingGame/gif/numberGuessGame.gif" />
@@ -107,12 +107,14 @@ https://silcott.github.io/
   
   * **NO. Lines of code:**  236
   
-    ### Turtle - Happy Birthday
+    ### Python Console - Turtle Happy Birthday
   <!--* **View Project:**  http://www.insertpage.com-->
 <img align="right" height="270px" width="450px" alt="GIF" src="https://raw.githubusercontent.com/Silcott/PORTFOLIO-OF-PROJECTS/master/PROJECTS/Turtle/gif/happybirthdaygif.gif">
   
   * **Repository:**  https://github.com/Silcott/PORTFOLIO-OF-PROJECTS/tree/master/PROJECTS/Turtle/birthday.py
   * **Description:**  This is something I did when I first started learning python.  It uses the Turtle tool that python has for young developers.  I programmed the turtle to move around and draw a message, which in this case is telling myself Happy Birthday.  Not a bad program.  It was hard to figure out how to turn the turtle and create the heart shapes were a real challenge.  Enjoy!
-  * **Tools:**  Visual Basic in Excel
+  * **Tools:**  Python
+  
+  * **NO. Lines of code:**  662
 
  
