@@ -155,7 +155,7 @@ namespace ProgEX08_Silcott
                         max2Number = max2Number + 1;
                     }
                     
-                    //Show the reults
+                    //Show the results
                     Console.WriteLine($"Nice, the computer guessed the correct number: {numGiven} in {countComputer} guesses");
                     Console.WriteLine($"You took {countHuman} and the computer took {countComputer} to guess");
 
