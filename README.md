@@ -97,4 +97,14 @@ https://silcott.github.io/
   * **Description:**  This is an overkill excel spreadsheet with all the bells and whistles.  I used a lot of formulas and coded in VBA to make Fullscreen modes and create a dashboard that felt like an app to capture all the data my team was getting from a deployment to Saudi Arabia.  We oversaw all the water on base, and this helped us win the Team of the Month award and many praises from leaders. Enjoy!
   * **Tools:**  Visual Basic in Excel
 
+  ### Website - My Portfolio
+  <!--* **View Project:**  http://www.insertpage.com-->
+<img align="right" height="270px" width="450px" alt="GIF" src="https://raw.githubusercontent.com/Silcott/SilcottWeb/gif/silcottwebgif.gif">
+  
+  * **Repository:**  https://github.com/Silcott/PORTFOLIO-OF-PROJECTS/tree/master/SilcottWeb
+  * **Description:**  I created a portfolio website, which is free to use a one-page site on GitHub to share along my journey and get the experience in creating a  website.  I used HTML, CSS, and jQuery/JavaScript.  I included a form at the bottom that I used https://formspree.io/ to create a responsive form.   Overall, I already knew a lot about web development, but it is always fun to build something like this.  Enjoy!
+  * **Tools:**  HTML, CSS, jQuery/JavaScript
+  
+  * **NO. Lines of code:**  236
+
  
