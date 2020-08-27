@@ -77,6 +77,17 @@ https://silcott.github.io/
   
   * **NO. Lines of code:**  4,464
   
+  ### Console App -  Number Guessing Game
+  <!--* **View Project:**  http://www.insertpage.com-->
+  
+<img align="right" height="270px" width="450px" alt="GIF" src="https://raw.githubusercontent.com/Silcott/PORTFOLIO-OF-PROJECTS/master/PROJECTS/NumberGuessingGame/numberGuessGame.gif" />
+  
+  * **Repository:**  https://github.com/Silcott/PORTFOLIO-OF-PROJECTS/tree/master/PROJECTS/NumberGuessingGame/ProgEX08-Silcott/Program.cs
+  * **Description:**  This demonstrates a bisection algorithm I wrote for finding a generated random number in a sorted list.  First, it checks the middle element in the list.  It has three possibilities: the value can equal the middle value, be higher than the middle value, or be lower than the middle value.  The algorithm (recursively) calls itself with the top half of the list when it’s higher and if its lower it calls itself with eh bottom of the list. Overall, I am seeing my code improve.  Not just in understanding but in the structure layout.  I am thinking all the time the best location to place a variables, methods, or classes and how to call them.  Of course, I added the flare and this time I figured out how to create a list of methods, which I used to change the colors of an Easter Egg.  Happy hunting for those looking!
+  * **Tools:**  C#
+  
+  * **NO. Lines of code:**  567
+  
   ### Visual Basic & Excel App - Water Dashboard
   <!--* **View Project:**  http://www.insertpage.com-->
 <img align="right" height="270px" width="450px" alt="GIF" src="https://raw.githubusercontent.com/Silcott/PORTFOLIO-OF-PROJECTS/master/PROJECTS/WaterDashBoard/dashboard.gif">
