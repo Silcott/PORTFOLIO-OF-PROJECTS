@@ -49,8 +49,21 @@ namespace CalculatorMASTER
                 case 12:
                     Inheritance();
                     break;
+                case 13:
+                    reverseWord();
+                    break;
+                case 14:
 
+                    break;
+                case 15:
 
+                    break;
+                case 16:
+
+                    break;
+                case 17:
+
+                    break;
                 default:
                     Console.WriteLine("Thats not a selection, try again");
                     break;
@@ -61,19 +74,24 @@ namespace CalculatorMASTER
         {
             Console.WriteLine("Welcome to the Master Calculator");
             Console.WriteLine("Choose a Option:");
-            Console.WriteLine("[ 1] Circumference ------------- (Mathematical Formulas & Exception Handling)");
+            Console.WriteLine("[ 1] Circumference -------------------------- (Mathematical Formulas & Exception Handling)");
             Console.WriteLine("[ 2] Factorial");
-            Console.WriteLine("[ 3] AvgTenScores -------------- (Recursive Methods)");
+            Console.WriteLine("[ 3] AvgTenScores --------------------------- (Recursive Methods)");
             Console.WriteLine("[ 4] Herons Formula & Quadratic Equation");
-            Console.WriteLine("[ 5] Count Down ---------------- (While Loop)");
-            Console.WriteLine("[ 6] Adding Ten Integers ------- (Recursion)");
-            Console.WriteLine("[ 7] Reciprocal ---------------- (Exception Handling)");
+            Console.WriteLine("[ 5] Count Down ----------------------------- (While Loop)");
+            Console.WriteLine("[ 6] Adding Ten Integers -------------------- (Recursion)");
+            Console.WriteLine("[ 7] Reciprocal ----------------------------- (Exception Handling)");
             Console.WriteLine("[ 8] Classes");
             Console.WriteLine("[ 9] Arrays");
             Console.WriteLine("[10] Card Shuffle: 1");
             Console.WriteLine("[11] Card Shuffle: 2");
             Console.WriteLine("[12] Inheritance");
-            Console.WriteLine("[13] ");
+            Console.WriteLine("[13] Reverse A String");
+            Console.WriteLine("[14] ");
+            Console.WriteLine("[15] ");
+            Console.WriteLine("[16] ");
+            Console.WriteLine("[17] ");
+            Console.WriteLine("[18] ");
 
             int selection = Convert.ToInt32(Console.ReadLine());
             return selection;
@@ -662,7 +680,42 @@ namespace CalculatorMASTER
                 Console.Write("I am a Pistol ");
             }
         }
-        //=======================13. =======================\\
+        //=======================13. REVERSE STRING =======================\\
+        // You’re given: Write a method to reverse a string
+        //first I would write the question
+        // make sure you understand what they want. ask qualifying questions.
+        // Someone tells me to reverse a string, my question would be 'reverse the words in the string or the letters' as an example:
+        //example: Hello World!
+        // output: World! Hello
+        // or 
+        // output: !dlroW olleH
+
+
+
+        static void reverseWord()
+        {
+            // here i'm prompting the user to enter a string that they want me to reverse
+            Console.WriteLine("Enter a string and I will reverse it.");
+
+            // here i'm storing that input in the variable 'input'
+            string input = Console.ReadLine();
+
+            //here i'm creating an empty string called 'reverse
+            string reverse = string.Empty;
+
+            // now with my for loop, my i variable is starting at the end of the input they gave me.
+            //and i'm saying while i is greater than or = to 0, decrement (i--)
+            for (int i = input.Length - 1; i >= 0; i--)
+            {
+                // so now i'm iterating through my string backwards and its storing each element in my new variable.
+                reverse += input[i];
+            }
+
+            //and lastly i'm printing the new reverse variable.
+            Console.WriteLine(reverse);
+            Console.ReadLine();
+        }
+
 
         //=======================13. =======================\\
 
