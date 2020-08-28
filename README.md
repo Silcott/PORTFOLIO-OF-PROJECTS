@@ -122,7 +122,7 @@ https://silcott.github.io/
 <img align="right" height="270px" width="450px" alt="GIF" src="https://raw.githubusercontent.com/Silcott/PORTFOLIO-OF-PROJECTS/master/PROJECTS/CalculatorMASTER/gif/menupic.svg">
   
   * **Repository:**  https://github.com/Silcott/PORTFOLIO-OF-PROJECTS/tree/master/PROJECTS/CalculatorMASTER/Program.cs
-  * **Description:** This is a masive collection of all the programming exercises, quizes, and calculators I've created while in the Microsoft Software & Systems Academy.  Really useful sometimes! Hope it can help you too.
+  * **Description:** This is a massive collection of all the programming exercises, quizzes, and calculators I've created while in the Microsoft Software & Systems Academy. Really useful sometimes! Hope it can help you too.
   * **Tools:**  C#
   
   * **NO. Lines of code:**  664+
