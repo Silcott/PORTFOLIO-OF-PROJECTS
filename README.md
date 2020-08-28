@@ -117,7 +117,7 @@ https://silcott.github.io/
   
   * **NO. Lines of code:**  662
   
-  ### C# Console App - Programing & Calculators
+  ### C# Console App - Programming & Calculators
   <!--* **View Project:**  http://www.insertpage.com-->
 <img align="right" height="270px" width="450px" alt="GIF" src="https://raw.githubusercontent.com/Silcott/PORTFOLIO-OF-PROJECTS/master/PROJECTS/CalculatorMASTER/gif/menupic.svg">
   
