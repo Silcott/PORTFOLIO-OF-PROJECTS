@@ -110,11 +110,21 @@ https://silcott.github.io/
     ### Python Console - Turtle Happy Birthday
   <!--* **View Project:**  http://www.insertpage.com-->
 <img align="right" height="270px" width="450px" alt="GIF" src="https://raw.githubusercontent.com/Silcott/PORTFOLIO-OF-PROJECTS/master/PROJECTS/Turtle/gif/happybirthdaygif.gif">
-  
+
   * **Repository:**  https://github.com/Silcott/PORTFOLIO-OF-PROJECTS/tree/master/PROJECTS/Turtle/birthday.py
   * **Description:**  This is something I did when I first started learning python.  It uses the Turtle tool that python has for young developers.  I programmed the turtle to move around and draw a message, which in this case is telling myself Happy Birthday.  Not a bad program.  It was hard to figure out how to turn the turtle and create the heart shapes were a real challenge.  Enjoy!
   * **Tools:**  Python
   
   * **NO. Lines of code:**  662
+  
+  ### C# Console App - Programing & Calculators
+  <!--* **View Project:**  http://www.insertpage.com-->
+<img align="right" height="270px" width="450px" alt="GIF" src="https://raw.githubusercontent.com/Silcott/PORTFOLIO-OF-PROJECTS/master/PROJECTS/CalculatorMASTER/gif/menupic.svg">
+  
+  * **Repository:**  https://github.com/Silcott/PORTFOLIO-OF-PROJECTS/tree/master/PROJECTS/CalculatorMASTER/Program.cs
+  * **Description:** This is a masive collection of all the programming exercises, quizes, and calculators I've created while int eh Microsoft Software & Systems Academy.  Really useful sometimes! Hope it can help you too.
+  * **Tools:**  C#
+  
+  * **NO. Lines of code:**  664+
 
  

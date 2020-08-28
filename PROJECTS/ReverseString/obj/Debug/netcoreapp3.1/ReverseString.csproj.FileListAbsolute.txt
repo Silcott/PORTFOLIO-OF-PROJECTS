@@ -1,0 +1,13 @@
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\ReverseString\obj\Debug\netcoreapp3.1\ReverseString.csprojAssemblyReference.cache
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\ReverseString\obj\Debug\netcoreapp3.1\ReverseString.AssemblyInfoInputs.cache
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\ReverseString\obj\Debug\netcoreapp3.1\ReverseString.AssemblyInfo.cs
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\ReverseString\obj\Debug\netcoreapp3.1\ReverseString.csproj.CoreCompileInputs.cache
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\ReverseString\bin\Debug\netcoreapp3.1\ReverseString.exe
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\ReverseString\bin\Debug\netcoreapp3.1\ReverseString.deps.json
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\ReverseString\bin\Debug\netcoreapp3.1\ReverseString.runtimeconfig.json
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\ReverseString\bin\Debug\netcoreapp3.1\ReverseString.runtimeconfig.dev.json
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\ReverseString\bin\Debug\netcoreapp3.1\ReverseString.dll
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\ReverseString\bin\Debug\netcoreapp3.1\ReverseString.pdb
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\ReverseString\obj\Debug\netcoreapp3.1\ReverseString.dll
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\ReverseString\obj\Debug\netcoreapp3.1\ReverseString.pdb
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\ReverseString\obj\Debug\netcoreapp3.1\ReverseString.genruntimeconfig.cache
