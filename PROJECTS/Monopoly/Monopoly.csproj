@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Caliburn.Micro" Version="3.2.0" />
+    <PackageReference Include="OpenTK" Version="3.2.0" />
+    <PackageReference Include="SharpDX.Direct3D11" Version="4.2.0" />
+  </ItemGroup>
+
+</Project>

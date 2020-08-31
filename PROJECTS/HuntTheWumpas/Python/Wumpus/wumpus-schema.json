@@ -1,0 +1,38 @@
+{
+    "$schema": "http://json-schema.org/schema#",
+
+    "definitions": {
+        "coord": {
+            "type": "array",
+            "minItems": 2,
+            "maxItems": 2,
+            "items": [
+                {"type": "integer"},
+                {"type": "integer"}
+            ]
+        },
+        "hunter": {
+            "type": "array",
+            "minItems": 2,
+            "items": [
+                {"type": "integer"},
+                {"type": "integer"},
+                {"type": "string", "enum": ["N", "S", "E", "W"]}
+            ]
+        }
+    },
+
+    "type": "object",
+
+    "properties": {
+        "id": {"type": "string"},
+        "size": {"$ref": "#/definitions/coord"},
+        "hunters": {"type": "array", "items": {"$ref": "#/definitions/hunter"}},
+        "pits": {"type": "array", "items": {"$ref": "#/definitions/coord"}},
+        "wumpuses": {"type": "array", "items": {"$ref": "#/definitions/coord"}},
+        "exits": {"type": "array", "items": {"$ref": "#/definitions/coord"}},
+        "golds": {"type": "array", "items": {"$ref": "#/definitions/coord"}},
+        "blocks": {"type": "array", "items": {"$ref": "#/definitions/coord"}}
+    },
+    "required": ["size"]
+}
