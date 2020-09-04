@@ -1,4 +1,7 @@
 ﻿using Microsoft.AspNetCore.Components.Web;
+using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Graphics;
+using Microsoft.Xna.Framework.Input;
 using Monopoly.View.Renderers;
 using System;
 using System.Collections.Generic;
@@ -6,12 +9,13 @@ using System.Drawing;
 using System.Linq;
 using System.Security.Cryptography;
 using System.Threading.Tasks;
+using Color = Microsoft.Xna.Framework.Color;
 
 namespace Monopoly.Controller
 {
     public class MonopolyGame : Game
     {
-        public GraphicDeviceManager graphics;
+        public GraphicsDeviceManager graphics;
         public SpriteBatch SpriteBatch;
         public MonoGameRenderer Renderer;
 
@@ -21,7 +25,7 @@ namespace Monopoly.Controller
         public MonopolyGame()
         {
             //Intialize the GraphicsDeviceManger
-            graphics = new GraphicDeviceManager(this);
+            graphics = new GraphicsDeviceManager(this);
             //The Content Folder with pictures
             Content.RootDirectory = "Content";
             IsMouseVisible = true;

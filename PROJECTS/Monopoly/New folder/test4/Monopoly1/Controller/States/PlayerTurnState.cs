@@ -1,6 +1,6 @@
-﻿using Monopoly.Model;
+﻿using Microsoft.Xna.Framework.Input;
+using Monopoly.Model;
 using Monopoly.View.UI;
-using OpenTK.Input;
 
 namespace Monopoly.Controller.States
 {

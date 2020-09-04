@@ -4,13 +4,16 @@ using System.Collections.Generic;
 using System;
 using System.Drawing;
 using System.Numerics;
+using Microsoft.Xna.Framework.Graphics;
+using Microsoft.Xna.Framework.Content;
+using Monopoly.Controller;
 
 namespace Monopoly.View.Renderers
 {
     //Inherits from the AbstractRenderer
     public class MonoGameRenderer : AbstractRenderer
     {
-        private ContentManager Content = EntryPoint.game.Content;
+        private ContentManager Content = EntryPoint.Game.Content;
         private SpriteBatch SpriteBatch;
 
         public Button BuyButton;
@@ -74,7 +77,7 @@ namespace Monopoly.View.Renderers
 
         public override void DrawBoard()
         {
-            this.SpriteBatch = EntryPointNotFoundException.game.SpriteBatch;
+            this.SpriteBatch = EntryPoint.Game.SpriteBatch;
             //Draw background
             background.Draw(SpriteBatch);
             //Draw Buttons
@@ -116,24 +119,24 @@ namespace Monopoly.View.Renderers
                 //If the player is in the bottom row of the board move left
                 if (currentPlayer.Sprite.Rectangle.Y>606 && currentPlayer.Sprite.Rectangle.X>30)
                 {
-                    currentPlayer.Sprite.Rectangle.X -= (int)(velocity * EntryPoint.game.Elapsed); 
+                    currentPlayer.Sprite.Rectangle.X -= (int)(velocity * EntryPoint.Game.Elapsed); 
                 }
                 //If the player is in the left row of the board move up
                 else if (currentPlayer.Sprite.Rectangle.X <= 50 && currentPlayer.Sprite.Rectangle.Y > 30)
                 {
-                    currentPlayer.Sprite.Rectangle.Y -= (int)(velocity * EntryPoint.game.Elapsed);
+                    currentPlayer.Sprite.Rectangle.Y -= (int)(velocity * EntryPoint.Game.Elapsed);
 
                 }
                 //If the player is in the top row of the board move right
                 else if (currentPlayer.Sprite.Rectangle.Y <= 50 && currentPlayer.Sprite.Rectangle.X < 650)
                 {
-                    currentPlayer.Sprite.Rectangle.X += (int)(velocity * EntryPoint.game.Elapsed);
+                    currentPlayer.Sprite.Rectangle.X += (int)(velocity * EntryPoint.Game.Elapsed);
 
                 }
                 //If the player is in the right row of the board move down
                 else if (currentPlayer.Sprite.Rectangle.Y >= 620 && currentPlayer.Sprite.Rectangle.Y < 680)
                 {
-                    currentPlayer.Sprite.Rectangle.Y += (int)(velocity * EntryPoint.game.Elapsed);
+                    currentPlayer.Sprite.Rectangle.Y += (int)(velocity * EntryPoint.Game.Elapsed);
 
                 }
             }

@@ -1,5 +1,7 @@
 ﻿namespace Monopoly.View.UI
 {
+    using Microsoft.Xna.Framework;
+    using Microsoft.Xna.Framework.Graphics;
     public class PlayerUI
     {
         public int Index { get; private set; }

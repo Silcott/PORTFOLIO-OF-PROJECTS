@@ -1,12 +1,9 @@
-﻿using SharpDX.Direct3D11;
-using System;
-using System.Collections.Generic;
-using System.Drawing;
-using System.Linq;
-using System.Threading.Tasks;
-
-namespace Monopoly.View.UI
+﻿namespace Monopoly.View.UI
 {
+    using Microsoft.Xna.Framework;
+    using Microsoft.Xna.Framework.Content;
+    using Microsoft.Xna.Framework.Graphics;
+
     //Show which player rolled the specfic place
     public class TileOwnerNotification
     {

@@ -1,16 +1,9 @@
-﻿using Monopoly.View.UI;
-using SharpDX.Direct3D11;
-using System;
-using System.Collections.Generic;
-using System.Drawing;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.Xna.Framework;
-using Microsoft.Xna.Framework.Content;
-using Microsoft.Xna.Framework.Graphics;
-
-namespace Monopoly.View
+﻿namespace Monopoly.View
 {
+    using Microsoft.Xna.Framework;
+    using Microsoft.Xna.Framework.Graphics;
+    using Microsoft.Xna.Framework.Content;
+
     public static class UIInitializer
     {
         public static Button CreateBuyButton(ContentManager content)
@@ -84,7 +77,7 @@ namespace Monopoly.View
             Background background = new Background(backgroundSprite);
         }
 
-        public static PlayerUI CreatePlayer(ContentManger content, int index)
+        public static PlayerUI CreatePlayer(ContentManager content, int index)
         {
             Texture2D playerImage = content.Load<Texture2D>("pawn" + index.ToString());
             Rectangle playerRectangle = new Rectangle(620, 600 + index * 30, 28, 28);

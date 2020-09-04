@@ -1,8 +1,7 @@
-﻿using Caliburn.Micro;
+﻿using Microsoft.Xna.Framework.Input;
 using Monopoly.Model;
 using Monopoly.Model.Tiles;
 using Monopoly.View.UI;
-using OpenTK.Input;
 
 namespace Monopoly.Controller.States
 {

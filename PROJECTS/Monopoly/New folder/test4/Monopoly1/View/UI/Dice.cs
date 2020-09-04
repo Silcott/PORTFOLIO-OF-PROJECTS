@@ -1,8 +1,7 @@
-﻿using SharpDX.Direct3D11;
-using System.Drawing;
-
-namespace Monopoly.View.UI
+﻿namespace Monopoly.View.UI
 {
+    using Microsoft.Xna.Framework;
+    using Microsoft.Xna.Framework.Graphics;
     public class Dice
     {
         public Sprite Sprite { get; set; }
