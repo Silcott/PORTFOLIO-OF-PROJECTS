@@ -1,0 +1,194 @@
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\obj\Debug\netcoreapp3.1\HuntTheWumpus.csprojAssemblyReference.cache
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\obj\Debug\netcoreapp3.1\HuntTheWumpus.AssemblyInfoInputs.cache
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\obj\Debug\netcoreapp3.1\HuntTheWumpus.AssemblyInfo.cs
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\obj\Debug\netcoreapp3.1\HuntTheWumpus.csproj.CoreCompileInputs.cache
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Arrow\arrow (1).xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Arrow\arrow (10).xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Arrow\arrow (11).xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Arrow\arrow (12).xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Arrow\arrow (13).xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Arrow\arrow (14).xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Arrow\arrow (2).xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Arrow\arrow (3).xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Arrow\arrow (4).xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Arrow\arrow (5).xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Arrow\arrow (6).xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Arrow\arrow (7).xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Arrow\arrow (8).xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Arrow\arrow (9).xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Bats\bat (1).xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Bats\bat (10).xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Bats\bat (11).xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Bats\bat (12).xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Bats\bat (13).xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Bats\bat (14).xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Bats\bat (15).xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Bats\bat (16).xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Bats\bat (17).xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Bats\bat (18).xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Bats\bat (19).xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Bats\bat (2).xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Bats\bat (20).xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Bats\bat (21).xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Bats\bat (22).xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Bats\bat (23).xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Bats\bat (24).xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Bats\bat (25).xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Bats\bat (26).xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Bats\bat (27).xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Bats\bat (28).xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Bats\bat (29).xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Bats\bat (3).xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Bats\bat (30).xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Bats\bat (4).xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Bats\bat (5).xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Bats\bat (6).xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Bats\bat (7).xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Bats\bat (8).xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Bats\bat (9).xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Breeze\1.xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Breeze\10.xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Breeze\11.xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Breeze\12.xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Breeze\13.xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Breeze\14.xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Breeze\15.xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Breeze\16.xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Breeze\17.xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Breeze\18.xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Breeze\19.xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Breeze\2.xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Breeze\20.xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Breeze\21.xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Breeze\22.xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Breeze\23.xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Breeze\24.xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Breeze\25.xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Breeze\26.xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Breeze\27.xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Breeze\28.xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Breeze\29.xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Breeze\3.xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Breeze\30.xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Breeze\31.xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Breeze\4.xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Breeze\5.xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Breeze\6.xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Breeze\7.xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Breeze\8.xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Breeze\9.xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Breeze\breezeIcon.xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Cave\caveEntranceBW.xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Cave\caveEntranceBW2.xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Cave\caveTunnel.xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Cave\pit.xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Cave\wampusRm.xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Direction\Arrow_keys1.xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Direction\Down\down1.xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Direction\Down\down2.xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Direction\Left\left1.xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Direction\Left\left2.xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Direction\Right\right1.xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Direction\Right\right2.xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Direction\Up\up1.xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Direction\Up\up2.xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\FireBtn\fireBtn1.xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\FireBtn\fireBtn2.xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\FireBtn\fireBtn3.xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\FireBtn\fireBtn4.xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Intro\background.xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Intro\HelpBtn\HelpBtn1.xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Intro\HelpBtn\HelpBtn2.xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Intro\HelpBtn\HelpBtn3.xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Intro\PlayBtn\playBtn1.xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Intro\PlayBtn\playBtn2.xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Intro\PlayBtn\playBtn3.xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Intro\QuitBtn\QuitButton1.xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Intro\QuitBtn\QuitButton2.xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Intro\QuitBtn\QuitButton3.xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Pit\pit (1).xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Pit\pit (2).xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Pit\pit (3).xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Pit\pit (4).xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Pit\pit (5).xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Pit\pit (6).xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Pit\pit (7).xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Pit\pit (8).xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Smell\smell (1).xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Smell\smell (10).xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Smell\smell (11).xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Smell\smell (12).xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Smell\smell (2).xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Smell\smell (3).xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Smell\smell (4).xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Smell\smell (5).xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Smell\smell (6).xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Smell\smell (7).xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Smell\smell (8).xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Smell\smell (9).xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Wumpas\Lose\lose (1).xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Wumpas\Lose\lose (2).xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Wumpas\Lose\lose (3).xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Wumpas\Lose\lose (4).xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Wumpas\Lose\lose (5).xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Wumpas\Lose\lose (6).xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Wumpas\Win\win (1).xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Wumpas\Win\win (2).xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Wumpas\Win\win (3).xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Wumpas\Win\win (4).xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Wumpas\Win\win (5).xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Wumpas\Win\win (6).xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Wumpas\Win\win (7).xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Wumpas\Win\win (8).xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\HuntTheWumpus.exe
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\HuntTheWumpus.deps.json
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\HuntTheWumpus.runtimeconfig.json
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\HuntTheWumpus.runtimeconfig.dev.json
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\HuntTheWumpus.dll
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\HuntTheWumpus.pdb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\MonoGame.Framework.dll
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libSDL2-2.0.so.0
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libopenal.so.1
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\runtimes\osx\native\libSDL2-2.0.0.dylib
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\runtimes\osx\native\libopenal.1.dylib
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\SDL2.dll
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\soft_oal.dll
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\SDL2.dll
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\soft_oal.dll
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\obj\Debug\netcoreapp3.1\HuntTheWumpus.csproj.CopyComplete
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\obj\Debug\netcoreapp3.1\HuntTheWumpus.dll
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\obj\Debug\netcoreapp3.1\HuntTheWumpus.pdb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\obj\Debug\netcoreapp3.1\HuntTheWumpus.genruntimeconfig.cache
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Font\FPS.xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Sound\Grieg – In the Hall of the Mountain King.ogg
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Sound\Grieg – In the Hall of the Mountain King.xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Sound\introSong.ogg
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Sound\introSong.xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Sound\introSong .ogg
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Sound\introSong .xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Intro\Wumpus\wumpus.xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Intro\Wumpus\wumpusFlipped.xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Font\rulesFont.xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Sound\playSong.ogg
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Sound\playSong.xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\Direction\Back\backBtn1.xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Font\corridorFont.xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\FireBtn\ironSight_hit.xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\FireBtn\ironSight_miss.xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\FireBtn\ironSight_none.xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\FireBtn\ironSight_target.xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\FireBtn\m4Rifle.xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\FireBtn\m4RifleBlue.xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\FireBtn\m4RifleGreen.xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\FireBtn\m4RifleRed.xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Images\FireBtn\m4RifleYellow.xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Sound\chirping.ogg
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Sound\chirping.xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Sound\falling Sound.ogg
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Sound\falling Sound.xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Sound\fireM4Sound.ogg
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Sound\fireM4Sound.xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Sound\hitSound.ogg
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Sound\hitSound.xnb
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Sound\missSound.ogg
+C:\Users\silco\OneDrive\Desktop\HuntTheWumpus\bin\Debug\netcoreapp3.1\Content\Sound\missSound.xnb
