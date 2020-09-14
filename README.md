@@ -126,5 +126,15 @@ https://silcott.github.io/
   * **Tools:**  C#
   
   * **NO. Lines of code:**  664+
+  
+    ### C# Console App - Bug Tracker
+  <!--* **View Project:**  http://www.insertpage.com-->
+<img align="right" height="270px" width="450px" alt="GIF" src="https://raw.githubusercontent.com/Silcott/PORTFOLIO-OF-PROJECTS/master/PROJECTS/ConsoleBugTracker/gif/bugTrackerGif.gif">
+  
+  * **Repository:**  https://github.com/Silcott/PORTFOLIO-OF-PROJECTS/tree/master/PROJECTS/ConsoleBugTracker/ConsoleApp1/Program.cs
+  * **Description:** This is a console app that I created to add users with encrypted (hashed) passwords, create tickets for tracking bugs in software programs, search/update/delete tickets and users.  Overall, this is the cleanest my code has been, with classes and methods.  Great use of Object Oriented Programming.
+  * **Tools:**  C#
+  
+  * **NO. Lines of code:**  871
 
  

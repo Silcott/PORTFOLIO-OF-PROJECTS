@@ -25,7 +25,7 @@ constructor that takes no parameters and another constructor that takes at least
 example) the object name.
 
 - 80 points: For your class for the previous step, implement a unit test that invokes each
-method. You should create a Test project and create unit test for your class. Test all methods.
+method. You should create a Test project and create unit test for your class.  Test all methods.
 
 - 90 points: Create four or more animals from your class. Invoke all methods for each. If
 you create pigs, you can have Porky, Wilbur, Miss Piggy, and Napoleon (the pig leader in Orwell’s Animal
