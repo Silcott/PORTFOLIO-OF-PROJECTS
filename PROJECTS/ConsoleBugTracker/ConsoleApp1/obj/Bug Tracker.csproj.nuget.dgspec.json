@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Github\\repo\\ISTA_Project\\myProject\\Project_Track!T\\TrackIt\\ConsoleAppTrackinIT\\ConsoleApp1\\Bug Tracker.csproj": {}
+    "C:\\Github\\repo\\PORTFOLIO-OF-PROJECTS\\PROJECTS\\ConsoleBugTracker\\ConsoleApp1\\Bug Tracker.csproj": {}
   },
   "projects": {
-    "C:\\Github\\repo\\ISTA_Project\\myProject\\Project_Track!T\\TrackIt\\ConsoleAppTrackinIT\\ConsoleApp1\\Bug Tracker.csproj": {
+    "C:\\Github\\repo\\PORTFOLIO-OF-PROJECTS\\PROJECTS\\ConsoleBugTracker\\ConsoleApp1\\Bug Tracker.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Github\\repo\\ISTA_Project\\myProject\\Project_Track!T\\TrackIt\\ConsoleAppTrackinIT\\ConsoleApp1\\Bug Tracker.csproj",
+        "projectUniqueName": "C:\\Github\\repo\\PORTFOLIO-OF-PROJECTS\\PROJECTS\\ConsoleBugTracker\\ConsoleApp1\\Bug Tracker.csproj",
         "projectName": "Bug Tracker",
-        "projectPath": "C:\\Github\\repo\\ISTA_Project\\myProject\\Project_Track!T\\TrackIt\\ConsoleAppTrackinIT\\ConsoleApp1\\Bug Tracker.csproj",
+        "projectPath": "C:\\Github\\repo\\PORTFOLIO-OF-PROJECTS\\PROJECTS\\ConsoleBugTracker\\ConsoleApp1\\Bug Tracker.csproj",
         "packagesPath": "C:\\Users\\silco\\.nuget\\packages\\",
-        "outputPath": "C:\\Github\\repo\\ISTA_Project\\myProject\\Project_Track!T\\TrackIt\\ConsoleAppTrackinIT\\ConsoleApp1\\obj\\",
+        "outputPath": "C:\\Github\\repo\\PORTFOLIO-OF-PROJECTS\\PROJECTS\\ConsoleBugTracker\\ConsoleApp1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

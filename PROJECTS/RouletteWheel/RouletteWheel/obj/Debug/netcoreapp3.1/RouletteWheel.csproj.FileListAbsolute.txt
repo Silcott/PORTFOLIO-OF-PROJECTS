@@ -4,7 +4,6 @@ C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\RouletteWheel\RouletteWheel\bin\De
 C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\RouletteWheel\RouletteWheel\bin\Debug\netcoreapp3.1\RouletteWheel.runtimeconfig.dev.json
 C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\RouletteWheel\RouletteWheel\bin\Debug\netcoreapp3.1\RouletteWheel.dll
 C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\RouletteWheel\RouletteWheel\bin\Debug\netcoreapp3.1\RouletteWheel.pdb
-C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\RouletteWheel\RouletteWheel\obj\Debug\netcoreapp3.1\RouletteWheel.csprojAssemblyReference.cache
 C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\RouletteWheel\RouletteWheel\obj\Debug\netcoreapp3.1\RouletteWheel.AssemblyInfoInputs.cache
 C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\RouletteWheel\RouletteWheel\obj\Debug\netcoreapp3.1\RouletteWheel.AssemblyInfo.cs
 C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\RouletteWheel\RouletteWheel\obj\Debug\netcoreapp3.1\RouletteWheel.csproj.CoreCompileInputs.cache

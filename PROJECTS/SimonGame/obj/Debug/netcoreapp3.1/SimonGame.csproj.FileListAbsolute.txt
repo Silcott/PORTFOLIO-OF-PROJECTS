@@ -1,0 +1,13 @@
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\SimonGame\bin\Debug\netcoreapp3.1\SimonGame.exe
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\SimonGame\bin\Debug\netcoreapp3.1\SimonGame.deps.json
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\SimonGame\bin\Debug\netcoreapp3.1\SimonGame.runtimeconfig.json
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\SimonGame\bin\Debug\netcoreapp3.1\SimonGame.runtimeconfig.dev.json
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\SimonGame\bin\Debug\netcoreapp3.1\SimonGame.dll
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\SimonGame\bin\Debug\netcoreapp3.1\SimonGame.pdb
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\SimonGame\obj\Debug\netcoreapp3.1\SimonGame.AssemblyInfoInputs.cache
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\SimonGame\obj\Debug\netcoreapp3.1\SimonGame.AssemblyInfo.cs
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\SimonGame\obj\Debug\netcoreapp3.1\SimonGame.csproj.CoreCompileInputs.cache
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\SimonGame\obj\Debug\netcoreapp3.1\SimonGame.dll
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\SimonGame\obj\Debug\netcoreapp3.1\SimonGame.pdb
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\SimonGame\obj\Debug\netcoreapp3.1\SimonGame.genruntimeconfig.cache
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\SimonGame\obj\Debug\netcoreapp3.1\SimonGame.csprojAssemblyReference.cache

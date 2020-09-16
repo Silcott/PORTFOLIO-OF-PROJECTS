@@ -1,10 +1,7 @@
-﻿
-using BugTracker;
+﻿using BugTracker;
 using System;
 using System.Collections.Generic;
-using System.Data;
 using System.Security.Cryptography;
-using System.Data.SqlTypes;
 using System.Security.Cryptography.X509Certificates;
 using System.Xml;
 using System.Text;
@@ -150,7 +147,7 @@ namespace BugTracker
 
             Console.Write("\nEnter Costs: ");
             var responseCost = Console.ReadLine();
-            
+
             ticketNumber = ticketNumber + count;
             Database.databaseTicket.Add(ticketNumber, new ticketBLL
             {
@@ -164,7 +161,7 @@ namespace BugTracker
                 added_date = responseDateOfIssue,
                 completed_date = responseDateCompleted,
                 cost = responseCost
-        });
+            });
             count += 1;
             Console.Write($"You've entered the following:\n " +
                                $"\nTicket Number: {ticketNumber}" +
@@ -393,15 +390,15 @@ namespace BugTracker
             Console.WriteLine("You selected to delete a Ticket");
 
             Console.Write("Enter Ticket Number to Delete: ");
-            var responseUsername = Console.ReadLine();
+            var reponseTicketNumber = Convert.ToInt32(Console.ReadLine());
 
-            if (Database.databaseUser.ContainsKey(responseUsername))
+            if (Database.databaseTicket.ContainsKey(reponseTicketNumber))
             {
-                Database.databaseTicket.Remove(ticketNumber);
+                Database.databaseTicket.Remove(reponseTicketNumber);
             }
             else
             {
-                Console.WriteLine($"Sorry, no record of {responseUsername}");
+                Console.WriteLine($"Sorry, no record of {reponseTicketNumber}");
                 Console.WriteLine("Wish to try another name? [Y] or [N]");
                 var response = Console.ReadLine().ToUpper();
                 if (response == "Y")
@@ -770,10 +767,26 @@ public static class UserInterfaceScreen
         else
         {
             Console.WriteLine("What is your password: ");
-            var responsePassword1 = Console.ReadLine();
+            Console.Write("Typing is not visble\n");
+            string responsePassword1 = null;
+            while (true)
+            {
+                var key = System.Console.ReadKey(true);
+                if (key.Key == ConsoleKey.Enter)
+                {
+                    break;
+                }
+                responsePassword1 += key.KeyChar;
+            }
             if (Database.databaseUser[responseUsername].password == responsePassword1)
             {
                 Console.WriteLine($"Welcome Back {responseUsername}");
+            }
+            else if (Database.databaseUser[responseUsername].password != HashPassword.CalculateSHA256(responsePassword1))
+            {
+                Console.Clear();
+                UI();
+                Console.WriteLine("Sorry that password is not correct, try again");
             }
             ManagementMenu.SelectMgtMenu();
         }
@@ -865,9 +878,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        FullScreen.WideScreenMethod();
+
         UserInterfaceScreen.UI();
     }
 }
-
-

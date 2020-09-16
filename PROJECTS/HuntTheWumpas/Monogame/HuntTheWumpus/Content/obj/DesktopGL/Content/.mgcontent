@@ -4,166 +4,166 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Font/corridorFont.spritefont</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Font/FPS.spritefont</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Font/rulesFont.spritefont</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Arrow/arrow (1).PNG</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Arrow/arrow (10).PNG</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Arrow/arrow (11).PNG</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Arrow/arrow (12).PNG</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Arrow/arrow (13).PNG</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Arrow/arrow (14).PNG</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Arrow/arrow (2).PNG</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Arrow/arrow (3).PNG</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Arrow/arrow (4).PNG</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Arrow/arrow (5).PNG</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Arrow/arrow (6).PNG</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Arrow/arrow (7).PNG</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Arrow/arrow (8).PNG</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Arrow/arrow (9).PNG</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Bats/bat (1).bmp</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Bats/bat (10).bmp</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Bats/bat (11).bmp</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Bats/bat (12).bmp</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Bats/bat (13).bmp</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Bats/bat (14).bmp</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Bats/bat (15).bmp</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Bats/bat (16).bmp</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Bats/bat (17).bmp</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Bats/bat (18).bmp</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Bats/bat (19).bmp</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Bats/bat (2).bmp</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Bats/bat (20).bmp</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Bats/bat (21).bmp</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Bats/bat (22).bmp</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Bats/bat (23).bmp</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Bats/bat (24).bmp</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Bats/bat (25).bmp</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Bats/bat (26).bmp</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Bats/bat (27).bmp</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Bats/bat (28).bmp</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Bats/bat (29).bmp</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Bats/bat (3).bmp</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Bats/bat (30).bmp</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Bats/bat (4).bmp</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Bats/bat (5).bmp</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Bats/bat (6).bmp</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Bats/bat (7).bmp</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Bats/bat (8).bmp</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Bats/bat (9).bmp</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Breeze/1.PNG</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Breeze/10.PNG</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Breeze/11.PNG</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Breeze/12.PNG</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Breeze/13.PNG</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Breeze/14.PNG</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Breeze/15.PNG</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Breeze/16.PNG</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Breeze/17.PNG</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Breeze/18.PNG</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Breeze/19.PNG</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Breeze/2.PNG</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Breeze/20.PNG</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Breeze/21.PNG</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Breeze/22.PNG</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Breeze/23.PNG</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Breeze/24.PNG</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Breeze/25.PNG</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Breeze/26.PNG</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Breeze/27.PNG</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Breeze/28.PNG</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Breeze/29.PNG</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Breeze/3.PNG</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Breeze/30.PNG</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Breeze/31.PNG</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Breeze/4.PNG</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Breeze/5.PNG</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Breeze/6.PNG</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Breeze/7.PNG</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Breeze/8.PNG</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Breeze/9.PNG</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Breeze/breezeIcon.png</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Cave/caveEntranceBW.jpg</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Cave/caveEntranceBW2.png</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Cave/caveTunnel.jpg</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Cave/pit.jpg</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Cave/wampusRm.jpg</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Direction/Arrow_keys1.png</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Direction/Back/backBtn1.png</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Direction/Down/down1.png</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Direction/Down/down2.png</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Direction/Left/left1.png</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Direction/Left/left2.png</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Direction/Right/right1.png</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Direction/Right/right2.png</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Direction/Up/up1.png</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Direction/Up/up2.png</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/FireBtn/fireBtn1.png</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/FireBtn/fireBtn2.png</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/FireBtn/fireBtn3.png</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/FireBtn/fireBtn4.png</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/FireBtn/ironSight_hit.png</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/FireBtn/ironSight_miss.png</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/FireBtn/ironSight_none.png</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/FireBtn/ironSight_target.png</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/FireBtn/m4Rifle.png</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/FireBtn/m4RifleBlue.png</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/FireBtn/m4RifleGreen.png</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/FireBtn/m4RifleRed.png</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/FireBtn/m4RifleYellow.png</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Intro/background.png</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Intro/HelpBtn/HelpBtn1.png</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Intro/HelpBtn/HelpBtn2.png</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Intro/HelpBtn/HelpBtn3.png</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Intro/PlayBtn/playBtn1.png</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Intro/PlayBtn/playBtn2.png</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Intro/PlayBtn/playBtn3.png</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Intro/QuitBtn/QuitButton1.png</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Intro/QuitBtn/QuitButton2.png</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Intro/QuitBtn/QuitButton3.png</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Intro/Wumpus/wumpus.PNG</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Intro/Wumpus/wumpusFlipped.png</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Pit/pit (1).bmp</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Pit/pit (2).bmp</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Pit/pit (3).bmp</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Pit/pit (4).bmp</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Pit/pit (5).bmp</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Pit/pit (6).bmp</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Pit/pit (7).bmp</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Pit/pit (8).bmp</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Smell/smell (1).PNG</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Smell/smell (10).PNG</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Smell/smell (11).PNG</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Smell/smell (12).PNG</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Smell/smell (2).PNG</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Smell/smell (3).PNG</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Smell/smell (4).PNG</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Smell/smell (5).PNG</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Smell/smell (6).PNG</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Smell/smell (7).PNG</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Smell/smell (8).PNG</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Smell/smell (9).PNG</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Wumpas/Lose/lose (1).PNG</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Wumpas/Lose/lose (2).PNG</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Wumpas/Lose/lose (3).PNG</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Wumpas/Lose/lose (4).PNG</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Wumpas/Lose/lose (5).PNG</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Wumpas/Lose/lose (6).PNG</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Wumpas/Win/win (1).PNG</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Wumpas/Win/win (2).PNG</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Wumpas/Win/win (3).PNG</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Wumpas/Win/win (4).PNG</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Wumpas/Win/win (5).PNG</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Wumpas/Win/win (6).PNG</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Wumpas/Win/win (7).PNG</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Wumpas/Win/win (8).PNG</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Sound/chirping.mp3</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Sound/falling Sound.mp3</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Sound/fireM4Sound.mp3</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Sound/hitSound.mp3</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Sound/introSong .mp3</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Sound/missSound.mp3</File>
-    <File>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Sound/playSong.mp3</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Font/corridorFont.spritefont</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Font/FPS.spritefont</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Font/rulesFont.spritefont</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Arrow/arrow (1).PNG</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Arrow/arrow (10).PNG</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Arrow/arrow (11).PNG</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Arrow/arrow (12).PNG</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Arrow/arrow (13).PNG</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Arrow/arrow (14).PNG</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Arrow/arrow (2).PNG</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Arrow/arrow (3).PNG</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Arrow/arrow (4).PNG</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Arrow/arrow (5).PNG</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Arrow/arrow (6).PNG</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Arrow/arrow (7).PNG</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Arrow/arrow (8).PNG</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Arrow/arrow (9).PNG</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Bats/bat (1).bmp</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Bats/bat (10).bmp</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Bats/bat (11).bmp</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Bats/bat (12).bmp</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Bats/bat (13).bmp</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Bats/bat (14).bmp</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Bats/bat (15).bmp</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Bats/bat (16).bmp</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Bats/bat (17).bmp</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Bats/bat (18).bmp</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Bats/bat (19).bmp</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Bats/bat (2).bmp</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Bats/bat (20).bmp</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Bats/bat (21).bmp</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Bats/bat (22).bmp</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Bats/bat (23).bmp</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Bats/bat (24).bmp</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Bats/bat (25).bmp</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Bats/bat (26).bmp</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Bats/bat (27).bmp</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Bats/bat (28).bmp</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Bats/bat (29).bmp</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Bats/bat (3).bmp</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Bats/bat (30).bmp</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Bats/bat (4).bmp</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Bats/bat (5).bmp</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Bats/bat (6).bmp</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Bats/bat (7).bmp</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Bats/bat (8).bmp</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Bats/bat (9).bmp</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Breeze/1.PNG</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Breeze/10.PNG</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Breeze/11.PNG</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Breeze/12.PNG</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Breeze/13.PNG</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Breeze/14.PNG</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Breeze/15.PNG</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Breeze/16.PNG</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Breeze/17.PNG</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Breeze/18.PNG</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Breeze/19.PNG</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Breeze/2.PNG</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Breeze/20.PNG</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Breeze/21.PNG</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Breeze/22.PNG</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Breeze/23.PNG</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Breeze/24.PNG</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Breeze/25.PNG</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Breeze/26.PNG</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Breeze/27.PNG</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Breeze/28.PNG</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Breeze/29.PNG</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Breeze/3.PNG</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Breeze/30.PNG</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Breeze/31.PNG</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Breeze/4.PNG</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Breeze/5.PNG</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Breeze/6.PNG</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Breeze/7.PNG</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Breeze/8.PNG</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Breeze/9.PNG</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Breeze/breezeIcon.png</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Cave/caveEntranceBW.jpg</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Cave/caveEntranceBW2.png</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Cave/caveTunnel.jpg</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Cave/pit.jpg</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Cave/wampusRm.jpg</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Direction/Arrow_keys1.png</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Direction/Back/backBtn1.png</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Direction/Down/down1.png</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Direction/Down/down2.png</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Direction/Left/left1.png</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Direction/Left/left2.png</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Direction/Right/right1.png</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Direction/Right/right2.png</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Direction/Up/up1.png</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Direction/Up/up2.png</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/FireBtn/fireBtn1.png</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/FireBtn/fireBtn2.png</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/FireBtn/fireBtn3.png</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/FireBtn/fireBtn4.png</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/FireBtn/ironSight_hit.png</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/FireBtn/ironSight_miss.png</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/FireBtn/ironSight_none.png</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/FireBtn/ironSight_target.png</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/FireBtn/m4Rifle.png</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/FireBtn/m4RifleBlue.png</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/FireBtn/m4RifleGreen.png</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/FireBtn/m4RifleRed.png</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/FireBtn/m4RifleYellow.png</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Intro/background.png</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Intro/HelpBtn/HelpBtn1.png</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Intro/HelpBtn/HelpBtn2.png</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Intro/HelpBtn/HelpBtn3.png</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Intro/PlayBtn/playBtn1.png</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Intro/PlayBtn/playBtn2.png</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Intro/PlayBtn/playBtn3.png</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Intro/QuitBtn/QuitButton1.png</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Intro/QuitBtn/QuitButton2.png</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Intro/QuitBtn/QuitButton3.png</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Intro/Wumpus/wumpus.PNG</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Intro/Wumpus/wumpusFlipped.png</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Pit/pit (1).bmp</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Pit/pit (2).bmp</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Pit/pit (3).bmp</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Pit/pit (4).bmp</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Pit/pit (5).bmp</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Pit/pit (6).bmp</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Pit/pit (7).bmp</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Pit/pit (8).bmp</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Smell/smell (1).PNG</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Smell/smell (10).PNG</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Smell/smell (11).PNG</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Smell/smell (12).PNG</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Smell/smell (2).PNG</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Smell/smell (3).PNG</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Smell/smell (4).PNG</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Smell/smell (5).PNG</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Smell/smell (6).PNG</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Smell/smell (7).PNG</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Smell/smell (8).PNG</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Smell/smell (9).PNG</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Wumpas/Lose/lose (1).PNG</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Wumpas/Lose/lose (2).PNG</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Wumpas/Lose/lose (3).PNG</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Wumpas/Lose/lose (4).PNG</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Wumpas/Lose/lose (5).PNG</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Wumpas/Lose/lose (6).PNG</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Wumpas/Win/win (1).PNG</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Wumpas/Win/win (2).PNG</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Wumpas/Win/win (3).PNG</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Wumpas/Win/win (4).PNG</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Wumpas/Win/win (5).PNG</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Wumpas/Win/win (6).PNG</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Wumpas/Win/win (7).PNG</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Wumpas/Win/win (8).PNG</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Sound/chirping.mp3</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Sound/falling Sound.mp3</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Sound/fireM4Sound.mp3</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Sound/hitSound.mp3</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Sound/introSong .mp3</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Sound/missSound.mp3</File>
+    <File>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Sound/playSong.mp3</File>
   </SourceFiles>
   <DestFiles>
     <File xsi:nil="true" />

@@ -1,0 +1,3 @@
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\SimonGame1\obj\Debug\netcoreapp3.1\SimonGame1.AssemblyInfoInputs.cache
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\SimonGame1\obj\Debug\netcoreapp3.1\SimonGame1.AssemblyInfo.cs
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\SimonGame1\obj\Debug\netcoreapp3.1\SimonGame1.csproj.CoreCompileInputs.cache

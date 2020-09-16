@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/Images/Bats/bat (14).bmp</SourceFile>
+  <SourceFile>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/Images/Bats/bat (14).bmp</SourceFile>
   <SourceTime>2020-09-02T06:41:07.8162438-04:00</SourceTime>
-  <DestFile>C:/Users/silco/OneDrive/Desktop/HuntTheWumpus/Content/bin/DesktopGL/Content/Images/Bats/bat (14).xnb</DestFile>
-  <DestTime>2020-09-02T10:19:16.1816077-04:00</DestTime>
+  <DestFile>C:/Github/repo/PORTFOLIO-OF-PROJECTS/PROJECTS/HuntTheWumpas/Monogame/HuntTheWumpus/Content/bin/DesktopGL/Content/Images/Bats/bat (14).xnb</DestFile>
+  <DestTime>2020-09-14T17:29:35.3462318-04:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2020-08-10T16:17:54-04:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

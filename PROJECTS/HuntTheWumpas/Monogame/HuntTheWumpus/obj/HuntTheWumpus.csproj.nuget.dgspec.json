@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\silco\\OneDrive\\Desktop\\HuntTheWumpus\\HuntTheWumpus.csproj": {}
+    "C:\\Github\\repo\\PORTFOLIO-OF-PROJECTS\\PROJECTS\\HuntTheWumpas\\Monogame\\HuntTheWumpus\\HuntTheWumpus.csproj": {}
   },
   "projects": {
-    "C:\\Users\\silco\\OneDrive\\Desktop\\HuntTheWumpus\\HuntTheWumpus.csproj": {
+    "C:\\Github\\repo\\PORTFOLIO-OF-PROJECTS\\PROJECTS\\HuntTheWumpas\\Monogame\\HuntTheWumpus\\HuntTheWumpus.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\silco\\OneDrive\\Desktop\\HuntTheWumpus\\HuntTheWumpus.csproj",
+        "projectUniqueName": "C:\\Github\\repo\\PORTFOLIO-OF-PROJECTS\\PROJECTS\\HuntTheWumpas\\Monogame\\HuntTheWumpus\\HuntTheWumpus.csproj",
         "projectName": "HuntTheWumpus",
-        "projectPath": "C:\\Users\\silco\\OneDrive\\Desktop\\HuntTheWumpus\\HuntTheWumpus.csproj",
+        "projectPath": "C:\\Github\\repo\\PORTFOLIO-OF-PROJECTS\\PROJECTS\\HuntTheWumpas\\Monogame\\HuntTheWumpus\\HuntTheWumpus.csproj",
         "packagesPath": "C:\\Users\\silco\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\silco\\OneDrive\\Desktop\\HuntTheWumpus\\obj\\",
+        "outputPath": "C:\\Github\\repo\\PORTFOLIO-OF-PROJECTS\\PROJECTS\\HuntTheWumpas\\Monogame\\HuntTheWumpus\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
