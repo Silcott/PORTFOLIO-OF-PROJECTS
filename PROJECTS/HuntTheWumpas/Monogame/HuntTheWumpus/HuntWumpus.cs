@@ -62,7 +62,7 @@ namespace HuntTheWumpas
         Texture2D ironSight_miss;
         Texture2D ironSight_target;
 
-
+        Texture2D bat1;
         //Arrows
         //Texture2D fireBtn1;
         //Texture2D fireBtn2;
@@ -127,8 +127,9 @@ namespace HuntTheWumpas
             BreezeRoom,
             SmellRoom,
             FlappingRoom,
+            Mainboard,
         }
-        GameState CurrentGameState = GameState.IntroMenu;
+        GameState CurrentGameState = GameState.Mainboard;
 
         //==============================================<METHODS>==============================================\\
         public HuntWumpus()//Game1
@@ -185,15 +186,15 @@ namespace HuntTheWumpas
 
             #region INITIALIZE Archive Code
             //Position Red Square
-            ////RED SQUARE - set position and size
-            //position = new Vector2(0, 0);
-            //texture = new Texture2D(this.GraphicsDevice, 100, 100);
-            //Color[] colorData = new Color[100 * 100];
-            //for (int i = 0; i < 10000; i++)
-            //{
-            //    colorData[i] = Color.Red;
-            //    texture.SetData<Color>(colorData);
-            //}
+            //RED SQUARE - set position and size
+            position = new Vector2(0, 0);
+            Texture2D texture = new Texture2D(this.GraphicsDevice, 100, 100);
+            Color[] colorData = new Color[100 * 100];
+            for (int i = 0; i < 10000; i++)
+            {
+                colorData[i] = Color.Red;
+                texture.SetData<Color>(colorData);
+            }
             #endregion
         }
 
@@ -227,6 +228,10 @@ namespace HuntTheWumpas
             wumpus = Content.Load<Texture2D>("Images/Intro/Wumpus/wumpus");
             wumpusFlipped = Content.Load<Texture2D>("Images/Intro/Wumpus/wumpusFlipped");
             backBtn1 = Content.Load<Texture2D>("Images/Direction/Back/backBtn1");
+
+            //Mainboard
+            bat1 = Content.Load<Texture2D>("Images/Bats/bat (1)");
+
 
 
             //Load PLAYING GAMESTATE - Images/Sprites
@@ -723,6 +728,30 @@ namespace HuntTheWumpas
             _spriteBatch.Begin();
             switch (CurrentGameState)
             {
+                case GameState.Mainboard:
+                    //_spriteBatch.Draw(bat1, new Vector2(0, 250), null, Color.White, 0f, Vector2.Zero, .5f, SpriteEffects.None, 0f);
+                    int size = 6;
+
+                    for (int i = 0; i < size; i++)
+                    {
+                        for (int j = 0; j < size; j++)
+                        {
+                            var x = i * 250;
+                            var y = j * 250;
+                            _spriteBatch.Draw(bat1, new Vector2(x, y), null, Color.White, 0f, Vector2.Zero, .5f, SpriteEffects.None, 0f);
+
+                            //if (newMap[j, i].Player == true)
+                            //{
+                            //    Console.Write($"[{newMap[j, i].Column},{newMap[j, i].Row}]  ");
+                            //}
+                            //else
+                            //    Console.Write($" {newMap[j, i].Column},{newMap[j, i].Row}   ");
+                        }
+                        Console.WriteLine();
+                        Console.WriteLine();
+                    }
+                    //_spriteBatch.Draw(bat1, playBtn2Vector, null, Color.White, 0f, Vector2.Zero, .5f, SpriteEffects.None, 0f);
+                    break;
                 case GameState.IntroMenu:
 
                     //batch - grouping of Draw calls, sprite - creates a camera effect for 2d images

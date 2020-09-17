@@ -5,8 +5,4 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Compile Include="C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\RouletteWheel\RouletteWheel\Program.cs" Link="Program.cs" />
-  </ItemGroup>
-
 </Project>
