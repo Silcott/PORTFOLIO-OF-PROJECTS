@@ -20,7 +20,62 @@ C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\ConsoleBugTracker\ConsoleApp1\bin\
 C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\ConsoleBugTracker\ConsoleApp1\obj\Debug\netcoreapp3.1\Bug Tracker.csprojAssemblyReference.cache
 C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\ConsoleBugTracker\ConsoleApp1\obj\Debug\netcoreapp3.1\Bug Tracker.AssemblyInfoInputs.cache
 C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\ConsoleBugTracker\ConsoleApp1\obj\Debug\netcoreapp3.1\Bug Tracker.AssemblyInfo.cs
-C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\ConsoleBugTracker\ConsoleApp1\obj\Debug\netcoreapp3.1\Bug Tracker.csproj.CoreCompileInputs.cache
 C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\ConsoleBugTracker\ConsoleApp1\obj\Debug\netcoreapp3.1\Bug Tracker.dll
 C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\ConsoleBugTracker\ConsoleApp1\obj\Debug\netcoreapp3.1\Bug Tracker.pdb
 C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\ConsoleBugTracker\ConsoleApp1\obj\Debug\netcoreapp3.1\Bug Tracker.genruntimeconfig.cache
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\ConsoleBugTracker\ConsoleApp1\bin\Debug\netcoreapp3.1\DatabaseSqlite.db
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\ConsoleBugTracker\ConsoleApp1\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libsqlite3.so
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\ConsoleBugTracker\ConsoleApp1\bin\Debug\netcoreapp3.1\runtimes\osx-x64\native\libsqlite3.dylib
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\ConsoleBugTracker\ConsoleApp1\bin\Debug\netcoreapp3.1\runtimes\win7-x64\native\sqlite3.dll
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\ConsoleBugTracker\ConsoleApp1\bin\Debug\netcoreapp3.1\runtimes\win7-x86\native\sqlite3.dll
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\ConsoleBugTracker\ConsoleApp1\obj\Debug\netcoreapp3.1\Bug Tracker.csproj.CopyComplete
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\ConsoleBugTracker\ConsoleApp1\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\ConsoleBugTracker\ConsoleApp1\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\ConsoleBugTracker\ConsoleApp1\bin\Debug\netcoreapp3.1\Microsoft.Data.Sqlite.dll
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\ConsoleBugTracker\ConsoleApp1\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\ConsoleBugTracker\ConsoleApp1\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\ConsoleBugTracker\ConsoleApp1\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\ConsoleBugTracker\ConsoleApp1\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\ConsoleBugTracker\ConsoleApp1\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Sqlite.dll
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\ConsoleBugTracker\ConsoleApp1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\ConsoleBugTracker\ConsoleApp1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\ConsoleBugTracker\ConsoleApp1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\ConsoleBugTracker\ConsoleApp1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\ConsoleBugTracker\ConsoleApp1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\ConsoleBugTracker\ConsoleApp1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\ConsoleBugTracker\ConsoleApp1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\ConsoleBugTracker\ConsoleApp1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\ConsoleBugTracker\ConsoleApp1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\ConsoleBugTracker\ConsoleApp1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\ConsoleBugTracker\ConsoleApp1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\ConsoleBugTracker\ConsoleApp1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\ConsoleBugTracker\ConsoleApp1\bin\Debug\netcoreapp3.1\SQLitePCLRaw.batteries_v2.dll
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\ConsoleBugTracker\ConsoleApp1\bin\Debug\netcoreapp3.1\SQLitePCLRaw.nativelibrary.dll
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\ConsoleBugTracker\ConsoleApp1\bin\Debug\netcoreapp3.1\SQLitePCLRaw.core.dll
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\ConsoleBugTracker\ConsoleApp1\bin\Debug\netcoreapp3.1\SQLitePCLRaw.provider.dynamic_cdecl.dll
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\ConsoleBugTracker\ConsoleApp1\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libe_sqlite3.so
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\ConsoleBugTracker\ConsoleApp1\bin\Debug\netcoreapp3.1\runtimes\linux-arm\native\libe_sqlite3.so
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\ConsoleBugTracker\ConsoleApp1\bin\Debug\netcoreapp3.1\runtimes\linux-arm64\native\libe_sqlite3.so
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\ConsoleBugTracker\ConsoleApp1\bin\Debug\netcoreapp3.1\runtimes\linux-armel\native\libe_sqlite3.so
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\ConsoleBugTracker\ConsoleApp1\bin\Debug\netcoreapp3.1\runtimes\linux-musl-x64\native\libe_sqlite3.so
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\ConsoleBugTracker\ConsoleApp1\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libe_sqlite3.so
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\ConsoleBugTracker\ConsoleApp1\bin\Debug\netcoreapp3.1\runtimes\linux-x86\native\libe_sqlite3.so
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\ConsoleBugTracker\ConsoleApp1\bin\Debug\netcoreapp3.1\runtimes\osx-x64\native\libe_sqlite3.dylib
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\ConsoleBugTracker\ConsoleApp1\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\e_sqlite3.dll
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\ConsoleBugTracker\ConsoleApp1\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\e_sqlite3.dll
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\ConsoleBugTracker\ConsoleApp1\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\e_sqlite3.dll
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\ConsoleBugTracker\ConsoleApp1\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\e_sqlite3.dll
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\ConsoleBugTracker\ConsoleApp1\bin\Debug\netcoreapp3.1\Bug Tracker.dll.config
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\ConsoleBugTracker\ConsoleApp1\bin\Debug\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\ConsoleBugTracker\ConsoleApp1\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\ConsoleBugTracker\ConsoleApp1\bin\Debug\netcoreapp3.1\System.Drawing.Common.dll
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\ConsoleBugTracker\ConsoleApp1\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\ConsoleBugTracker\ConsoleApp1\bin\Debug\netcoreapp3.1\System.Security.Permissions.dll
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\ConsoleBugTracker\ConsoleApp1\bin\Debug\netcoreapp3.1\System.Windows.Extensions.dll
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\ConsoleBugTracker\ConsoleApp1\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\ConsoleBugTracker\ConsoleApp1\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\ConsoleBugTracker\ConsoleApp1\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\ConsoleBugTracker\ConsoleApp1\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\ConsoleBugTracker\ConsoleApp1\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\ConsoleBugTracker\ConsoleApp1\bin\Debug\netcoreapp3.1\Dapper.dll
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\ConsoleBugTracker\ConsoleApp1\obj\Debug\netcoreapp3.1\Bug Tracker.csproj.CoreCompileInputs.cache

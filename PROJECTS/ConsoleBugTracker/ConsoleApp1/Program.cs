@@ -6,6 +6,12 @@ using System.Security.Cryptography.X509Certificates;
 using System.Xml;
 using System.Text;
 using System.Runtime.InteropServices;
+using Microsoft.Data.Sqlite;
+using System.Configuration;
+using System.Data;
+using Microsoft.EntityFrameworkCore.Storage.Internal;
+using Dapper;
+using System.Linq;
 
 namespace BugTracker
 {
@@ -177,6 +183,8 @@ namespace BugTracker
                                $"\nCosts: ${Database.databaseTicket[ticketNumber].cost}.00" +
                                $"\n");
             Console.WriteLine($"\n Ticket: #{ticketNumber} has been added");
+            SqliteDataAccess.LoadTicketDictionary();
+            SqliteDataAccess.SaveTicketDictionary();
             //Return to the Menu
             UserInterfaceScreen.ManagementMenu.SelectMgtMenu();
         }
@@ -815,6 +823,8 @@ public static class UserInterfaceScreen
                 if (responseChoiceTicketMgt == "1")
                 {
                     DAL.InsertTicket();
+                   
+
                 }
                 else if (responseChoiceTicketMgt == "2")
                 {
@@ -874,11 +884,121 @@ public static class UserInterfaceScreen
         }
     }
 }
+public static class SqliteDataAccess
+{
+    public static void LoadTicketDictionary()
+    {
+        Database.databaseTicket = SqliteDataAccess.LoadTickets();
+    }
+
+    public static void SaveTicketDictionary()
+    {
+        ticketBLL t = new ticketBLL();
+
+        SqliteDataAccess.SaveTickets(t);
+    }
+
+    public static Dictionary<int, ticketBLL> LoadTickets()
+    {
+        //Opens connection and will close properly to the database -failsafe against leaving datbase open
+        using (IDbConnection cnn = new SqliteConnection(LoadConnectionString()))
+        {
+            var output = cnn.Query<ticketBLL>("select * from Tickets", new DynamicParameters());
+            return output.ToDictionary(Field => Field.ticketNumber);
+        }
+    }
+    public static void SaveTickets(ticketBLL databaseTicket)
+    {
+        //Opens connection and will close properly to the database -failsafe against leaving datbase open
+        using (IDbConnection cnn = new SqliteConnection(LoadConnectionString()))
+        {
+            cnn.Execute("insert into Tickets " +
+                "(ticket_creator_name, " +
+                "phone, " +
+                "email, " +
+                "location, " +
+                "issue_category, " +
+                "priority_level, " +
+                "issue_description, " +
+                "added_date, " +
+                "completed_date, " +
+                "cost)" +
+                "values " +
+                "(@ticket_creator_name, " +
+                "@phone, " +
+                "@email, " +
+                "@location, " +
+                "@issue_category, " +
+                "@priority_level, " +
+                "@issue_description, " +
+                "@added_date, " +
+                "@completed_date, " +
+                "@cost)", databaseTicket);
+        }
+    }
+
+    private static string LoadConnectionString(string id = "Default")
+    {
+        return ConfigurationManager.ConnectionStrings[id].ConnectionString;
+    }
+    public static void InitializeSqliteDatabase()
+    {
+        var connectionStringBuilder = new SqliteConnectionStringBuilder();
+
+        //Use DB in project directory.  If it does not exist, create it:
+        connectionStringBuilder.DataSource = "./DatabaseSqlite.db";
+
+        using (var connection = new SqliteConnection(connectionStringBuilder.ConnectionString))
+        {
+            connection.Open();
+
+            //Create a table (drop if already exists first):
+            var delTableCmd = connection.CreateCommand();
+            delTableCmd.CommandText = "DROP TABLE IF EXISTS favorite_beers";
+            delTableCmd.ExecuteNonQuery();
+
+            var createTableCmd = connection.CreateCommand();
+            createTableCmd.CommandText = "CREATE TABLE favorite_beers(name VARCHAR(50))";
+            createTableCmd.ExecuteNonQuery();
+
+            //Seed some data:
+            using (var transaction = connection.BeginTransaction())
+            {
+                var insertCmd = connection.CreateCommand();
+
+                insertCmd.CommandText = "INSERT INTO favorite_beers VALUES('LAGUNITAS IPA')";
+                insertCmd.ExecuteNonQuery();
+
+                insertCmd.CommandText = "INSERT INTO favorite_beers VALUES('JAI ALAI IPA')";
+                insertCmd.ExecuteNonQuery();
+
+                insertCmd.CommandText = "INSERT INTO favorite_beers VALUES('RANGER IPA')";
+                insertCmd.ExecuteNonQuery();
+
+                transaction.Commit();
+            }
+
+            //Read the newly inserted data:
+            var selectCmd = connection.CreateCommand();
+            selectCmd.CommandText = "SELECT name FROM favorite_beers";
+
+            using (var reader = selectCmd.ExecuteReader())
+            {
+                while (reader.Read())
+                {
+                    var message = reader.GetString(0);
+                    Console.WriteLine(message);
+                }
+            }
+        }
+    }
+}
 class Program
 {
     static void Main(string[] args)
     {
-
+        FullScreen.WideScreenMethod();
+        SqliteDataAccess.InitializeSqliteDatabase();
         UserInterfaceScreen.UI();
     }
 }
