@@ -6,7 +6,6 @@ using System.IO;
 using System.Linq;
 using System.Net;
 using System.Runtime.InteropServices;
-using System.Text.RegularExpressions;
 
 namespace HistoryTest
 {
@@ -50,26 +49,6 @@ namespace HistoryTest
             }
         }
     }
-    public static class FullScreen
-    {
-        //this is for the fullscreen mode
-        [DllImport("kernel32.dll", ExactSpelling = true)]
-        private static extern IntPtr GetConsoleWindow();
-        private static IntPtr ThisConsole = GetConsoleWindow();
-        [DllImport("user32.dll", CharSet = CharSet.Auto, SetLastError = true)]
-        private static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);
-        private const int HIDE = 0;
-        private const int MAXIMIZE = 3;
-        private const int MINIMIZE = 6;
-        private const int RESTORE = 9;
-
-        //This will set the console window to full screen
-        public static void WideScreenMethod()
-        {
-            Console.SetWindowSize(Console.LargestWindowWidth, Console.LargestWindowHeight);
-            ShowWindow(ThisConsole, MAXIMIZE);
-        }
-    }
     public static class PrintList
     {
         public static void WriteToConsole<T>(this IList<T> collection)
@@ -98,11 +77,6 @@ namespace HistoryTest
         private string currentEntry = "";
         private bool insideQuotation;
 
-        /// <summary>
-        ///   Returns all scanned entries.
-        ///   Outer IEnumerable = rows,
-        ///   inner IEnumerable = columns of the corresponding row.
-        /// </summary>
         public IEnumerable<IEnumerable<string>> Entries
         {
             get { return entries; }
@@ -157,7 +131,33 @@ namespace HistoryTest
     }
     public static class ListScraper
     {
+        public static string urlName = GetURL();
 
+        public static string GetURL()
+        {
+            Console.WriteLine("Welcome, I can access CSV files from online");
+            Console.WriteLine("Do you have a url address to pull a CSV file from so I can generate a test? If not, no worries, I can grab one for you to use.  [Y] or [N]");
+            var response = Console.ReadLine().ToUpper();
+            if (response == "Y")
+            {
+                Console.WriteLine(@"Type in the url: example: https://raw.githubusercontent.com/Silcott/PORTFOLIO-OF-PROJECTS/master/PROJECTS/HistoryTest/assets/pres.csv");
+                var responseForCSVLocation = Console.ReadLine();
+                return responseForCSVLocation;
+            }
+            else if (response == "N")
+            {
+                Console.WriteLine("Ok, we can use the one stored on file");
+                Console.WriteLine(@"Using URL: https://raw.githubusercontent.com/Silcott/PORTFOLIO-OF-PROJECTS/master/PROJECTS/HistoryTest/assets/pres.csv");
+                return "https://raw.githubusercontent.com/Silcott/PORTFOLIO-OF-PROJECTS/master/PROJECTS/HistoryTest/assets/pres.csv";
+            }
+            else
+            {
+                Console.WriteLine("That wasn't a correct choice, try again");
+                GetURL();
+                return null;
+            }
+
+        }
         public static string GetCSV(string url)
         {
             HttpWebRequest req = (HttpWebRequest)WebRequest.Create(url);
@@ -169,7 +169,7 @@ namespace HistoryTest
 
             return results;
         }
-        public static void SplitCSV()
+        public static List<string> SplitCSV()
         {
             List<string> splitted = new List<string>();
             List<string> list1 = new List<string>();
@@ -273,21 +273,46 @@ namespace HistoryTest
             List<string> list99 = new List<string>();
             List<string> list100 = new List<string>();
 
-            string fileList = GetCSV("https://raw.githubusercontent.com/Silcott/PORTFOLIO-OF-PROJECTS/master/PROJECTS/HistoryTest/assets/pres.csv");
             string[] tempStr;
-            ;
+           
+            try
+            {
+                string fileList = GetCSV(urlName);
+                tempStr = fileList.Replace(@",", "").Split(new string[] { "\"" }, StringSplitOptions.RemoveEmptyEntries).ToList().Where(x => !string.IsNullOrEmpty(" ")).ToArray();
+
+                if (Debug.debug == true)
+                {
+                    Console.ForegroundColor = ConsoleColor.Yellow;
+                    Console.WriteLine("____________________________________________________DEBUGGER____________________________________________________");
+                    Console.WriteLine("Printing List from Online - No Changes Have Been Made");
+                    Console.WriteLine(fileList);
+                    Console.WriteLine("________________________________________________________________________________________________________________");
+                    Console.WriteLine("____________________________________________________DEBUGGER____________________________________________________");
+                    Console.WriteLine(@"Printing List from Online - Inserted into string array. Replaced commas with , \"" and split on single quote then removed the line spaces");
+                    foreach (var item in tempStr)
+                    {
+                        Console.WriteLine(item);
+                    }
+                    Console.WriteLine("________________________________________________________________________________________________________________");
+                    Console.ForegroundColor = ConsoleColor.Green;
+                }
+
+                //Get the number of elements in the list to loop through
+                int number = tempStr.Count();
+                for (int i = 0; i < number; i++)
+                {
+                    list1.Add(tempStr[i]);
+                }
+            }
+            catch (Exception)
+            {
+                Console.WriteLine("That wasn't a working URL, try again.");
+                GetURL();
+            }
+
             //string fileList2;
             //fileList2 = Regex.Replace(fileList, @"t|n|r", "");
-            tempStr = fileList.Replace(@",", "").Split(new string[] { "\"" }, StringSplitOptions.RemoveEmptyEntries).ToList().Where(x => !string.IsNullOrEmpty(" ")).ToArray();
-
-            //Get the number of elements in teh list to loop through
-            int number = tempStr.Count();
-            for (int i = 0; i < number; i++)
-            {
-                list1.Add(tempStr[i]);
-            }
             var allProducts = list1;
-
             allProducts = list1
                             .Concat(list2)
                             .Concat(list3)
@@ -389,22 +414,12 @@ namespace HistoryTest
                             .Concat(list99)
                             .Concat(list100)
                             .ToList();
-
-            Console.WriteLine();
-            //list1.WriteToConsole();
-
-            //Before Removing
-            //allProducts.WriteToConsole();
-
             //Print entire list
             allProducts = allProducts.Where(s => !string.IsNullOrWhiteSpace(s)).ToList();
-            //allProducts.WriteToConsole();
-
-
-            foreach (var item in allProducts)
-            {
-                Console.WriteLine(item);
-            }
+            //foreach (var item in allProducts)
+            //{
+            //    Console.WriteLine(item);
+            //}
             //var newlists1 = ListExtensions.ChunkBy(allProducts, 5);
             //var newlists = ListExtensions.BatchBy(allProducts, 5);
 
@@ -412,31 +427,478 @@ namespace HistoryTest
             //string combindedString = string.Join(" ,", allProducts.ToArray());
             //Console.WriteLine(combindedString);
 
-            Console.WriteLine(allProducts.Count);
+            //Console.WriteLine(allProducts.Count);
 
-         var theList = allProducts;
-            Console.WriteLine(theList[0]);
+            var theList = allProducts;
+            //Console.WriteLine(theList[0]);
+            return theList;
         }
 
-}
-    class Program
+    }
+
+    public static class Shorts
     {
-        public static void MakeTest()
+        //This will allow me to pass a string into the method without calling the Writline method
+        public static void Write(string str)
         {
+            Console.Write(str);
+        }
+        //This will add blank spaces cutting my time and code down
+        public static void AddSpace(int num)
+        {
+            do
+            {
+                Console.WriteLine();
+                num--;
+            } while (num > 0);
 
         }
-
-        public static void GiveTest()
+        //This takes the users text they type and assigns it and return its value so i can call upon it later
+        public static string ConsoleInput()
         {
-
+            string conInput = Console.ReadLine();
+            return conInput;
         }
+    }
+    public static class FullScreen
+    {
+        //Make Fullscreen
+        //this is for the fullscreen mode
+        [DllImport("kernel32.dll", ExactSpelling = true)]
+        private static extern IntPtr GetConsoleWindow();
+        private static IntPtr ThisConsole = GetConsoleWindow();
+        [DllImport("user32.dll", CharSet = CharSet.Auto, SetLastError = true)]
+        private static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);
+        private const int HIDE = 0;
+        private const int MAXIMIZE = 3;
+        private const int MINIMIZE = 6;
+        private const int RESTORE = 9;
+
+        //This will set the console window to full screen
+        public static void WideScreenMethod()
+        {
+            Console.SetWindowSize(Console.LargestWindowWidth, Console.LargestWindowHeight);
+            ShowWindow(ThisConsole, MAXIMIZE);
+        }
+    }
+    public static class DivideScreen
+    {
+        public static int consoleWidth = Console.WindowWidth;
+        public static int dividedWidth = consoleWidth / 2;
+        public static string spaces = ' '.Repeat(dividedWidth);
+    }
+    //Class for Repeat Function - used for the text spaces and dividing the screen
+    //Class was created to use the Repeat with spaces to center the text
+    public static class CharExtensions
+    {
+        public static string Repeat(this char c, int count)
+        {
+            return new String(c, count);
+        }
+    }
+    public static class ThankYouMessage
+    {
+        public static void ThankYouEnding()
+        {
+            Console.WriteLine((DivideScreen.spaces.Remove(0, 18) + "                Have a nice day!                   "));
+
+            Console.ForegroundColor = ConsoleColor.Yellow;
+
+            Console.WriteLine((DivideScreen.spaces.Remove(0, 18) + " _   _                 _                           "));
+            Console.WriteLine((DivideScreen.spaces.Remove(0, 18) + "| | | |               | |                          "));
+            Console.WriteLine((DivideScreen.spaces.Remove(0, 18) + "| |_| |__   __ _ _ __ | | ___   _  ___  _   _      "));
+            Console.WriteLine((DivideScreen.spaces.Remove(0, 18) + "| __| '_ \\ / _` | '_ \\| |/ / | | |/ _ \\| | | |  "));
+            Console.WriteLine((DivideScreen.spaces.Remove(0, 18) + "| |_| | | | (_| | | | |   <| |_| | (_) | |_| |     "));
+            Console.WriteLine((DivideScreen.spaces.Remove(0, 18) + "\\___|_| |_|\\__,_|_| |_|_|\\_\\__, |\\___/ \\__,__|"));
+            Console.WriteLine((DivideScreen.spaces.Remove(0, 18) + "                            __/  |                 "));
+            Console.WriteLine((DivideScreen.spaces.Remove(0, 18) + "                           |____/                  "));
+        }
+    }
+    public static class GameStates
+    {
+        public static decimal correct = 0;
+        public static decimal overallScoreInt = 0;
+
+        public static void IntroScreen()
+        {
+            Console.WriteLine("Hello and Welcome to the History Testing System");
+
+            Console.WriteLine("Ok, lets begin, how many questions do you want? Select [1] thru [13]");
+            int responseNum = Convert.ToInt32(Console.ReadLine()) - 1;
+            MakeTest();
+
+            //Selects a random number from counting the total number of questions and 
+            //answers in the CSV file divdie by 5 to get the number of questions ONLY
+            //Then make a random list of numbers from that range
+            int[] ReturnQuestionListNumber()
+            {
+                if (responseNum >= 0 && responseNum <= 12)
+                {
+                    //Random Array to generate number 1 thru 12 to use on index of answer selection lists
+                    int[] array = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 };
+                    Random randNum = new Random();
+                    int rand = 0;
+                    int temp;
+                    for (int x = 0; x < 12; x++)
+                    {
+                        rand = randNum.Next(0, 12 - x);
+                        temp = array[rand];
+                        array[rand] = array[11 - x];
+                        array[11 - x] = temp;
+                    }
 
 
+                    return array;
+                }
+                else
+                {
+                    Console.WriteLine("Not a correct number to choose, let's start over again...");
+                    IntroScreen();
+                    return null;
+                }
+
+            }
+
+            void MakeTest()
+            {
+                Console.WriteLine($"You Selected {responseNum + 1} number of questions");
+                Console.WriteLine("Stand-by - compiling test questions now...");
+                Console.WriteLine();
+
+                if (Debug.debug == true)
+                {
+                    Console.ForegroundColor = ConsoleColor.Yellow;
+                    //DEBUG - Use to see Random Number list generated 0 thru 12 for Questions
+                    Console.WriteLine("____________________________________________________DEBUGGER____________________________________________________");
+                    Console.WriteLine("Printing Random Number List of the amount of questions you selected");
+                    foreach (var item in ReturnQuestionListNumber())
+                    {
+                        Console.WriteLine(item);
+                    }
+                    Console.WriteLine("________________________________________________________________________________________________________________");
+
+                    Console.WriteLine("____________________________________________________DEBUGGER____________________________________________________");
+                    Console.WriteLine("Printing the Scrapped List off website after the splitting and removing of commas");
+                    //DEGUG - Use to see the scrapped list
+                    foreach (var item in ListScraper.SplitCSV())
+                    {
+                        Console.WriteLine(item);
+
+                    }
+                    Console.WriteLine("________________________________________________________________________________________________________________");
+                    Console.ForegroundColor = ConsoleColor.Green;
+
+                }
+
+
+                //Stats
+                decimal incorrectAnswers = 0;
+
+                //Create Dictionary to store questions and separate them from teh answers - Keys = questions and Values (assigned to properties) = Answers 1 thru 4
+                Dictionary<string, DictionaryAnswersProp> questionsDictionary = new Dictionary<string, DictionaryAnswersProp>();
+                for (int i = 0; i < responseNum + 1; i++)
+                {
+                    int number = ReturnQuestionListNumber()[i];
+                    int newNumber = number * 5;
+                    questionsDictionary.Add(ListScraper.SplitCSV()[newNumber], new DictionaryAnswersProp
+                    {
+                        answer1 = ListScraper.SplitCSV()[newNumber + 1],
+                        answer2 = ListScraper.SplitCSV()[newNumber + 2],
+                        answer3 = ListScraper.SplitCSV()[newNumber + 3],
+                        answer4 = ListScraper.SplitCSV()[newNumber + 4]
+                    });
+                    Console.WriteLine($"Question Number: {i + 1}");
+
+                    //Assign Answers to list to pull them out by index calling
+                    var listNum = questionsDictionary.Values.ToArray();
+                    ArrayList add_array = new ArrayList();
+                    foreach (var item in listNum)
+                    {
+                        add_array.Add(item.answer1);
+                        add_array.Add(item.answer2);
+                        add_array.Add(item.answer3);
+                        add_array.Add(item.answer4);
+                        if (Debug.debug == true)
+                        {
+                            Console.ForegroundColor = ConsoleColor.Yellow;
+
+                            Console.WriteLine("____________________________________________________DEBUGGER____________________________________________________");
+                            //DEBUG - Use to see the list of answers without randomizing
+                            Console.WriteLine("Printing the Answer List in the order from original");
+                            Console.WriteLine(add_array[0]); //CORRECT ANSWER IS THIS
+                            Console.WriteLine(add_array[1]);
+                            Console.WriteLine(add_array[2]);
+                            Console.WriteLine(add_array[3]);
+                            Console.WriteLine("________________________________________________________________________________________________________________");
+                            Console.ForegroundColor = ConsoleColor.Green;
+
+                        }
+
+                    }
+
+                    //Random Array to generate number 1 thru 4 to use on index of answer selection lists
+                    int[] array = { 1, 2, 3, 4 };
+                    Random randNum = new Random();
+                    int rand = 0;
+                    int temp;
+                    for (int x = 0; x < 4; x++)
+                    {
+                        rand = randNum.Next(1, 4 - x);
+                        temp = array[rand];
+                        array[rand] = array[3 - x];
+                        array[3 - x] = temp;
+                    }
+                    //Create random number 0 to 4 for answer index
+                    int answer1random = array[0] - 1;
+                    int answer2random = array[1] - 1;
+                    int answer3random = array[2] - 1;
+                    int answer4random = array[3] - 1;
+
+                    if (Debug.debug == true)
+                    {
+                        Console.ForegroundColor = ConsoleColor.Yellow;
+
+                        Console.WriteLine("____________________________________________________DEBUGGER____________________________________________________");
+                        Console.WriteLine("Printing the Random List of Numbers to use with the Answers Idexes");
+                        ////DEBUG - Use to see Random Number list generated 1 thru 4 for Answers
+                        foreach (var item in array)
+                        {
+                            Console.WriteLine(item);
+                        }
+                        Console.WriteLine("________________________________________________________________________________________________________________");
+                        Console.ForegroundColor = ConsoleColor.Green;
+
+                    }
+
+
+                    foreach (KeyValuePair<string, DictionaryAnswersProp> item in questionsDictionary)
+                    {
+                        Console.WriteLine(item.Key);
+                        if (Debug.debug == true)
+                        {
+                            Console.ForegroundColor = ConsoleColor.Yellow;
+                            Console.WriteLine("____________________________________________________DEBUGGER____________________________________________________");
+                            Console.WriteLine("Answers in the correct order on CSV");
+                            Console.WriteLine("[1]" + item.Value.answer1 + " Correct Answer");
+                            Console.WriteLine("[2]" + item.Value.answer2);
+                            Console.WriteLine("[3]" + item.Value.answer3);
+                            Console.WriteLine("[4]" + item.Value.answer4);
+                        Console.WriteLine("________________________________________________________________________________________________________________");
+                            Console.ForegroundColor = ConsoleColor.Green;
+                        }
+
+                    }
+
+                    Console.WriteLine("Answers");
+                    Console.WriteLine("[1]" + add_array[answer1random]);
+                    Console.WriteLine("[2]" + add_array[answer2random]);
+                    Console.WriteLine("[3]" + add_array[answer3random]);
+                    Console.WriteLine("[4]" + add_array[answer4random]);
+                    Console.WriteLine();
+                    Console.WriteLine("Select an Answer [1] thru [4]");
+
+                    int correctAnswer = 0;
+                    int responseToQuestion = Convert.ToInt32(Console.ReadLine());
+                    if (add_array[0] == add_array[answer1random])
+                    {
+                        correctAnswer = 1;
+                    }
+                    if (add_array[0] == add_array[answer2random])
+                    {
+                        correctAnswer = 2;
+                    }
+                    if (add_array[0] == add_array[answer3random])
+                    {
+                        correctAnswer = 3;
+                    }
+                    if (add_array[0] == add_array[answer4random])
+                    {
+                        correctAnswer = 4;
+                    }
+
+
+                    if (responseToQuestion == correctAnswer)
+                    {
+                        Console.WriteLine("Correct, good job!");
+                        Console.WriteLine();
+                        correct = correct + 1;
+                    }
+                    else if (responseToQuestion != correctAnswer)
+                    {
+                        Console.WriteLine("Sorry, that's incorrect");
+                        Console.WriteLine();
+                        incorrectAnswers = incorrectAnswers + 1;
+                    }
+                    else
+                    {
+                        Console.WriteLine("Sorry, not sure I understand, try again?");
+                        MakeTest();
+                    }
+                    questionsDictionary.Clear();
+                }
+                if (correct > incorrectAnswers)
+                {
+                    Console.WriteLine($"Congrats, you got {correct} questions correct!");
+                }
+                else if (incorrectAnswers > correct)
+                {
+                    Console.WriteLine($"Sorry, you might need some more practice, you got {correct} questions correct");
+                }
+                Console.WriteLine("");
+
+
+                try
+                {
+                    overallScoreInt = ((correct / (correct + incorrectAnswers))) * 100;
+                    string grade = "A";
+
+                    if (overallScoreInt <= 100 && overallScoreInt > 89)
+                    {
+                        grade = "A";
+                    }
+                    else if (overallScoreInt < 90 && overallScoreInt > 79)
+                    {
+                        grade = "B";
+                    }
+                    else if (overallScoreInt < 80 && overallScoreInt > 69)
+                    {
+                        grade = "C";
+                    }
+                    else if (overallScoreInt < 70 && overallScoreInt > 59)
+                    {
+                        grade = "D";
+
+                    }
+                    else if (overallScoreInt <= 59)
+                    {
+                        grade = "F";
+                    }
+                    else
+                    {
+                        grade = "F";
+                    }
+                    string overallScoreStr = overallScoreInt.ToString("00");
+                    Console.WriteLine($"That's a score of {correct} out of {correct + incorrectAnswers} = {overallScoreStr}%");
+                    Console.WriteLine($"That's a {grade} letter grade");
+                }
+                catch (DivideByZeroException)
+                {
+                    Console.WriteLine("Sorry, That's strange...");
+                }
+
+            }
+            GameStates.TryAgain();
+        }
+        public static void TryAgain()
+        {
+            Console.WriteLine("Would you like to play again?");
+            var response = Console.ReadLine().ToUpper();
+
+            if (response == "Y")
+            {
+                ListScraper.SplitCSV();
+                Console.Clear();
+                GameStates.IntroScreen();
+            }
+            else if (response == "N")
+            {
+                Console.WriteLine("");
+            }
+            else
+            {
+                Console.WriteLine("Sorry, I didn't understand that. Try again.");
+                TryAgain();
+            }
+        }
+    }
+    public class DictionaryAnswersProp
+    {
+        public string question { get; set; }
+        public string answer1 { get; set; }
+        public string answer2 { get; set; }
+        public string answer3 { get; set; }
+        public string answer4 { get; set; }
+    }
+    public class Program
+    {
+        public static bool exit = true;
         static void Main(string[] args)
         {
             FullScreen.WideScreenMethod();
+            MyName.Greet();
+            Console.WriteLine("");
             ListScraper.SplitCSV();
-            
+            Console.ForegroundColor = ConsoleColor.Green;
+            GameStates.IntroScreen();
+            ThankYouMessage.ThankYouEnding();
+        }
+    }
+    public class Debug
+    {
+        public static bool debug = Debugger();
+        public static bool Debugger()
+        {
+            Console.WriteLine("Turn on debugger? [Y] or [N]");
+            var response = Console.ReadLine().ToUpper();
+            if (response == "Y")
+            {
+                return true;
+            }
+            else if (response == "N")
+            {
+                return false;
+            }
+            else
+            {
+                Console.WriteLine("Sorry, I didn't understand you, try again...");
+                Debugger();
+                return false;
+            }
+        }
+    }
+    public class MyName
+    {
+        public static void Greet()
+        {
+            Console.Clear();
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine(@"
+           8 8888       .8.                   ,8.       ,8.          8 8888888888     d888888o.                                                                                
+           8 8888      .888.                 ,888.     ,888.         8 8888         .`8888:' `88.                                                                              
+           8 8888     :88888.               .`8888.   .`8888.        8 8888         8.`8888.   Y8                                                                              
+           8 8888    . `88888.             ,8.`8888. ,8.`8888.       8 8888         `8.`8888.                                                                                  
+           8 8888   .8. `88888.           ,8'8.`8888,8^8.`8888.      8 888888888888  `8.`8888.                                                                                 
+           8 8888  .8`8. `88888.         ,8' `8.`8888' `8.`8888.     8 8888           `8.`8888.                                                                                
+88.        8 8888 .8' `8. `88888.       ,8'   `8.`88'   `8.`8888.    8 8888            `8.`8888.                                                                               
+`88.       8 888'.8'   `8. `88888.     ,8'     `8.`'     `8.`8888.   8 8888        8b   `8.`8888.                                                                              
+  `88o.    8 88'.888888888. `88888.   ,8'       `8        `8.`8888.  8 8888        `8b.  ;8.`8888                                                                              
+    `Y888888 ' .8'       `8. `88888. ,8'         `         `8.`8888. 8 888888888888 `Y8888P ,88P'                                                                              
+                                                                                                                                                                               
+   d888888o.    8 8888 8 8888         ,o888888o.        ,o888888o. 8888888 8888888888 8888888 8888888888 d888888o.                                                             
+ .`8888:' `88.  8 8888 8 8888        8888     `88.   . 8888     `88.     8 8888             8 8888     .`8888:' `88.                                                           
+ 8.`8888.   Y8  8 8888 8 8888     ,8 8888       `8. ,8 8888       `8b    8 8888             8 8888     8.`8888.   Y8                                                           
+ `8.`8888.      8 8888 8 8888     88 8888           88 8888        `8b   8 8888             8 8888     `8.`8888.                                                               
+  `8.`8888.     8 8888 8 8888     88 8888           88 8888         88   8 8888             8 8888      `8.`8888.                                                              
+   `8.`8888.    8 8888 8 8888     88 8888           88 8888         88   8 8888             8 8888       `8.`8888.                                                             
+    `8.`8888.   8 8888 8 8888     88 8888           88 8888        ,8P   8 8888             8 8888        `8.`8888.                                                            
+8b   `8.`8888.  8 8888 8 8888     `8 8888       .8' `8 8888       ,8P    8 8888             8 8888    8b   `8.`8888.                                                           
+`8b.  ;8.`8888  8 8888 8 8888        8888     ,88'   ` 8888     ,88'     8 8888             8 8888    `8b.  ;8.`8888                                                           
+ `Y8888P ,88P'  8 8888 8 888888888888 `8888888P'        `8888888P'       8 8888             8 8888     `Y8888P ,88P'                                                           
+                                                                                                                                                                               
+8888888 8888888888 8 8888888888     d888888o. 8888888 8888888888               ,o888888o.    8 8888888888   b.             8 8888888 8888888888 8 8888888888   8 888888888o.   
+      8 8888       8 8888         .`8888:' `88.     8 8888                    8888     `88.  8 8888         888o.          8       8 8888       8 8888         8 8888    `88.  
+      8 8888       8 8888         8.`8888.   Y8     8 8888                 ,8 8888       `8. 8 8888         Y88888o.       8       8 8888       8 8888         8 8888     `88  
+      8 8888       8 8888         `8.`8888.         8 8888                 88 8888           8 8888         .`Y888888o.    8       8 8888       8 8888         8 8888     ,88  
+      8 8888       8 888888888888  `8.`8888.        8 8888                 88 8888           8 888888888888 8o. `Y888888o. 8       8 8888       8 888888888888 8 8888.   ,88'  
+      8 8888       8 8888           `8.`8888.       8 8888                 88 8888           8 8888         8`Y8o. `Y88888o8       8 8888       8 8888         8 888888888P'   
+      8 8888       8 8888            `8.`8888.      8 8888                 88 8888           8 8888         8   `Y8o. `Y8888       8 8888       8 8888         8 8888`8b       
+      8 8888       8 8888        8b   `8.`8888.     8 8888                 `8 8888       .8' 8 8888         8      `Y8o. `Y8       8 8888       8 8888         8 8888 `8b.     
+      8 8888       8 8888        `8b.  ;8.`8888     8 8888                    8888     ,88'  8 8888         8         `Y8o.`       8 8888       8 8888         8 8888   `8b.   
+      8 8888       8 888888888888 `Y8888P ,88P'     8 8888                     `8888888P'    8 888888888888 8            `Yo       8 8888       8 888888888888 8 8888     `88. 
+
+
+");
+            Console.ForegroundColor = ConsoleColor.White;
 
         }
     }
