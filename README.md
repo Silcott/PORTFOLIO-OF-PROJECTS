@@ -137,4 +137,13 @@ https://silcott.github.io/
   
   * **NO. Lines of code:**  871
 
+    ### C# Console App - Test Generator "History Edition"
+  <!--* **View Project:**  http://www.insertpage.com-->
+<img align="right" height="270px" width="450px" alt="GIF" src="https://raw.githubusercontent.com/Silcott/PORTFOLIO-OF-PROJECTS/master/PROJECTS/HistoryTest/assets/gif/historyTest.gif">
+  
+  * **Repository:**  https://github.com/Silcott/PORTFOLIO-OF-PROJECTS/tree/master/PROJECTS/HistoryTest/Program.cs
+  * **Description:** I designed a web scraper to pull a CSV file off a given URL address.  Afterwards, it strips any commas and spaces, then separates every fifth line to be the questions and creates a list for the rest as answers.  The first answer is correct, so I created a randomizer that gives you the questions and answers out of order.   I also designed my first debugger, which demonstrates behind the scenes functions.   
+  * **Tools:**  C#
+  
+  * **NO. Lines of code:**  863
  
