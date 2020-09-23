@@ -147,3 +147,13 @@ https://silcott.github.io/
   
   * **NO. Lines of code:**  863
  
+     ### C# Console App - Test Generator "Math Edition"
+  <!--* **View Project:**  http://www.insertpage.com-->
+<img align="right" height="270px" width="450px" alt="GIF" src="https://raw.githubusercontent.com/Silcott/PORTFOLIO-OF-PROJECTS/master/PROJECTS/MathGames/assets/gif/mathTest.gif">
+  
+  * **Repository:**  https://github.com/Silcott/PORTFOLIO-OF-PROJECTS/tree/master/PROJECTS/MathGames/Program.cs
+  * **Description:** This masterpiece is got it all! Random number & color generator, difficulty levels, scoreboard database, ASCII art,  Math operator test, exceptions removed, Fullscreen mode, timers, Easter eggs, and gamestate load method.  I am very proud of this code. Enjoy! 
+  * **Tools:**  C#
+  
+  * **NO. Lines of code:**  1333
+ 
