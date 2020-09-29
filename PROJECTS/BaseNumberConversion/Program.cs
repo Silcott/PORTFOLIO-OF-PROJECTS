@@ -29,7 +29,7 @@ namespace BaseNumberConversion
         {
             Console.WriteLine("\nExamples: Binary: 00011010  -  Octal: 32  -  Decimal: 26  -  Hex: 1A\n");
             Console.Write($"     Please enter the [{baseName}] number to convert: ");
-            responseInt = Console.ReadLine();
+            responseInt = Console.ReadLine().ToUpper();
             Console.Write($"       Number: {responseInt}, base: {response}");
         }
         public static void AskQuestion()
@@ -140,7 +140,6 @@ namespace BaseNumberConversion
         {
             int decimalValue = 0;
             int baseVal = 1;
-            int binVal = number;
             while (number > 0)
             {
                 int tempNum = number % 10;
@@ -148,7 +147,6 @@ namespace BaseNumberConversion
                 number = number / 10;
                 baseVal = baseVal * 2;
             }
-
             return decimalValue;
         }
         //Hex to Decimal
@@ -187,8 +185,10 @@ namespace BaseNumberConversion
             return binaryConversion;
         }
         //Decimal to Octal
+
         public static string DecimalToOctal(int number)
         {
+
             int indexPlace = 1;
             int octalNumber = 0;
             for (int j = number; j > 0; j = j / 8)
@@ -203,6 +203,7 @@ namespace BaseNumberConversion
         //Decimal to Hex
         public static void DecimalToHex(int number)
         {
+
             int decimalNumber = 0;
             for (int i = number; i > 0; i = i / 16)
             {
@@ -268,7 +269,7 @@ namespace BaseNumberConversion
             {
                 baseName1 = "hex";
                 Console.Write($"     Please enter the first [{baseName1}] number to convert: ");
-                number1 = Console.ReadLine();
+                number1 = Console.ReadLine().ToUpper();
                 number1Converted = BaseConverter.HexToDecimal(number1.ToCharArray());
             }
             else
@@ -307,7 +308,7 @@ namespace BaseNumberConversion
             {
                 baseName2 = "hex";
                 Console.Write($"     Please enter the second [{baseName2}] number to convert: ");
-                number2 = Console.ReadLine();
+                number2 = Console.ReadLine().ToUpper();
                 number2Converted = BaseConverter.HexToDecimal(number2.ToCharArray());
             }
             else
@@ -529,11 +530,162 @@ namespace BaseNumberConversion
         }
         static void Main(string[] args)
         {
+            Console.ForegroundColor = ConsoleColor.Green;
             Program load = new Program();
         }
     }
 }
+//EXAMPLES & HOW TO:
 
+//BinaryToOctal
+//example 1011110010
+//Divide in groups of three
+//001 011 110 010
+//Get decimal values for each group
+//1 3 6 2
+
+//BinaryToDecimal
+//example 110011
+//2 to zero power = 1, then multiply from right to left so - 1 * 1 = 1
+//2 to 1st power = 2, 2*1 = 2
+//2 to 2nd power = 4, 4*0 = 0
+//2 to 3rd power = 8, 8*0 = 0
+//2 to 4th power = 16, 16*1 = 16
+//2 to 5th power = 32, 32*1 = 32
+//Add them up = 52
+
+//BinaryToHex
+//example 1101011001101001
+//separate in groups of 4
+//1101 0110 0110 1001
+//D 6 6 9
+//
+//0000 = 0
+//0001 = 1
+//0010 = 2
+//0011 = 3
+//0100 = 4
+//0101 = 5
+//0111 = 6
+//1000 = 7
+//1001 = 8
+//1010 = 9
+//1011 = 10
+//1100 = a
+//to f
+
+//OctToBinary
+//example 22_8  - the underscore _8 indicates subscript octal number
+//What is each 2 in binary
+//010 010
+//example 70_8
+//111 000
+//example 45_8
+//100 101
+
+//OctalToDecimal
+//example 576
+//8 to 0 power = 1  * 6 = 6
+//8 to 1 power = 8  * 7 = 56
+//8 to 2 power = 64 * 5 = 320
+//add 6, 56, 320 = 382
+
+//OctalToHex
+//----------------------------------------
+//  ONE WAY: convert octal to binary to hex
+//example 7531_8
+//get binary of each number -
+//111 101 011 001
+//group into fours
+//1111 0101 1001
+//convert each into hex
+//   F    5    9
+//answer F59
+//----------------------------------------
+//  2ND WAY: convert octal to decimal to hex
+//example 342_8
+//powers of 8, then multi each number
+//1 * 2 = 2
+//8 * 4 = 32
+//64 * 3 = 192
+//add them = 226 - decimal number
+//226 % 16 = 2
+//226 / 16 = 14
+//14 % 16 = 14
+//14 / 16 = 0
+//14 in hex is E
+//2 in hex is 2
+//answer E2
+
+//DecimalToBinary
+//example 67
+//67 % 2 = 1 --START
+//67 / 2 = 33
+//-----------
+//33 % 2 = 1
+//33 / 2 = 16
+//-----------
+//16 % 2 = 0
+//16 / 2 = 8
+//-----------
+//8 % 2 = 0
+//8 / 2 = 4
+//-----------
+//4 % 2 = 0
+//4 / 2 = 2
+//-----------
+//2 % 2 = 0
+//2 / 2 = 1
+//-----------
+//1 % 2 = 1
+//1 / 2 = 0 --FINISH
+//-----------
+//Tally all the 1 and 0 = 1000011
+
+//DecimalToOctal
+//example 83
+//83 % 8 = 3
+//83 / 8 = 10
+//-----------
+//10 % 8 = 2
+//10 /8 = 1
+//-----------
+//1 % 8 = 1
+//1 / 8 = 0
+//-----------
+// Answer = 123
+
+//DecimalToHex
+//example 321
+//321 % 16 = 1 --First Number
+//321 / 16 = 20
+//-----------
+//20 % 16 = 4 --Second Number
+//20 / 16 = 1
+//-----------
+//1 % 16 = 1 --Third Number
+//1 / 16 = 0
+//answer = 141
+
+//HexToBinary
+//example dead
+//d = 1101
+//e = 1110
+//a = 1010
+//d = 1101
+
+//HexToDecimal
+//example 31
+//to the power of 16
+//1*1 = 1
+//16*3 = 48
+//add them = 49
+//example 2A4
+//to the power of 16
+//1*4 = 4
+//16*10(A) = 160
+//256*2 = 512
+//add them = 676
 
 
 //Programming Exercise 10

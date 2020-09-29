@@ -102,7 +102,7 @@ https://silcott.github.io/
 <img align="right" height="270px" width="450px" alt="GIF" src="https://github.com/Silcott/silcott.github.io/blob/master/gif/silcottwebgif.gif">
   
   * **Repository:**  https://github.com/Silcott/silcott.github.io/blob/master/index.html
-  * **Description:**  I created a portfolio website, which is free to use a one-page site on GitHub to share along my journey and get the experience in creating a  website.  I used HTML, CSS, and jQuery/JavaScript.  I included a form at the bottom that I used https://formspree.io/ to create a responsive form.   Overall, I already knew a lot about web development, but it is always fun to build something like this.  Enjoy!
+  * **Description:**  I created a portfolio website https://silcott.github.io/, which is free to use a one-page site on GitHub to share along my journey and get the experience in creating a  website.  I used HTML, CSS, and jQuery/JavaScript.  I included a form at the bottom that I used https://formspree.io/ to create a responsive form.   Overall, I already knew a lot about web development, but it is always fun to build something like this.  Enjoy!
   * **Tools:**  HTML, CSS, jQuery/JavaScript
   
   * **NO. Lines of code:**  236
