@@ -159,7 +159,7 @@ https://silcott.github.io/
  
  ### C# Console App - Base Number Calculator & Converter
   <!--* **View Project:**  http://www.insertpage.com-->
-<img align="right" height="270px" width="450px" alt="GIF" src="https://raw.githubusercontent.com/Silcott/PORTFOLIO-OF-PROJECTS/master/PROJECTS/BaseNumberConversion/assets/gif/Capture.png">
+<img align="right" height="270px" width="450px" alt="GIF" src="https://raw.githubusercontent.com/Silcott/PORTFOLIO-OF-PROJECTS/master/PROJECTS/BaseNumberConversion/assets/gif/Capture.PNG">
   
   * **Repository:**  https://github.com/Silcott/PORTFOLIO-OF-PROJECTS/tree/master/PROJECTS/BaseNumberConversion/Program.cs
   * **Description:** A simple converter for base numbers (binary, octal, decimal, and hex). I also built a calculator, which wasn't part of the project, but seemed needed. 
