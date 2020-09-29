@@ -1,0 +1,12 @@
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\Tetris\bin\Debug\netcoreapp3.1\Tetris.exe
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\Tetris\bin\Debug\netcoreapp3.1\Tetris.deps.json
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\Tetris\bin\Debug\netcoreapp3.1\Tetris.runtimeconfig.json
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\Tetris\bin\Debug\netcoreapp3.1\Tetris.runtimeconfig.dev.json
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\Tetris\bin\Debug\netcoreapp3.1\Tetris.dll
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\Tetris\bin\Debug\netcoreapp3.1\Tetris.pdb
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\Tetris\obj\Debug\netcoreapp3.1\Tetris.csprojAssemblyReference.cache
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\Tetris\obj\Debug\netcoreapp3.1\Tetris.AssemblyInfoInputs.cache
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\Tetris\obj\Debug\netcoreapp3.1\Tetris.AssemblyInfo.cs
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\Tetris\obj\Debug\netcoreapp3.1\Tetris.dll
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\Tetris\obj\Debug\netcoreapp3.1\Tetris.pdb
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\Tetris\obj\Debug\netcoreapp3.1\Tetris.genruntimeconfig.cache

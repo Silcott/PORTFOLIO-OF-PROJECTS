@@ -155,6 +155,7 @@ namespace MathGames
                         break;
                     case GameState.EndGame:
                         EndGame();
+
                         break;
                     case GameState.EasterEgg:
                         break;
@@ -774,6 +775,7 @@ namespace MathGames
         {
             Game.gameIsActive = false;
             ThankYouEnding();
+            Environment.Exit(0);
         }
         //Thank You Message
         public static void ThankYouEnding()

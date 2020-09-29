@@ -1,0 +1,92 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Github\\repo\\PORTFOLIO-OF-PROJECTS\\PROJECTS\\SQLITE_demo\\SQLITE_demo.csproj": {}
+  },
+  "projects": {
+    "C:\\Github\\repo\\PORTFOLIO-OF-PROJECTS\\PROJECTS\\SQLITE_demo\\SQLITE_demo.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Github\\repo\\PORTFOLIO-OF-PROJECTS\\PROJECTS\\SQLITE_demo\\SQLITE_demo.csproj",
+        "projectName": "SQLITE_demo",
+        "projectPath": "C:\\Github\\repo\\PORTFOLIO-OF-PROJECTS\\PROJECTS\\SQLITE_demo\\SQLITE_demo.csproj",
+        "packagesPath": "C:\\Users\\silco\\.nuget\\packages\\",
+        "outputPath": "C:\\Github\\repo\\PORTFOLIO-OF-PROJECTS\\PROJECTS\\SQLITE_demo\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\silco\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0-rc.1.20451.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0-rc.1.20451.13, )"
+            },
+            "SQLitePCLRaw.bundle_e_sqlcipher": {
+              "target": "Package",
+              "version": "[2.0.4, )"
+            },
+            "SnapObjects.Data.Sqlite": {
+              "target": "Package",
+              "version": "[3.0.0-beta, )"
+            },
+            "System.Data.SQLite": {
+              "target": "Package",
+              "version": "[1.0.113.1, )"
+            },
+            "System.Data.SQLite.Core": {
+              "target": "Package",
+              "version": "[1.0.113.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

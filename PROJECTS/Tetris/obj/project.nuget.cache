@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "GCLihRkGrtR30WEdkHadgcElmkdhWHO+oJ6Y5OBhUTs5Ts86qCtVOYqk7slIVsRielSVd0EfHiJt0rhxVrSclg==",
+  "success": true,
+  "projectFilePath": "C:\\Github\\repo\\PORTFOLIO-OF-PROJECTS\\PROJECTS\\Tetris\\Tetris.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\silco\\.nuget\\packages\\pinvoke.windows.core\\0.6.49\\pinvoke.windows.core.0.6.49.nupkg.sha512"
+  ],
+  "logs": []
+}
