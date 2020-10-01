@@ -1,0 +1,13 @@
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\CircleCalculator\obj\Debug\netcoreapp3.1\CircleCalculator.csprojAssemblyReference.cache
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\CircleCalculator\obj\Debug\netcoreapp3.1\CircleCalculator.AssemblyInfoInputs.cache
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\CircleCalculator\obj\Debug\netcoreapp3.1\CircleCalculator.AssemblyInfo.cs
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\CircleCalculator\obj\Debug\netcoreapp3.1\CircleCalculator.csproj.CoreCompileInputs.cache
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\CircleCalculator\bin\Debug\netcoreapp3.1\CircleCalculator.exe
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\CircleCalculator\bin\Debug\netcoreapp3.1\CircleCalculator.deps.json
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\CircleCalculator\bin\Debug\netcoreapp3.1\CircleCalculator.runtimeconfig.json
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\CircleCalculator\bin\Debug\netcoreapp3.1\CircleCalculator.runtimeconfig.dev.json
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\CircleCalculator\bin\Debug\netcoreapp3.1\CircleCalculator.dll
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\CircleCalculator\bin\Debug\netcoreapp3.1\CircleCalculator.pdb
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\CircleCalculator\obj\Debug\netcoreapp3.1\CircleCalculator.dll
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\CircleCalculator\obj\Debug\netcoreapp3.1\CircleCalculator.pdb
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\CircleCalculator\obj\Debug\netcoreapp3.1\CircleCalculator.genruntimeconfig.cache

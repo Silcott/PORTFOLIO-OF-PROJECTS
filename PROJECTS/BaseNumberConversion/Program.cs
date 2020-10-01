@@ -588,6 +588,7 @@ namespace BaseNumberConversion
 //8 to 0 power = 1  * 6 = 6
 //8 to 1 power = 8  * 7 = 56
 //8 to 2 power = 64 * 5 = 320
+//8 to 3 power = 512
 //add 6, 56, 320 = 382
 
 //OctalToHex
@@ -665,7 +666,7 @@ namespace BaseNumberConversion
 //-----------
 //1 % 16 = 1 --Third Number
 //1 / 16 = 0
-//answer = 141
+//answer = 141 *read bottom number first then back up
 
 //HexToBinary
 //example dead
