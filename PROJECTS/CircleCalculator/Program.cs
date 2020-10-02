@@ -4,59 +4,31 @@ namespace CircleCalculator
 {
     public class Circle
     {
-        private double radius;
-        public Circle(double radius = 0.0)
+        private readonly double radius;
+        private readonly double area;
+        private readonly double circum;
+
+        public Circle(double radius = 0)
         {
             this.radius = radius;
-        }
-        public double getArea()
-        {
-            return Math.PI * radius * radius;
-        }
-        public double getCircum()
-        {
-            return 2.0 * Math.PI * radius;
-        }
-        public double getRadius()
-        {
-            return radius;
-        }
-        public double Radius
-        {
-            get
-            {
-                return getRadius();
-            }
-        }
-        public double Area
-        {
-            get
-            {
-                return getArea();
-            }
-        }
-        public double Circum
-        {
-            get
-            {
-                return getCircum();
-            }
+            this.area = Math.PI * radius * radius;
+            this.circum = 2.0 * Math.PI * radius;
         }
         public static Circle operator +(Circle lhs, Circle rhs)
         {
-            return new Circle(lhs.radius + rhs.radius);
+            return new Circle(lhs.area + rhs.area);
         }
         public static Circle operator -(Circle lhs, Circle rhs)
         {
-            return new Circle(lhs.radius - rhs.radius);
+            return new Circle(lhs.area - rhs.area);
         }
         public static Circle operator *(Circle lhs, Circle rhs)
         {
-            return new Circle(lhs.radius * rhs.radius);
+            return new Circle(lhs.area * rhs.area);
         }
         public override string ToString()
         {
-            return ($"I am a Circle. My radius is {Radius}, my area is {Area}, and my circumference is {Circum}");
+            return ($"I am a Circle. My radius is {radius}, my area is {area}, and my circumference is {circum}");
         }
     }
     class Program
@@ -64,10 +36,10 @@ namespace CircleCalculator
         static void Main(string[] args)
         {
             Console.WriteLine("This is C# quiz 22");
-            Circle a = new Circle(4);
+            Circle a = new Circle(3);
             Console.WriteLine(a.ToString());
 
-            Circle b = new Circle(3);
+            Circle b = new Circle(4);
             Console.WriteLine(b.ToString());
 
             Console.WriteLine("new + operator");
@@ -75,7 +47,7 @@ namespace CircleCalculator
             Console.WriteLine(c.ToString());
 
             Console.WriteLine("new - operator");
-            c = a - b;
+            c = b - a;
             Console.WriteLine(c.ToString());
 
             Console.WriteLine("new * operator");

@@ -80,6 +80,8 @@ C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\BookStore-API\bin\Debug\netcoreapp
 C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\BookStore-API\bin\Debug\netcoreapp3.1\nlog.config
 C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\BookStore-API\bin\Debug\netcoreapp3.1\NLog.dll
 C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\BookStore-API\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\BookStore-API\bin\Debug\netcoreapp3.1\AutoMapper.dll
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\BookStore-API\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\BookStore-API\obj\Debug\netcoreapp3.1\BookStore-API.csproj.CoreCompileInputs.cache
 C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\BookStore-API\obj\Debug\netcoreapp3.1\BookStore-API.MvcApplicationPartsAssemblyInfo.cs
 C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\BookStore-API\obj\Debug\netcoreapp3.1\BookStore-API.MvcApplicationPartsAssemblyInfo.cache
