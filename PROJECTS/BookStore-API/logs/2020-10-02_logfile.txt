@@ -1,0 +1,26 @@
+2020-10-02 11:28:05.1533 INFO Attempted Get All Authors
+2020-10-02 11:28:06.3693 ERROR Cannot open database "BookStore" requested by the login. The login failed.
+Login failed for user 'MSI\JB'. - 
+2020-10-02 11:32:09.8425 INFO Attempted Get All Authors
+2020-10-02 11:32:10.7359 ERROR Cannot open database "BookStore" requested by the login. The login failed.
+Login failed for user 'MSI\JB'. - 
+2020-10-02 11:32:16.6473 INFO Attempted Get All Authors
+2020-10-02 11:32:16.7440 ERROR Cannot open database "BookStore" requested by the login. The login failed.
+Login failed for user 'MSI\JB'. - 
+2020-10-02 11:38:42.4974 INFO Attempted Get All Authors
+2020-10-02 11:38:43.9491 ERROR Cannot open database "aspnet-BookStore_API-53bc9b9d-9d6a-45d4-8429-2a2761773502" requested by the login. The login failed.
+Login failed for user 'MSI\JB'. - 
+2020-10-02 11:40:54.8401 INFO Attempted Get All Authors
+2020-10-02 11:40:55.6812 ERROR Cannot open database "BookStore" requested by the login. The login failed.
+Login failed for user 'MSI\JB'. - 
+2020-10-02 11:47:35.2328 INFO Attempted Get All Authors
+2020-10-02 11:47:50.5711 ERROR A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 50 - Local Database Runtime error occurred. Specified LocalDB instance name is invalid.
+) - System.ComponentModel.Win32Exception (0x89C5011B): Unknown error (0x89c5011b)
+2020-10-02 11:48:23.4958 INFO Attempted Get All Authors
+2020-10-02 11:48:24.3324 INFO Successfully got Authors
+2020-10-02 11:49:48.1733 INFO Attempted Get All Authors
+2020-10-02 11:49:48.9908 INFO Successfully got Authors
+2020-10-02 11:52:14.2306 INFO Attempted Get All Authors
+2020-10-02 11:52:15.0586 INFO Successfully got Authors
+2020-10-02 12:50:30.3362 INFO Attempted Get Author with id: 1
+2020-10-02 12:51:08.6657 WARN Author with id: 1 was not found

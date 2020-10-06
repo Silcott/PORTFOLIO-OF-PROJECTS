@@ -70,6 +70,8 @@ namespace BookStore_API
             });
 
             services.AddSingleton<ILoggerService, LoggerService>();
+            //setups the dependency injection, when it see IAuthorRep it knows that share the base class
+            services.AddScoped<IAuthorRepository, AuthorRepository>();
 
             //Save this for last always
             services.AddControllers();//changed from RazorPages
