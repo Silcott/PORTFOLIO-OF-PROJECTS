@@ -175,4 +175,4 @@ https://silcott.github.io/
   * **Description:** This is my first attempt at building a (MVC) Model, View, Controller pattern.  I had a project to design a person class.  Of course, I took it a few steps more, even though it does not look like much I decided to build a form with links, store the database with SQL, then deploy it with Azure.  I became very familiar with string connections and how SQL and Azure relate.
   * **Tools:**  C#, SQL, Azure, Razor
   
-  * **View the site: https://mvccreateperson20201008111134.azurewebsites.net/
+  * **View the site:** https://mvccreateperson20201008111134.azurewebsites.net/
