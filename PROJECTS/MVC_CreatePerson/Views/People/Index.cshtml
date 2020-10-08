@@ -1,0 +1,76 @@
+﻿@model IEnumerable<MVC_CreatePerson.Models.Person>
+
+@{
+    ViewData["Title"] = "List of People";
+}
+
+<h1>Create New Person</h1>
+
+<p>
+    <div class="col-3 text-right">
+        <a class="btn btn-primary" asp-action="Create"><i class="fas fa-plus"></i> &nbsp; +Create New Person</a>
+    </div>
+</p>
+<table class="table" style="background-color: aliceblue">
+    <thead>
+        <tr style="background-color: slategrey; color:aliceblue">
+            <th>
+                @Html.DisplayNameFor(model => model.FirstName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LastName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Gender)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Age)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ReleaseDate)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.FirstName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.LastName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Gender)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Age)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ReleaseDate)
+                </td>
+                <td>
+                    |
+                    <a class="btn btn-success text-white" style="cursor:pointer" asp-action="Edit" asp-route-id="@item.Id">
+                        Edit>
+                        <i class="fas fa-edit" aria-hidden="true">
+                        </i>
+                    </a>
+                    <a class="btn btn-info text-white" style="cursor:pointer" asp-action="Details" asp-route-id="@item.Id">
+                        Details>
+                        <i class="fas fa-edit" aria-hidden="true">
+                        </i>
+                    </a>
+                    <a class="btn btn-danger text-white" style="cursor:pointer" asp-action="Delete" asp-route-id="@item.Id">
+                        Delete>
+                        <i class="fas fa-edit" aria-hidden="true">
+                        </i>
+                    </a>
+
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
