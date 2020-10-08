@@ -169,7 +169,7 @@ https://silcott.github.io/
   
 ### MVC Azure Razor Web Page - Create A Person
   <!--* **View Project:**  http://www.insertpage.com-->
-<img align="right" height="270px" width="450px" alt="GIF" src="https://raw.githubusercontent.com/Silcott/PORTFOLIO-OF-PROJECTS/master/PROJECTS/MVC_CreatePerson/assets/gif.gif">
+<img align="right" height="270px" width="450px" alt="GIF" src="https://raw.githubusercontent.com/Silcott/PORTFOLIO-OF-PROJECTS/master/PROJECTS/MVC_CreatePerson/asset/gif.gif">
   
   * **Repository:**  https://github.com/Silcott/PORTFOLIO-OF-PROJECTS/tree/master/PROJECTS/MVC_CreatePerson/Program.cs
   * **Description:** This is my first attempt at building a (MVC) Model, View, Controller pattern.  I had a project to design a person class.  Of course, I took it a few steps more, even though it does not look like much I decided to build a form with links, store the database with SQL, then deploy it with Azure.  I became very familiar with sting connections and how SQL and Azure relate.
