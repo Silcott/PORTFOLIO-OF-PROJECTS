@@ -56,7 +56,7 @@ https://silcott.github.io/
   * **Tools:**  C#
   * **NO. Lines of code:**  639
 
-  ### C# Console App - Military Units
+### C# Console App - Military Units
   <!--* **View Project:**  http://www.insertpage.com-->
   
 <img align="right" height="270px" width="450px" alt="GIF" src="https://raw.githubusercontent.com/Silcott/PORTFOLIO-OF-PROJECTS/master/PROJECTS/MilitaryUnit/militaryUnits.gif" />
@@ -66,7 +66,7 @@ https://silcott.github.io/
   * **Tools:**  C#
   * **NO. Lines of code:**  1,814
 
-  ### C# Console App - Casino - Cards & Roulette
+### C# Console App - Casino - Cards & Roulette
   <!--* **View Project:**  http://www.insertpage.com-->
   
 <img align="right" height="270px" width="450px" alt="GIF" src="https://raw.githubusercontent.com/Silcott/PORTFOLIO-OF-PROJECTS/master/PROJECTS/RouletteWheel/rouletteTable.svg" />
@@ -77,7 +77,7 @@ https://silcott.github.io/
   
   * **NO. Lines of code:**  4,464
   
-  ### C# Console App -  Number Guessing Game
+### C# Console App -  Number Guessing Game
   <!--* **View Project:**  http://www.insertpage.com-->
   
 <img align="right" height="270px" width="450px" alt="GIF" src="https://raw.githubusercontent.com/Silcott/PORTFOLIO-OF-PROJECTS/master/PROJECTS/NumberGuessingGame/gif/numberGuessGame.gif" />
@@ -89,7 +89,7 @@ https://silcott.github.io/
   
   * **NO. Lines of code:**  567
   
-  ### Visual Basic & Excel App - Water Dashboard
+### Visual Basic & Excel App - Water Dashboard
   <!--* **View Project:**  http://www.insertpage.com-->
 <img align="right" height="270px" width="450px" alt="GIF" src="https://raw.githubusercontent.com/Silcott/PORTFOLIO-OF-PROJECTS/master/PROJECTS/WaterDashBoard/dashboard.gif">
   
@@ -97,7 +97,7 @@ https://silcott.github.io/
   * **Description:**  This is an overkill excel spreadsheet with all the bells and whistles.  I used a lot of formulas and coded in VBA to make Fullscreen modes and create a dashboard that felt like an app to capture all the data my team was getting from a deployment to Saudi Arabia.  We oversaw all the water on base, and this helped us win the Team of the Month award and many praises from leaders. Enjoy!
   * **Tools:**  Visual Basic in Excel
 
-  ### Website - My Portfolio
+### Website - My Portfolio
   <!--* **View Project:**  http://www.insertpage.com-->
 <img align="right" height="270px" width="450px" alt="GIF" src="https://github.com/Silcott/silcott.github.io/blob/master/gif/silcottwebgif.gif">
   
@@ -107,7 +107,7 @@ https://silcott.github.io/
   
   * **NO. Lines of code:**  236
   
-  ### Python Console - Turtle Happy Birthday
+### Python Console - Turtle Happy Birthday
   <!--* **View Project:**  http://www.insertpage.com-->
 <img align="right" height="270px" width="450px" alt="GIF" src="https://raw.githubusercontent.com/Silcott/PORTFOLIO-OF-PROJECTS/master/PROJECTS/Turtle/gif/happybirthdaygif.gif">
 
@@ -117,7 +117,7 @@ https://silcott.github.io/
   
   * **NO. Lines of code:**  662
   
-  ### C# Console App - My Collection of Programming & Calculators
+### C# Console App - My Collection of Programming & Calculators
   <!--* **View Project:**  http://www.insertpage.com-->
 <img align="right" height="270px" width="450px" alt="GIF" src="https://raw.githubusercontent.com/Silcott/PORTFOLIO-OF-PROJECTS/master/PROJECTS/CalculatorMASTER/gif/menupic.svg">
   
@@ -127,7 +127,7 @@ https://silcott.github.io/
   
   * **NO. Lines of code:**  664+
   
-    ### C# Console App - Bug Tracker
+### C# Console App - Bug Tracker
   <!--* **View Project:**  http://www.insertpage.com-->
 <img align="right" height="270px" width="450px" alt="GIF" src="https://raw.githubusercontent.com/Silcott/PORTFOLIO-OF-PROJECTS/master/PROJECTS/ConsoleBugTracker/gif/bugTrackerGif.gif">
   
@@ -137,7 +137,7 @@ https://silcott.github.io/
   
   * **NO. Lines of code:**  871
 
-    ### C# Console App - Test Generator "History Edition"
+### C# Console App - Test Generator "History Edition"
   <!--* **View Project:**  http://www.insertpage.com-->
 <img align="right" height="270px" width="450px" alt="GIF" src="https://raw.githubusercontent.com/Silcott/PORTFOLIO-OF-PROJECTS/master/PROJECTS/HistoryTest/assets/gif/historyTest.gif">
   
@@ -147,7 +147,7 @@ https://silcott.github.io/
   
   * **NO. Lines of code:**  863
  
-     ### C# Console App - Test Generator "Math Edition"
+ ### C# Console App - Test Generator "Math Edition"
   <!--* **View Project:**  http://www.insertpage.com-->
 <img align="right" height="270px" width="450px" alt="GIF" src="https://raw.githubusercontent.com/Silcott/PORTFOLIO-OF-PROJECTS/master/PROJECTS/MathGames/assets/gif/mathTest.gif">
   
@@ -157,7 +157,7 @@ https://silcott.github.io/
   
   * **NO. Lines of code:**  1333
  
- ### C# Console App - Base Number Calculator & Converter
+### C# Console App - Base Number Calculator & Converter
   <!--* **View Project:**  http://www.insertpage.com-->
 <img align="right" height="270px" width="450px" alt="GIF" src="https://raw.githubusercontent.com/Silcott/PORTFOLIO-OF-PROJECTS/master/PROJECTS/BaseNumberConversion/assets/gif/Capture.PNG">
   
@@ -166,3 +166,13 @@ https://silcott.github.io/
   * **Tools:**  C#
   
   * **NO. Lines of code:**  535
+  
+### MVC Azure Razor Web Page - Create A Person
+  <!--* **View Project:**  http://www.insertpage.com-->
+<img align="right" height="270px" width="450px" alt="GIF" src="https://raw.githubusercontent.com/Silcott/PORTFOLIO-OF-PROJECTS/master/PROJECTS/MVC_CreatePerson/assets/gif.gif">
+  
+  * **Repository:**  https://github.com/Silcott/PORTFOLIO-OF-PROJECTS/tree/master/PROJECTS/MVC_CreatePerson/Program.cs
+  * **Description:** This is my first attempt at building a (MVC) Model, View, Controller pattern.  I had a project to design a person class.  Of course, I took it a few steps more, even though it does not look like much I decided to build a form with links, store the database with SQL, then deploy it with Azure.  I became very familiar with sting connections and how SQL and Azure relate.
+  * **Tools:**  C#, SQL, Azure, Razor
+  
+  * **View the site: https://mvccreateperson20201008111134.azurewebsites.net/

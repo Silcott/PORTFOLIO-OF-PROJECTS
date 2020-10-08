@@ -1,3 +1,13 @@
 {
-  "dependencies": {}
+  "dependencies": {
+    "secrets1": {
+      "type": "secrets.user"
+    },
+    "mssql1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/silcottjb0001sever/databases/silcott.jb0001_db",
+      "type": "mssql.azure",
+      "connectionId": "Server=tcp",
+      "secretStore": "LocalSecretsFile"
+    }
+  }
 }

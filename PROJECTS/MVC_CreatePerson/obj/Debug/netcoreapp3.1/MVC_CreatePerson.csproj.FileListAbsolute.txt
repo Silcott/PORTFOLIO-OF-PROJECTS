@@ -178,3 +178,4 @@ C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\MVC_CreatePerson\obj\Debug\netcore
 C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\MVC_CreatePerson\bin\Debug\netcoreapp3.1\Properties\serviceDependencies.MVCCreatePerson20201008111134 - Web Deploy.json
 C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\MVC_CreatePerson\bin\Debug\netcoreapp3.1\Properties\ServiceDependencies\MVCCreatePerson20201008111134 - Web Deploy\mssql1.arm.json
 C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\MVC_CreatePerson\bin\Debug\netcoreapp3.1\Properties\ServiceDependencies\MVCCreatePerson20201008111134 - Web Deploy\profile.arm.json
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\MVC_CreatePerson\bin\Debug\netcoreapp3.1\Properties\ServiceDependencies\local\mssql1.arm.json

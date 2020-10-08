@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "/zA9gebZBbNzTSH6ZImehQbfFKxpxoQ9epfcDj1r3wGgNBoW/fhxyF3MU/FDsOxA1FbmNH01NVvEmJ41xppAyw==",
+  "dgSpecHash": "7eoymofIpmjClpU2tXMIXzA7aoLne6qNcmAIuKPwHP/8El9Tz4BZE2E6x+ouNQiAk8lIveO4HjB3D0OD6T7rLw==",
   "success": true,
   "projectFilePath": "C:\\Github\\repo\\PORTFOLIO-OF-PROJECTS\\PROJECTS\\MVC_CreatePerson\\MVC_CreatePerson.csproj",
   "expectedPackageFiles": [
@@ -172,9 +172,7 @@
     "C:\\Users\\silco\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\silco\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\silco\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\silco\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
-    "C:\\Users\\silco\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512",
-    "C:\\Users\\silco\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.2\\microsoft.netcore.app.host.win-x64.3.1.2.nupkg.sha512"
+    "C:\\Users\\silco\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
   ],
   "logs": []
 }
