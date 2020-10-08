@@ -29,7 +29,7 @@ namespace MVC_CreatePerson
             services.AddControllersWithViews();
 
             services.AddDbContext<MvcPeopleContext>(options =>
-                options.UseSqlServer(Configuration.GetConnectionString("MvcPeopleContext")));
+                options.UseSqlServer(Configuration.GetConnectionString("Server=tcp")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

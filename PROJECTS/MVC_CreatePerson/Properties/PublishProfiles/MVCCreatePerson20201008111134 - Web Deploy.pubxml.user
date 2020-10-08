@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAsccVpG9VxU+coZK+RyqmMQAAAAACAAAAAAAQZgAAAAEAACAAAADCMSWholmjxTGiUQu39q7TwbNjMxsEJpM5plmlAOd9RgAAAAAOgAAAAAIAACAAAAD9T+PoUGUfLAw2lUBt3QOTWkfKz1R4zLgkeUtvBLOnJoAAAACj3QYIxSoDUWLprYKUCCQUN3lCT3TYfSTWUXb2UGGU5IvOvcAHuw2mCPPKo/8GMODXBvOFHJWLJd4WjMHW35cd+baJdSimLhz2hX8/tKN9mGUyXtKvxhNIPy7A0Ve6HdBVg6WtLT2GvibpY2nCbUJmzt83NvoFuspIx4ZDxTSf5kAAAAAb0BepHdq56PuG9tg7ma0fDDSu59CLYvVwppgdNC5YJxj2zJ6URWu/aQYlnrajQNeWbnKlF32Rof4Wi/Fo/ZUF</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="Server=tcp">
+      <Value>Data Source=tcp:silcottjb0001sever.database.windows.net,1433%3bInitial Catalog=silcott.jb0001_db%3bUser Id=silcott%40silcottjb0001sever%3bPassword=Iam2coo!0178</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="MVC_CreatePerson.Data.MvcPeopleContext">
+      <Value>Data Source=tcp:silcottjb0001sever.database.windows.net,1433%3bInitial Catalog=silcott.jb0001_db%3bUser Id=silcott%40silcottjb0001sever%3bPassword=Iam2coo!0178</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

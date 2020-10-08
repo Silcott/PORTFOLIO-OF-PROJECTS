@@ -1,0 +1,4 @@
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\TasksAndParallelProcessing\obj\Debug\netcoreapp3.1\TasksAndParallelProcessing.csprojAssemblyReference.cache
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\TasksAndParallelProcessing\obj\Debug\netcoreapp3.1\TasksAndParallelProcessing.AssemblyInfoInputs.cache
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\TasksAndParallelProcessing\obj\Debug\netcoreapp3.1\TasksAndParallelProcessing.AssemblyInfo.cs
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\TasksAndParallelProcessing\obj\Debug\netcoreapp3.1\TasksAndParallelProcessing.csproj.CoreCompileInputs.cache
