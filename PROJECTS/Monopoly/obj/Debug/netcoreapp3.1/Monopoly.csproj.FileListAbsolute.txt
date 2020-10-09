@@ -26,3 +26,29 @@ C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\Monopoly\bin\Debug\netcoreapp3.1\S
 C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\Monopoly\bin\Debug\netcoreapp3.1\Caliburn.Micro.dll
 C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\Monopoly\obj\Debug\netcoreapp3.1\Monopoly.csproj.CoreCompileInputs.cache
 C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\Monopoly\obj\Debug\netcoreapp3.1\Monopoly.MvcApplicationPartsAssemblyInfo.cache
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\Monopoly\bin\Debug\netcoreapp3.1\New folder\test2\Monopoly\bin\Monopoly.dll.config
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\Monopoly\bin\Debug\netcoreapp3.1\New folder\test2\Monopoly\bin\roslyn\csc.exe.config
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\Monopoly\bin\Debug\netcoreapp3.1\New folder\test2\Monopoly\bin\roslyn\csi.exe.config
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\Monopoly\bin\Debug\netcoreapp3.1\New folder\test2\Monopoly\bin\roslyn\vbc.exe.config
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\Monopoly\bin\Debug\netcoreapp3.1\New folder\test2\Monopoly\bin\roslyn\VBCSCompiler.exe.config
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\Monopoly\bin\Debug\netcoreapp3.1\New folder\test2\Monopoly\packages.config
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\Monopoly\bin\Debug\netcoreapp3.1\New folder\test2\Monopoly\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\Roslyn45\csc.exe.config
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\Monopoly\bin\Debug\netcoreapp3.1\New folder\test2\Monopoly\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\Roslyn45\vbc.exe.config
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\Monopoly\bin\Debug\netcoreapp3.1\New folder\test2\Monopoly\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\Roslyn45\VBCSCompiler.exe.config
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\Monopoly\bin\Debug\netcoreapp3.1\New folder\test2\Monopoly\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\RoslynLatest\csc.exe.config
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\Monopoly\bin\Debug\netcoreapp3.1\New folder\test2\Monopoly\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\RoslynLatest\csi.exe.config
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\Monopoly\bin\Debug\netcoreapp3.1\New folder\test2\Monopoly\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\RoslynLatest\vbc.exe.config
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\Monopoly\bin\Debug\netcoreapp3.1\New folder\test2\Monopoly\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\RoslynLatest\VBCSCompiler.exe.config
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\Monopoly\bin\Debug\netcoreapp3.1\New folder\test2\Monopoly\Views\Web.config
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\Monopoly\bin\Debug\netcoreapp3.1\New folder\test2\Monopoly\Web.config
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\Monopoly\bin\Debug\netcoreapp3.1\New folder\test2\Monopoly\Web.Debug.config
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\Monopoly\bin\Debug\netcoreapp3.1\New folder\test2\Monopoly\Web.Release.config
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\Monopoly\bin\Debug\netcoreapp3.1\New folder\MonopolyApp\Monopoly\obj\Monopoly.csproj.nuget.dgspec.json
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\Monopoly\bin\Debug\netcoreapp3.1\New folder\MonopolyApp\Monopoly\obj\project.assets.json
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\Monopoly\bin\Debug\netcoreapp3.1\New folder\test4\Monopoly1\obj\Monopoly1.csproj.nuget.dgspec.json
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\Monopoly\bin\Debug\netcoreapp3.1\New folder\test4\Monopoly1\obj\project.assets.json
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\Monopoly\bin\Debug\netcoreapp3.1\OpenTK.dll
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\Monopoly\obj\Debug\netcoreapp3.1\Monopoly.New_folder.test2.Monopoly.My_Project.Resources.resources
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\Monopoly\obj\Debug\netcoreapp3.1\Monopoly.csproj.GenerateResource.cache
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\Monopoly\bin\Debug\netcoreapp3.1\MonoGame.Framework.Content.Pipeline.dll
+C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\Monopoly\bin\Debug\netcoreapp3.1\MonoGame.Framework.dll

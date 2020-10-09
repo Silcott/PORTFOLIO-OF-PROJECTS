@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "vlARNeS/f/r+W+m2MXFnkoocLulOdJik1YK/DMNBGjZNJdnAiH03zoyUJQteCtIXm9UL5lkU0GOBbQlIb5gKPQ==",
+  "success": true,
+  "projectFilePath": "C:\\Github\\repo\\PORTFOLIO-OF-PROJECTS\\PROJECTS\\HuntTheWumpusM4edition\\HuntTheWumpusM4edition.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\silco\\.nuget\\packages\\monogame.content.builder.task\\3.8.0.1641\\monogame.content.builder.task.3.8.0.1641.nupkg.sha512",
+    "C:\\Users\\silco\\.nuget\\packages\\monogame.framework.desktopgl\\3.8.0.1641\\monogame.framework.desktopgl.3.8.0.1641.nupkg.sha512"
+  ],
+  "logs": []
+}
