@@ -35,6 +35,9 @@ namespace BookStore_API.Controllers
         /// </summary>
         /// <returns>Lists of Authors</returns>
         [HttpGet]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
+
         public async Task<IActionResult> GetAuthors()
         {
             try
@@ -58,6 +61,9 @@ namespace BookStore_API.Controllers
         /// <returns>An Author's record</returns>
         //Let API controller know it requires a parameter int named id
         [HttpGet("{id}")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         public async Task<IActionResult> GetAuthor(int id)
         {
             try
@@ -79,6 +85,28 @@ namespace BookStore_API.Controllers
             }
         }
 
+        public async Task<IActionResult> Create([FromBody] AuthorCreateDTO author)
+        {
+            try
+            {
+                _logger.LogInfo($"Author Submission Attempted");
+                //if user submits request and no author is listed or data
+                if (author == null)
+                {
+                    _logger.LogWarn($"Empty Request was Submitted");
+                    return BadRequest(ModelState);//ModelState tracks the status of the data values
+                }
+                //if the data doesn't meet the criteria of the AuthorCreateDTO properties
+                if (!ModelState.IsValid)
+                {
+                    
+                }
+            }
+            catch (Exception e)
+            {
+                return InternalError($"{e.Message} - {e.InnerException}");
+            }
+        }
         private ObjectResult InternalError(string message)
         {
             _logger.LogError(message);

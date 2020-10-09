@@ -15,6 +15,13 @@
             </summary>
             <returns>Lists of Authors</returns>
         </member>
+        <member name="M:BookStore_API.Controllers.AuthorsController.GetAuthor(System.Int32)">
+            <summary>
+            Get an Author by Id
+            </summary>
+            <param name="id"></param>
+            <returns>An Author's record</returns>
+        </member>
         <member name="M:BookStore_API.Controllers.HomeController.Get">
             <summary>
             This is a test API controller
