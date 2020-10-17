@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HTW_ConsoleApp", "HTW_ConsoleApp.csproj", "{DC7E6F9C-1DC2-4EC3-AD24-6CA1924BBE26}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DC7E6F9C-1DC2-4EC3-AD24-6CA1924BBE26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC7E6F9C-1DC2-4EC3-AD24-6CA1924BBE26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC7E6F9C-1DC2-4EC3-AD24-6CA1924BBE26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC7E6F9C-1DC2-4EC3-AD24-6CA1924BBE26}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7BB0B922-6E4E-480D-8963-FA0808AC0861}
+	EndGlobalSection
+EndGlobal

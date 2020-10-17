@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrashAppDelete", "TrashAppDelete.csproj", "{B73B5FC5-D811-48DA-9B0D-AB7070A61579}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B73B5FC5-D811-48DA-9B0D-AB7070A61579}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B73B5FC5-D811-48DA-9B0D-AB7070A61579}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B73B5FC5-D811-48DA-9B0D-AB7070A61579}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B73B5FC5-D811-48DA-9B0D-AB7070A61579}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {95E1C8D2-5F73-40F5-9C44-3917B9778C2E}
+	EndGlobalSection
+EndGlobal
