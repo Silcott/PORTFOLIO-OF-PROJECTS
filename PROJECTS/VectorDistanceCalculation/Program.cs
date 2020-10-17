@@ -131,6 +131,8 @@ namespace VectorDistanceCalculation
 
         public void CalcDist()
         {
+            Console.WriteLine("Turn Graphic Mode: [0]OFF or [1]ON");
+            string graphicResponse = Console.ReadLine();
             for (int i = 0; i < Datum3.numberOfPoints; ++i)
             {
                 VectorVar.x1 = VectorVar.random.Next(1, 1000);
@@ -187,12 +189,7 @@ namespace VectorDistanceCalculation
 
             foreach (var point in Datum3.points)
             {
-                Console.Clear();
-                Graphics g;
-                using (g = Graphics.FromHwnd(IntPtr.Zero))
-                {
-                    g.Clear(Color.Black);
-                }
+                
 
                 //Distance Formula and Pythagorean Theorem
                 double lXY = Math.Sqrt(((point.x2 - point.x1)*(point.x2 - point.x1))  + ((point.y2 - point.y1)*(point.y2 - point.y1)));//x => y
@@ -202,122 +199,158 @@ namespace VectorDistanceCalculation
                 double lYA = Math.Sqrt(((point.a1 - point.x2)*(point.a1 - point.x2))  + ((point.a2 - point.y2)*(point.a2 - point.y2)));//y => a
                 double lZA = Math.Sqrt(((point.a1 - point.z1)*(point.a1 - point.z1))  + ((point.a2 - point.z2)*(point.a2 - point.z2)));//z => a
 
-                //double lXY = Math.Sqrt(Convert.ToInt32(xSquared) + Convert.ToInt32(ySquared));
-                //double lXZ = Math.Sqrt(Convert.ToInt32(xSquared) + Convert.ToInt32(zSquared));
-                //double lYZ = Math.Sqrt(Convert.ToInt32(ySquared) + Convert.ToInt32(zSquared));
-                //double lXA = Math.Sqrt(Convert.ToInt32(xSquared) + Convert.ToInt32(aSquared));
-                //double lYA = Math.Sqrt(Convert.ToInt32(ySquared) + Convert.ToInt32(aSquared));
-                //double lZA = Math.Sqrt(Convert.ToInt32(zSquared) + Convert.ToInt32(aSquared));
-
-                //USE FOR CONSOLE TEXT
-                //Console.Write(String.Join(
-                //    " ",
-                //    $"Element: {point.ID}\n",
-                //    $"  Vectors: \n" +
-                //    $"      X:[{point.x1},{point.y1}]\n" +
-                //    $"      Y:[{point.x2},{point.y2}]\n" +
-                //    $"      Z:[{point.z1},{point.z2}]\n" +
-                //    $"      A:[{point.a1},{point.a2}] -- Target Point\n" +
-                //    $"    Distances: " +
-                //    $"\n        x => y: {lXY}" +
-                //    $"\n        x => z: {lXZ}" +
-                //    $"\n        y => z: {lYZ}" +
-                //    $"\n        x => a: {lXA}" +
-                //    $"\n        y => a: {lYA}" +
-                //    $"\n        z => a: {lZA}"));
-
-                //USE FOR GRAPHIC TEXT
-                Console.WriteLine();
-                Draw.DrawFont(1100, 50, $"Element: {point.ID}\n" +
-                    $"  Vectors: \n" +
-                    $"      X:[{point.x1},{point.y1}]\n" +
-                    $"      Y:[{point.x2},{point.y2}]\n" +
-                    $"      Z:[{point.z1},{point.z2}]\n" +
-                    $"      A:[{point.a1},{point.a2}] -- Target Point\n" +
-                    $"    Distances: " +
-                    $"\n        x => y: {lXY}" +
-                    $"\n        x => z: {lXZ}" +
-                    $"\n        y => z: {lYZ}" +
-                    $"\n        x => a: {lXA}" +
-                    $"\n        y => a: {lYA}" +
-                    $"\n        z => a: {lZA}", Brushes.GhostWhite);
-                Draw.DrawFont(point.x1, point.y1 + 20, $"X", Brushes.LawnGreen);
-                Draw.DrawFont(point.x2, point.y2 + 20, $"Y", Brushes.LawnGreen);
-                Draw.DrawFont(point.z1, point.z2 + 20, $"Z", Brushes.LawnGreen);
-                Draw.DrawFont(point.a1, point.a2 + 40, $"A", Brushes.LawnGreen);
-
-                List<double> lowestNum = new List<double>();
-                lowestNum.Add(lXA);
-                lowestNum.Add(lYA);
-                lowestNum.Add(lZA);
-                double lowestDistance = lowestNum.Min();
-                int time = 1500;//900+ normal, 100 fast
-                if (lowestDistance == lXA)
+                if (graphicResponse == "0")
                 {
-                    //Console.Write($"    Closest Vector to A is: X:[{point.x1},{point.y1}]");
-                    Draw.DrawCircle(Pens.Red, point.x1 - 10, point.y1 - 10, 20, 20, "#FFF0FFFF");
-                    Draw.DrawCircle(Pens.Red, point.x2 - 10, point.y2 - 10, 20, 20, "#FFF0FFFF");
-                    Draw.DrawCircle(Pens.Red, point.z1 - 10, point.z2 - 10, 20, 20, "#FFF0FFFF");
-                    Draw.DrawCircle(Pens.Red, point.a1 - 10, point.a2 - 10, 20, 20, "#FFF0FFFF");
-                    Draw.DrawLine(Color.Red, point.x1, point.y1, point.x2, point.y2);//x => y
-                    Draw.DrawLine(Color.Red, point.x2, point.y2, point.z1, point.z2);//y => z
-                    Draw.DrawLine(Color.Red, point.z1, point.z2, point.x1, point.y1);//z => x
-                    Draw.DrawLine(Color.Red, point.z1, point.z2, point.x2, point.y2);//z => y
-                    Draw.DrawLine(Color.White, point.z1, point.z2, point.a1, point.a2);//z => a
-                    Draw.DrawLine(Color.White, point.a1, point.a2, point.x1, point.y1);//a => x
-                    Draw.DrawLine(Color.White, point.a1, point.a2, point.x2, point.y2);//a => y
-                    Draw.DrawLine(Color.YellowGreen, point.x1, point.y1, point.a1, point.a2);
-                    Draw.DrawCircle(Pens.Red, point.a1 - 10, point.a2 - 10, 30, 30, "#ffff00");
-                    Draw.DrawFont(point.x1 + 20, point.y1 + 20, $"Distance: {lXA}", Brushes.OrangeRed);
-                    Draw.DrawFont(1100, 600, $"Closest Vector to A is: X:[{point.x1},{point.y1}]", Brushes.YellowGreen);
-                    Thread.Sleep(time);
-                }
-                else if (lowestDistance == lYA)
-                {
-                    //Console.Write($"    Closest Vector to A is: Y:[{point.x2},{point.y2}]");
-                    Draw.DrawCircle(Pens.Red, point.x1 - 10, point.y1 - 10, 20, 20, "#FFF0FFFF");
-                    Draw.DrawCircle(Pens.Red, point.x2 - 10, point.y2 - 10, 20, 20, "#FFF0FFFF");
-                    Draw.DrawCircle(Pens.Red, point.z1 - 10, point.z2 - 10, 20, 20, "#FFF0FFFF");
-                    Draw.DrawCircle(Pens.Red, point.a1 - 10, point.a2 - 10, 20, 20, "#FFF0FFFF");
-                    Draw.DrawLine(Color.Red, point.x1, point.y1, point.x2, point.y2);//x => y
-                    Draw.DrawLine(Color.Red, point.x2, point.y2, point.z1, point.z2);//y => z
-                    Draw.DrawLine(Color.Red, point.z1, point.z2, point.x1, point.y1);//z => x
-                    Draw.DrawLine(Color.Red, point.z1, point.z2, point.x2, point.y2);//z => y
-                    Draw.DrawLine(Color.White, point.z1, point.z2, point.a1, point.a2);//z => a
-                    Draw.DrawLine(Color.White, point.a1, point.a2, point.x1, point.y1);//a => x
-                    Draw.DrawLine(Color.White, point.a1, point.a2, point.x2, point.y2);//a => y
-                    Draw.DrawLine(Color.YellowGreen, point.x2, point.y2, point.a1, point.a2);
-                    Draw.DrawCircle(Pens.Red, point.a1 - 10, point.a2 - 10, 30, 30, "#ffff00");
-                    Draw.DrawFont(point.x2 + 20, point.y2 + 20, $"Distance: {lYA}", Brushes.OrangeRed);
-                    Draw.DrawFont(1100, 600, $"Closest Vector to A is: Y:[{point.x2},{point.y2}]", Brushes.YellowGreen);
-                    Thread.Sleep(time);
-                }
-                else if (lowestDistance == lZA)
-                {
-                    //Console.Write($"    Closest Vector to A is: Z:[{point.z1},{point.z2}]");
-                    Draw.DrawCircle(Pens.Red, point.x1 - 10, point.y1 - 10, 20, 20, "#FFF0FFFF");
-                    Draw.DrawCircle(Pens.Red, point.x2 - 10, point.y2 - 10, 20, 20, "#FFF0FFFF");
-                    Draw.DrawCircle(Pens.Red, point.z1 - 10, point.z2 - 10, 20, 20, "#FFF0FFFF");
-                    Draw.DrawCircle(Pens.Red, point.a1 - 10, point.a2 - 10, 20, 20, "#FFF0FFFF");
-                    Draw.DrawLine(Color.Red, point.x1, point.y1, point.x2, point.y2);//x => y
-                    Draw.DrawLine(Color.Red, point.x2, point.y2, point.z1, point.z2);//y => z
-                    Draw.DrawLine(Color.Red, point.z1, point.z2, point.x1, point.y1);//z => x
-                    Draw.DrawLine(Color.Red, point.z1, point.z2, point.x2, point.y2);//z => y
-                    Draw.DrawLine(Color.White, point.z1, point.z2, point.a1, point.a2);//z => a
-                    Draw.DrawLine(Color.White, point.a1, point.a2, point.x1, point.y1);//a => x
-                    Draw.DrawLine(Color.White, point.a1, point.a2, point.x2, point.y2);//a => y
-                    Draw.DrawLine(Color.YellowGreen, point.z1, point.z2, point.a1, point.a2);
-                    Draw.DrawCircle(Pens.Red, point.a1 - 10, point.a2 - 10, 30, 30, "#ffff00");
-                    Draw.DrawFont(point.z1 + 20, point.z2 + 20, $"Distance: {lZA}", Brushes.OrangeRed);
-                    Draw.DrawFont(1100, 600, $"Closest Vector to A is: Z:[{point.z1},{point.z2}]", Brushes.YellowGreen);
-                    Thread.Sleep(time);
+                    //USE FOR CONSOLE TEXT
+                    Console.Write(String.Join(
+                        " ",
+                        $"Element: {point.ID}\n",
+                        $"  Vectors: \n" +
+                        $"      X:[{point.x1},{point.y1}]\n" +
+                        $"      Y:[{point.x2},{point.y2}]\n" +
+                        $"      Z:[{point.z1},{point.z2}]\n" +
+                        $"      A:[{point.a1},{point.a2}] -- Target Point\n" +
+                        $"    Distances: " +
+                        $"\n        x => y: {lXY}" +
+                        $"\n        x => z: {lXZ}" +
+                        $"\n        y => z: {lYZ}" +
+                        $"\n        x => a: {lXA}" +
+                        $"\n        y => a: {lYA}" +
+                        $"\n        z => a: {lZA}"));
+                    List<double> lowestNum = new List<double>();
+                    lowestNum.Add(lXA);
+                    lowestNum.Add(lYA);
+                    lowestNum.Add(lZA);
+                    double lowestDistance = lowestNum.Min();
+                    Console.WriteLine();
+                    if (lowestDistance == lXA)
+                    {
+                        Console.Write($"    Closest Vector to A is: X:[{point.x1},{point.y1}]");
+                    }
+                    else if (lowestDistance == lYA)
+                    {
+                        Console.Write($"    Closest Vector to A is: Y:[{point.x2},{point.y2}]");
+                    }
+                    else if (lowestDistance == lZA)
+                    {
+                        Console.Write($"    Closest Vector to A is: Z:[{point.z1},{point.z2}]");
+                    }
+                    Console.WriteLine();
+                    Console.WriteLine("#####################################################");
+                    Thread.Sleep(150);
+                    Console.Clear();
 
                 }
-                Console.WriteLine();
-                //Console.WriteLine("#####################################################");
-                //Draw.DrawRectangleWhite(0, 0, 1920, 1080);
-                Draw.DrawFont(1100, 650, $" -Press Enter to Continue-", Brushes.DeepSkyBlue);
-                Console.ReadLine();
+                else if (graphicResponse == "1")
+                {
+                    Console.Clear();
+                    Graphics g;
+                    using (g = Graphics.FromHwnd(IntPtr.Zero))
+                    {
+                        g.Clear(Color.Black);
+                    }
+
+                    //USE FOR GRAPHIC TEXT
+                    Console.WriteLine();
+                    Draw.DrawFont(1100, 50, $"Element: {point.ID}\n" +
+                                            $"  Vectors: \n" +
+                                            $"      X:[{point.x1},{point.y1}]\n" +
+                                            $"      Y:[{point.x2},{point.y2}]\n" +
+                                            $"      Z:[{point.z1},{point.z2}]\n" +
+                                            $"      A:[{point.a1},{point.a2}] -- Target Point\n" +
+                                            $"    Distances: " +
+                                            $"\n        x => y: {lXY}" +
+                                            $"\n        x => z: {lXZ}" +
+                                            $"\n        y => z: {lYZ}" +
+                                            $"\n        x => a: {lXA}" +
+                                            $"\n        y => a: {lYA}" +
+                                            $"\n        z => a: {lZA}", Brushes.GhostWhite);
+                    Draw.DrawFont(point.x1, point.y1 + 20, $"X", Brushes.LawnGreen);
+                    Draw.DrawFont(point.x2, point.y2 + 20, $"Y", Brushes.LawnGreen);
+                    Draw.DrawFont(point.z1, point.z2 + 20, $"Z", Brushes.LawnGreen);
+                    Draw.DrawFont(point.a1, point.a2 + 40, $"A", Brushes.LawnGreen);
+
+                    List<double> lowestNum = new List<double>();
+                    lowestNum.Add(lXA);
+                    lowestNum.Add(lYA);
+                    lowestNum.Add(lZA);
+                    double lowestDistance = lowestNum.Min();
+                    int time = 1500; //900+ normal, 100 fast
+                    if (lowestDistance == lXA)
+                    {
+                        //Console.Write($"    Closest Vector to A is: X:[{point.x1},{point.y1}]");
+                        Draw.DrawCircle(Pens.Red, point.x1 - 10, point.y1 - 10, 20, 20, "#FFF0FFFF");
+                        Draw.DrawCircle(Pens.Red, point.x2 - 10, point.y2 - 10, 20, 20, "#FFF0FFFF");
+                        Draw.DrawCircle(Pens.Red, point.z1 - 10, point.z2 - 10, 20, 20, "#FFF0FFFF");
+                        Draw.DrawCircle(Pens.Red, point.a1 - 10, point.a2 - 10, 20, 20, "#FFF0FFFF");
+                        Draw.DrawLine(Color.Red, point.x1, point.y1, point.x2, point.y2); //x => y
+                        Draw.DrawLine(Color.Red, point.x2, point.y2, point.z1, point.z2); //y => z
+                        Draw.DrawLine(Color.Red, point.z1, point.z2, point.x1, point.y1); //z => x
+                        Draw.DrawLine(Color.Red, point.z1, point.z2, point.x2, point.y2); //z => y
+                        Draw.DrawLine(Color.White, point.z1, point.z2, point.a1, point.a2); //z => a
+                        Draw.DrawLine(Color.White, point.a1, point.a2, point.x1, point.y1); //a => x
+                        Draw.DrawLine(Color.White, point.a1, point.a2, point.x2, point.y2); //a => y
+                        Draw.DrawLine(Color.YellowGreen, point.x1, point.y1, point.a1, point.a2);
+                        Draw.DrawCircle(Pens.Red, point.a1 - 10, point.a2 - 10, 30, 30, "#ffff00");
+                        Draw.DrawFont(point.x1 + 20, point.y1 + 20, $"Distance: {lXA}", Brushes.OrangeRed);
+                        Draw.DrawFont(1100, 600, $"Closest Vector to A is: X:[{point.x1},{point.y1}]",
+                            Brushes.YellowGreen);
+                        Thread.Sleep(time);
+                    }
+                    else if (lowestDistance == lYA)
+                    {
+                        //Console.Write($"    Closest Vector to A is: Y:[{point.x2},{point.y2}]");
+                        Draw.DrawCircle(Pens.Red, point.x1 - 10, point.y1 - 10, 20, 20, "#FFF0FFFF");
+                        Draw.DrawCircle(Pens.Red, point.x2 - 10, point.y2 - 10, 20, 20, "#FFF0FFFF");
+                        Draw.DrawCircle(Pens.Red, point.z1 - 10, point.z2 - 10, 20, 20, "#FFF0FFFF");
+                        Draw.DrawCircle(Pens.Red, point.a1 - 10, point.a2 - 10, 20, 20, "#FFF0FFFF");
+                        Draw.DrawLine(Color.Red, point.x1, point.y1, point.x2, point.y2); //x => y
+                        Draw.DrawLine(Color.Red, point.x2, point.y2, point.z1, point.z2); //y => z
+                        Draw.DrawLine(Color.Red, point.z1, point.z2, point.x1, point.y1); //z => x
+                        Draw.DrawLine(Color.Red, point.z1, point.z2, point.x2, point.y2); //z => y
+                        Draw.DrawLine(Color.White, point.z1, point.z2, point.a1, point.a2); //z => a
+                        Draw.DrawLine(Color.White, point.a1, point.a2, point.x1, point.y1); //a => x
+                        Draw.DrawLine(Color.White, point.a1, point.a2, point.x2, point.y2); //a => y
+                        Draw.DrawLine(Color.YellowGreen, point.x2, point.y2, point.a1, point.a2);
+                        Draw.DrawCircle(Pens.Red, point.a1 - 10, point.a2 - 10, 30, 30, "#ffff00");
+                        Draw.DrawFont(point.x2 + 20, point.y2 + 20, $"Distance: {lYA}", Brushes.OrangeRed);
+                        Draw.DrawFont(1100, 600, $"Closest Vector to A is: Y:[{point.x2},{point.y2}]",
+                            Brushes.YellowGreen);
+                        Thread.Sleep(time);
+                    }
+                    else if (lowestDistance == lZA)
+                    {
+                        //Console.Write($"    Closest Vector to A is: Z:[{point.z1},{point.z2}]");
+                        Draw.DrawCircle(Pens.Red, point.x1 - 10, point.y1 - 10, 20, 20, "#FFF0FFFF");
+                        Draw.DrawCircle(Pens.Red, point.x2 - 10, point.y2 - 10, 20, 20, "#FFF0FFFF");
+                        Draw.DrawCircle(Pens.Red, point.z1 - 10, point.z2 - 10, 20, 20, "#FFF0FFFF");
+                        Draw.DrawCircle(Pens.Red, point.a1 - 10, point.a2 - 10, 20, 20, "#FFF0FFFF");
+                        Draw.DrawLine(Color.Red, point.x1, point.y1, point.x2, point.y2); //x => y
+                        Draw.DrawLine(Color.Red, point.x2, point.y2, point.z1, point.z2); //y => z
+                        Draw.DrawLine(Color.Red, point.z1, point.z2, point.x1, point.y1); //z => x
+                        Draw.DrawLine(Color.Red, point.z1, point.z2, point.x2, point.y2); //z => y
+                        Draw.DrawLine(Color.White, point.z1, point.z2, point.a1, point.a2); //z => a
+                        Draw.DrawLine(Color.White, point.a1, point.a2, point.x1, point.y1); //a => x
+                        Draw.DrawLine(Color.White, point.a1, point.a2, point.x2, point.y2); //a => y
+                        Draw.DrawLine(Color.YellowGreen, point.z1, point.z2, point.a1, point.a2);
+                        Draw.DrawCircle(Pens.Red, point.a1 - 10, point.a2 - 10, 30, 30, "#ffff00");
+                        Draw.DrawFont(point.z1 + 20, point.z2 + 20, $"Distance: {lZA}", Brushes.OrangeRed);
+                        Draw.DrawFont(1100, 600, $"Closest Vector to A is: Z:[{point.z1},{point.z2}]",
+                            Brushes.YellowGreen);
+                        Thread.Sleep(time);
+
+                    }
+                    Console.WriteLine();
+                    //Console.WriteLine("#####################################################");
+                    //Draw.DrawRectangleWhite(0, 0, 1920, 1080);
+                    Draw.DrawFont(1100, 650, $" -Press Enter to Continue-", Brushes.DeepSkyBlue);
+                    Console.ReadLine();
+                }
+                else
+                {
+                    Console.WriteLine("Try again, incorrect selection");
+                    CalcDist();
+                }
             }
         }
     }
