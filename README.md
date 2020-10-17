@@ -176,3 +176,13 @@ https://silcott.github.io/
   * **Tools:**  C#, SQL, Azure, Razor
   
   * **View the site:** https://mvccreateperson20201008111134.azurewebsites.net/
+
+### C# Console App - Vector Distance Calculator
+  <!--* **View Project:**  http://www.insertpage.com-->
+<img align="right" height="270px" width="450px" alt="GIF" src="https://raw.githubusercontent.com/Silcott/PORTFOLIO-OF-PROJECTS/master/PROJECTS/VectorDistanceCalculation/assets/gif.gif">
+  
+  * **Repository:**  https://github.com/Silcott/PORTFOLIO-OF-PROJECTS/tree/master/PROJECTS/VectorDistanceCalculation/Program.cs
+  * **Description:** This calculates the shortest Euclidean distance using Pythagorean theorem which allows me to compute the length of the hypotenuse of a right triangle, given the length of two sides.  Added a graphical interpretation to this, which was not part of the project, but seemed needed.  I assigned the x, y vectors to the monitor pixels and built draw methods.
+  * **Tools:**  C#, System.Graphics
+  
+  * **NO. Lines of code:**  487
