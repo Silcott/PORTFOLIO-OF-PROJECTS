@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Github\\repo\\PORTFOLIO-OF-PROJECTS\\PROJECTS\\HistoryTest\\HistoryTest.csproj",
+      "projectUniqueName": "F:\\REPO\\PORTFOLIO-OF-PROJECTS\\PROJECTS\\HistoryTest\\HistoryTest.csproj",
       "projectName": "HistoryTest",
-      "projectPath": "C:\\Github\\repo\\PORTFOLIO-OF-PROJECTS\\PROJECTS\\HistoryTest\\HistoryTest.csproj",
+      "projectPath": "F:\\REPO\\PORTFOLIO-OF-PROJECTS\\PROJECTS\\HistoryTest\\HistoryTest.csproj",
       "packagesPath": "C:\\Users\\silco\\.nuget\\packages\\",
-      "outputPath": "C:\\Github\\repo\\PORTFOLIO-OF-PROJECTS\\PROJECTS\\HistoryTest\\obj\\",
+      "outputPath": "F:\\REPO\\PORTFOLIO-OF-PROJECTS\\PROJECTS\\HistoryTest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -63,7 +63,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Github\\repo\\PORTFOLIO-OF-PROJECTS\\PROJECTS\\CalculatePi\\CalculatePi.csproj",
+      "projectUniqueName": "F:\\REPO\\PORTFOLIO-OF-PROJECTS\\PROJECTS\\CalculatePi\\CalculatePi.csproj",
       "projectName": "CalculatePi",
-      "projectPath": "C:\\Github\\repo\\PORTFOLIO-OF-PROJECTS\\PROJECTS\\CalculatePi\\CalculatePi.csproj",
+      "projectPath": "F:\\REPO\\PORTFOLIO-OF-PROJECTS\\PROJECTS\\CalculatePi\\CalculatePi.csproj",
       "packagesPath": "C:\\Users\\silco\\.nuget\\packages\\",
-      "outputPath": "C:\\Github\\repo\\PORTFOLIO-OF-PROJECTS\\PROJECTS\\CalculatePi\\obj\\",
+      "outputPath": "F:\\REPO\\PORTFOLIO-OF-PROJECTS\\PROJECTS\\CalculatePi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"

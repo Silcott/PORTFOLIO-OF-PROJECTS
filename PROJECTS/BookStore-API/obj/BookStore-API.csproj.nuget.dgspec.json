@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Github\\repo\\PORTFOLIO-OF-PROJECTS\\PROJECTS\\BookStore-API\\BookStore-API.csproj": {}
+    "F:\\REPO\\PORTFOLIO-OF-PROJECTS\\PROJECTS\\BookStore-API\\BookStore-API.csproj": {}
   },
   "projects": {
-    "C:\\Github\\repo\\PORTFOLIO-OF-PROJECTS\\PROJECTS\\BookStore-API\\BookStore-API.csproj": {
+    "F:\\REPO\\PORTFOLIO-OF-PROJECTS\\PROJECTS\\BookStore-API\\BookStore-API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Github\\repo\\PORTFOLIO-OF-PROJECTS\\PROJECTS\\BookStore-API\\BookStore-API.csproj",
+        "projectUniqueName": "F:\\REPO\\PORTFOLIO-OF-PROJECTS\\PROJECTS\\BookStore-API\\BookStore-API.csproj",
         "projectName": "BookStore-API",
-        "projectPath": "C:\\Github\\repo\\PORTFOLIO-OF-PROJECTS\\PROJECTS\\BookStore-API\\BookStore-API.csproj",
+        "projectPath": "F:\\REPO\\PORTFOLIO-OF-PROJECTS\\PROJECTS\\BookStore-API\\BookStore-API.csproj",
         "packagesPath": "C:\\Users\\silco\\.nuget\\packages\\",
-        "outputPath": "C:\\Github\\repo\\PORTFOLIO-OF-PROJECTS\\PROJECTS\\BookStore-API\\obj\\",
+        "outputPath": "F:\\REPO\\PORTFOLIO-OF-PROJECTS\\PROJECTS\\BookStore-API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -30,6 +30,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -41,6 +42,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "AutoMapper": {
               "target": "Package",
@@ -62,17 +64,31 @@
               "target": "Package",
               "version": "[3.1.7, )"
             },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
+            "Microsoft.Data.Sqlite": {
               "target": "Package",
-              "version": "[3.1.7, )"
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Data.Sqlite.Core": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[5.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[3.1.7, )"
+              "version": "[5.0.0, )"
             },
             "NLog.Extensions.Logging": {
               "target": "Package",
               "version": "[1.6.5, )"
+            },
+            "SQLitePCLRaw.bundle_e_sqlcipher": {
+              "target": "Package",
+              "version": "[2.0.4, )"
             },
             "Swashbuckle.AspNetCore.Swagger": {
               "target": "Package",
@@ -85,6 +101,18 @@
             "Swashbuckle.AspNetCore.SwaggerUI": {
               "target": "Package",
               "version": "[5.6.3, )"
+            },
+            "System.Data.SQLite": {
+              "target": "Package",
+              "version": "[1.0.113.6, )"
+            },
+            "System.Security.AccessControl": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "System.Security.Principal": {
+              "target": "Package",
+              "version": "[4.3.0, )"
             }
           },
           "imports": [
@@ -105,7 +133,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,0 +1,72 @@
+# The rules for the patterns you can put in the .gitignore file are as follows:
+# 	Blank lines or lines starting with # are ignored.
+# 	Standard glob patterns work, and will be applied recursively throughout the entire working tree.
+# 	You can start patterns with a forward slash (/) to avoid recursivity.
+# 	You can end patterns with a forward slash (/) to specify a directory.
+# 	You can negate a pattern by starting it with an exclamation point (!).
+# Glob patterns are like simplified regular expressions that shells use. 
+# An asterisk (*) matches zero or more characters; 
+# [abc] matches any character inside the brackets (in this case a, b, or c); 
+# a question mark (?) matches a single character; 
+# and brackets enclosing characters separated by a hyphen ([0-9]) 
+# matches any character between them (in this case 0 through 9). 
+# You can also use two asterisks to match nested directories; 
+# a/**/z would match a/z, a/b/z, a/b/c/z, and so on
+
+# Compiled source #
+###################
+*.com
+*.class
+# *.dll
+*.exe
+*.o
+*.so
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+
+# Logs and databases #
+######################
+# *.log
+# *.sql
+# *.sqlite
+
+
+# Pictures and Icons #
+######################
+*.svg
+*.png
+*.jpeg
+
+
+# Slide PowerPoint   #
+######################
+*.pptx
+*.pptm
+*.ppt
+
+
+# Document Reader    #
+######################
+*.pdf
+
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db

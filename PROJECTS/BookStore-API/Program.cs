@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using BookStore_API.Database;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
@@ -13,6 +14,8 @@ namespace BookStore_API
     {
         public static void Main(string[] args)
         {
+            SQLiteDatabase.CreateDatabase();
+
             CreateHostBuilder(args).Build().Run();
         }
 

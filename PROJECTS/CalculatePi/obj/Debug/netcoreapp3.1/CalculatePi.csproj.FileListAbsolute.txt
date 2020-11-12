@@ -11,3 +11,5 @@ C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\CalculatePi\obj\Debug\netcoreapp3.
 C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\CalculatePi\obj\Debug\netcoreapp3.1\CalculatePi.dll
 C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\CalculatePi\obj\Debug\netcoreapp3.1\CalculatePi.pdb
 C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\CalculatePi\obj\Debug\netcoreapp3.1\CalculatePi.genruntimeconfig.cache
+F:\REPO\PORTFOLIO-OF-PROJECTS\PROJECTS\CalculatePi\obj\Debug\netcoreapp3.1\CalculatePi.dll
+F:\REPO\PORTFOLIO-OF-PROJECTS\PROJECTS\CalculatePi\obj\Debug\netcoreapp3.1\CalculatePi.pdb

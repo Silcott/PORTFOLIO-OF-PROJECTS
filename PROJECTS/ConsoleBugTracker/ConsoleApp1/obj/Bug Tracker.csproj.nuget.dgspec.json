@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Github\\repo\\PORTFOLIO-OF-PROJECTS\\PROJECTS\\ConsoleBugTracker\\ConsoleApp1\\Bug Tracker.csproj": {}
+    "F:\\REPO\\PORTFOLIO-OF-PROJECTS\\PROJECTS\\ConsoleBugTracker\\ConsoleApp1\\Bug Tracker.csproj": {}
   },
   "projects": {
-    "C:\\Github\\repo\\PORTFOLIO-OF-PROJECTS\\PROJECTS\\ConsoleBugTracker\\ConsoleApp1\\Bug Tracker.csproj": {
+    "F:\\REPO\\PORTFOLIO-OF-PROJECTS\\PROJECTS\\ConsoleBugTracker\\ConsoleApp1\\Bug Tracker.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Github\\repo\\PORTFOLIO-OF-PROJECTS\\PROJECTS\\ConsoleBugTracker\\ConsoleApp1\\Bug Tracker.csproj",
+        "projectUniqueName": "F:\\REPO\\PORTFOLIO-OF-PROJECTS\\PROJECTS\\ConsoleBugTracker\\ConsoleApp1\\Bug Tracker.csproj",
         "projectName": "Bug Tracker",
-        "projectPath": "C:\\Github\\repo\\PORTFOLIO-OF-PROJECTS\\PROJECTS\\ConsoleBugTracker\\ConsoleApp1\\Bug Tracker.csproj",
+        "projectPath": "F:\\REPO\\PORTFOLIO-OF-PROJECTS\\PROJECTS\\ConsoleBugTracker\\ConsoleApp1\\Bug Tracker.csproj",
         "packagesPath": "C:\\Users\\silco\\.nuget\\packages\\",
-        "outputPath": "C:\\Github\\repo\\PORTFOLIO-OF-PROJECTS\\PROJECTS\\ConsoleBugTracker\\ConsoleApp1\\obj\\",
+        "outputPath": "F:\\REPO\\PORTFOLIO-OF-PROJECTS\\PROJECTS\\ConsoleBugTracker\\ConsoleApp1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -78,7 +78,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     }
