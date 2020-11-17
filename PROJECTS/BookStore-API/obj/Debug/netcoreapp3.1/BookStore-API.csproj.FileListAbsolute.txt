@@ -207,3 +207,10 @@ F:\REPO\PORTFOLIO-OF-PROJECTS\PROJECTS\BookStore-API\bin\Debug\netcoreapp3.1\run
 F:\REPO\PORTFOLIO-OF-PROJECTS\PROJECTS\BookStore-API\bin\Debug\netcoreapp3.1\Humanizer.dll
 F:\REPO\PORTFOLIO-OF-PROJECTS\PROJECTS\BookStore-API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
 F:\REPO\PORTFOLIO-OF-PROJECTS\PROJECTS\BookStore-API\obj\Debug\netcoreapp3.1\BookStore-API.csprojAssemblyReference.cache
+F:\REPO\PORTFOLIO-OF-PROJECTS\PROJECTS\BookStore-API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+F:\REPO\PORTFOLIO-OF-PROJECTS\PROJECTS\BookStore-API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+F:\REPO\PORTFOLIO-OF-PROJECTS\PROJECTS\BookStore-API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+F:\REPO\PORTFOLIO-OF-PROJECTS\PROJECTS\BookStore-API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+F:\REPO\PORTFOLIO-OF-PROJECTS\PROJECTS\BookStore-API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+F:\REPO\PORTFOLIO-OF-PROJECTS\PROJECTS\BookStore-API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+F:\REPO\PORTFOLIO-OF-PROJECTS\PROJECTS\BookStore-API\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll

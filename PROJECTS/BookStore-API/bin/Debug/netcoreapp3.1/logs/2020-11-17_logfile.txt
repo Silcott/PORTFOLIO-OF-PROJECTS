@@ -1,0 +1,26 @@
+2020-11-17 08:03:49.6219 INFO Users - Login: Login Attempt from user admin 
+2020-11-17 08:03:49.8259 INFO Users - Login: admin Successfully Authenticated
+2020-11-17 08:08:41.7300 INFO Authors - GetAuthors: Attempted Call
+2020-11-17 08:08:41.8847 INFO Authors - GetAuthors: Successful
+2020-11-17 08:28:52.6568 INFO Authors - GetAuthors: Attempted Call
+2020-11-17 08:28:52.8003 INFO Authors - GetAuthors: Successful
+2020-11-17 08:29:29.9602 INFO Authors - GetAuthor: Attempted Call for id: 2
+2020-11-17 08:29:30.2822 INFO Authors - GetAuthor: Successfully got record with id: 2
+2020-11-17 08:29:34.6786 INFO Authors - GetAuthors: Attempted Call
+2020-11-17 08:29:34.6963 INFO Authors - GetAuthors: Successful
+2020-11-17 08:33:11.6293 INFO Users - Login: Login Attempt from user customer1 
+2020-11-17 08:33:11.7413 INFO Users - Login: customer1 Successfully Authenticated
+2020-11-17 08:34:56.1255 INFO Users - Login: Login Attempt from user admin 
+2020-11-17 08:34:56.1593 INFO Users - Login: admin Successfully Authenticated
+2020-11-17 08:36:02.1638 INFO Authors - Create: Create Attempted
+2020-11-17 08:36:02.3695 INFO Authors - Create: Creation was successful
+2020-11-17 09:02:43.4621 INFO Users - Login: Login Attempt from user customer1 
+2020-11-17 09:02:43.5051 INFO Users - Login: customer1 Successfully Authenticated
+2020-11-17 09:03:32.9689 INFO Authors - GetAuthor: Attempted Call for id: 11
+2020-11-17 09:03:32.9946 INFO Authors - GetAuthor: Successfully got record with id: 11
+2020-11-17 09:03:50.5187 INFO Authors - Delete: Delete Attempted on record with id: 11 
+2020-11-17 09:03:50.8592 INFO Authors - Delete: Record with id: 11 successfully deleted
+2020-11-17 09:04:12.6489 INFO Authors - GetAuthor: Attempted Call for id: 11
+2020-11-17 09:04:12.8961 WARN Authors - GetAuthor: Failed to retrieve record with id: 11
+2020-11-17 09:04:30.3797 INFO Authors - GetAuthors: Attempted Call
+2020-11-17 09:04:30.4005 INFO Authors - GetAuthors: Successful

@@ -1,9 +1,9 @@
-﻿using System;
+﻿using BookStore_API.Contracts;
+using NLog;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using BookStore_API.Contracts;
-using NLog;
 
 namespace BookStore_API.Services
 {

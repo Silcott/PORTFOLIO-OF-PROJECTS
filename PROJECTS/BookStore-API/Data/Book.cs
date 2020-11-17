@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
+using System.Collections.Generic;
 
 namespace BookStore_API.Data
 {
@@ -11,9 +12,9 @@ namespace BookStore_API.Data
         public string Isbn { get; set; }
         public string Summary { get; set; }
         public string Image { get; set; }
-        public double? Price { get; set; }//?nullable
+        public decimal? Price { get; set; }//?nullable
 
         public int? AuthorId { get; set; }//?nullable
-        public virtual Author Author { get; set; }
+        public virtual Author Author { get; set; } 
     }
 }

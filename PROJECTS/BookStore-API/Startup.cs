@@ -20,6 +20,9 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
 using BookStore_API.Database;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
 
 namespace BookStore_API
 {
@@ -36,15 +39,15 @@ namespace BookStore_API
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<ApplicationDbContext>(options =>
-                options.UseSqlite(
-                    Configuration.GetConnectionString("DefaultConnection")));
-            services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
+                options.UseSqlite(Configuration.GetConnectionString("DefaultConnection")));
+            services.AddDefaultIdentity<IdentityUser>()
+                .AddRoles<IdentityRole>()
                 .AddEntityFrameworkStores<ApplicationDbContext>();
 
             //Add Swagger Services
             services.AddCors(o =>
             {
-                o.AddPolicy("CorsPolicy", 
+                o.AddPolicy("CorsPolicy",
                     builder => builder.AllowAnyOrigin()
                         .AllowAnyMethod()
                         .AllowAnyHeader());
@@ -52,12 +55,27 @@ namespace BookStore_API
 
             //add Automapper
             services.AddAutoMapper(typeof(Maps));
-            
+
+            services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+                .AddJwtBearer(o =>
+                {
+                    o.TokenValidationParameters = new TokenValidationParameters
+                    {
+                        ValidateIssuer = true,
+                        ValidateAudience = true,
+                        ValidateLifetime = true,
+                        ValidateIssuerSigningKey = true,
+                        ValidIssuer = Configuration["Jwt:Issuer"],
+                    ValidAudience = Configuration["Jwt:Issuer"],
+                    IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(Configuration["Jwt:Key"]))
+                    };
+                });
+
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1"/*Version*/,new OpenApiInfo
+                c.SwaggerDoc("v1"/*Version*/, new OpenApiInfo
                 {
-                    Title = "Book Store API", 
+                    Title = "Book Store API",
                     Version = "v1",
                     Description = "This is an education API for a Book Store."
                 });
@@ -73,13 +91,17 @@ namespace BookStore_API
             services.AddSingleton<ILoggerService, LoggerService>();
             //setups the dependency injection, when it see IAuthorRep it knows that share the base class
             services.AddScoped<IAuthorRepository, AuthorRepository>();
+            services.AddScoped<IBookRepository, BookRepository>();
 
             //Save this for last always
             services.AddControllers();//changed from RazorPages
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public void Configure(IApplicationBuilder app,
+            IWebHostEnvironment env,
+            UserManager<IdentityUser> userManager,
+            RoleManager<IdentityRole> roleManager)
         {
             if (env.IsDevelopment())
             {
@@ -106,6 +128,8 @@ namespace BookStore_API
             //removed UseStaticFiles
 
             app.UseCors("CorsPolicy");
+
+            SeedData.Seed(userManager, roleManager).Wait();
 
             app.UseRouting();
 
