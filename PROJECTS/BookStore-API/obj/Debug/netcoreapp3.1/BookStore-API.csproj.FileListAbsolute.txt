@@ -214,3 +214,13 @@ F:\REPO\PORTFOLIO-OF-PROJECTS\PROJECTS\BookStore-API\bin\Debug\netcoreapp3.1\Mic
 F:\REPO\PORTFOLIO-OF-PROJECTS\PROJECTS\BookStore-API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 F:\REPO\PORTFOLIO-OF-PROJECTS\PROJECTS\BookStore-API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
 F:\REPO\PORTFOLIO-OF-PROJECTS\PROJECTS\BookStore-API\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+F:\REPO\PORTFOLIO-OF-PROJECTS\PROJECTS\BookStore-API\obj\Debug\netcoreapp3.1\BookStore-API.RazorComponent.input.cache
+F:\REPO\PORTFOLIO-OF-PROJECTS\PROJECTS\BookStore-API\obj\Debug\netcoreapp3.1\RazorDeclaration\BookStore-UI\App.razor.g.cs
+F:\REPO\PORTFOLIO-OF-PROJECTS\PROJECTS\BookStore-API\obj\Debug\netcoreapp3.1\RazorDeclaration\BookStore-UI\Pages\Counter.razor.g.cs
+F:\REPO\PORTFOLIO-OF-PROJECTS\PROJECTS\BookStore-API\obj\Debug\netcoreapp3.1\RazorDeclaration\BookStore-UI\Pages\FetchData.razor.g.cs
+F:\REPO\PORTFOLIO-OF-PROJECTS\PROJECTS\BookStore-API\obj\Debug\netcoreapp3.1\RazorDeclaration\BookStore-UI\Pages\Index.razor.g.cs
+F:\REPO\PORTFOLIO-OF-PROJECTS\PROJECTS\BookStore-API\obj\Debug\netcoreapp3.1\RazorDeclaration\BookStore-UI\Shared\MainLayout.razor.g.cs
+F:\REPO\PORTFOLIO-OF-PROJECTS\PROJECTS\BookStore-API\obj\Debug\netcoreapp3.1\RazorDeclaration\BookStore-UI\Shared\NavMenu.razor.g.cs
+F:\REPO\PORTFOLIO-OF-PROJECTS\PROJECTS\BookStore-API\obj\Debug\netcoreapp3.1\RazorDeclaration\BookStore-UI\Shared\SurveyPrompt.razor.g.cs
+F:\REPO\PORTFOLIO-OF-PROJECTS\PROJECTS\BookStore-API\obj\Debug\netcoreapp3.1\RazorDeclaration\BookStore-UI\_Imports.razor.g.cs
+F:\REPO\PORTFOLIO-OF-PROJECTS\PROJECTS\BookStore-API\obj\Debug\netcoreapp3.1\BookStore-API.RazorComponent.output.cache

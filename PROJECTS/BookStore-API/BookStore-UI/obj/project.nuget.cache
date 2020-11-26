@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "DIHYAnfqGGGdAof+ot0HJ9viPBZr+8XDm7fH1ZlzCWzSTRqgb3CGVFvJBkZ5uivghWa8WB/q34Bmnlkmo3ybUA==",
+  "success": true,
+  "projectFilePath": "F:\\REPO\\PORTFOLIO-OF-PROJECTS\\PROJECTS\\BookStore-API\\BookStore-UI\\BookStore-UI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\silco\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
