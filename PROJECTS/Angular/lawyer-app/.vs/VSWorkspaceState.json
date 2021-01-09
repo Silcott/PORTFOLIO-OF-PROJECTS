@@ -1,11 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\node_modules",
     "\\src",
     "\\src\\app",
-    "\\src\\app\\server"
+    "\\src\\app\\server",
+    "\\src\\app\\servers"
   ],
-  "SelectedNode": "\\.editorconfig",
+  "SelectedNode": "\\src\\app\\servers\\servers.component.html",
   "PreviewInSolutionExplorer": false
 }
