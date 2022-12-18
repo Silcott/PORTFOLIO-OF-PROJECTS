@@ -11,3 +11,17 @@ C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\HTW_ConsoleApp\obj\Debug\netcoreap
 C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\HTW_ConsoleApp\obj\Debug\netcoreapp3.1\HTW_ConsoleApp.dll
 C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\HTW_ConsoleApp\obj\Debug\netcoreapp3.1\HTW_ConsoleApp.pdb
 C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\HTW_ConsoleApp\obj\Debug\netcoreapp3.1\HTW_ConsoleApp.genruntimeconfig.cache
+F:\Everything_Code\REPO\PORTFOLIO-OF-PROJECTS\PROJECTS\HTW_ConsoleApp\bin\Debug\netcoreapp3.1\HTW_ConsoleApp.exe
+F:\Everything_Code\REPO\PORTFOLIO-OF-PROJECTS\PROJECTS\HTW_ConsoleApp\bin\Debug\netcoreapp3.1\HTW_ConsoleApp.deps.json
+F:\Everything_Code\REPO\PORTFOLIO-OF-PROJECTS\PROJECTS\HTW_ConsoleApp\bin\Debug\netcoreapp3.1\HTW_ConsoleApp.runtimeconfig.json
+F:\Everything_Code\REPO\PORTFOLIO-OF-PROJECTS\PROJECTS\HTW_ConsoleApp\bin\Debug\netcoreapp3.1\HTW_ConsoleApp.runtimeconfig.dev.json
+F:\Everything_Code\REPO\PORTFOLIO-OF-PROJECTS\PROJECTS\HTW_ConsoleApp\bin\Debug\netcoreapp3.1\HTW_ConsoleApp.dll
+F:\Everything_Code\REPO\PORTFOLIO-OF-PROJECTS\PROJECTS\HTW_ConsoleApp\bin\Debug\netcoreapp3.1\HTW_ConsoleApp.pdb
+F:\Everything_Code\REPO\PORTFOLIO-OF-PROJECTS\PROJECTS\HTW_ConsoleApp\obj\Debug\netcoreapp3.1\HTW_ConsoleApp.csproj.AssemblyReference.cache
+F:\Everything_Code\REPO\PORTFOLIO-OF-PROJECTS\PROJECTS\HTW_ConsoleApp\obj\Debug\netcoreapp3.1\HTW_ConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+F:\Everything_Code\REPO\PORTFOLIO-OF-PROJECTS\PROJECTS\HTW_ConsoleApp\obj\Debug\netcoreapp3.1\HTW_ConsoleApp.AssemblyInfoInputs.cache
+F:\Everything_Code\REPO\PORTFOLIO-OF-PROJECTS\PROJECTS\HTW_ConsoleApp\obj\Debug\netcoreapp3.1\HTW_ConsoleApp.AssemblyInfo.cs
+F:\Everything_Code\REPO\PORTFOLIO-OF-PROJECTS\PROJECTS\HTW_ConsoleApp\obj\Debug\netcoreapp3.1\HTW_ConsoleApp.csproj.CoreCompileInputs.cache
+F:\Everything_Code\REPO\PORTFOLIO-OF-PROJECTS\PROJECTS\HTW_ConsoleApp\obj\Debug\netcoreapp3.1\HTW_ConsoleApp.dll
+F:\Everything_Code\REPO\PORTFOLIO-OF-PROJECTS\PROJECTS\HTW_ConsoleApp\obj\Debug\netcoreapp3.1\HTW_ConsoleApp.pdb
+F:\Everything_Code\REPO\PORTFOLIO-OF-PROJECTS\PROJECTS\HTW_ConsoleApp\obj\Debug\netcoreapp3.1\HTW_ConsoleApp.genruntimeconfig.cache

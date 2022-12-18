@@ -12,10 +12,14 @@
       "MonoGame.Framework.DesktopGL/3.8.0.1641": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/MonoGame.Framework.dll": {}
+          "lib/netstandard2.0/MonoGame.Framework.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/MonoGame.Framework.dll": {}
+          "lib/netstandard2.0/MonoGame.Framework.dll": {
+            "related": ".xml"
+          }
         },
         "build": {
           "build/MonoGame.Framework.DesktopGL.targets": {}
@@ -175,22 +179,25 @@
   },
   "packageFolders": {
     "C:\\Users\\silco\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Github\\repo\\PORTFOLIO-OF-PROJECTS\\PROJECTS\\HuntTheWumpusM4edition\\HuntTheWumpusM4edition.csproj",
+      "projectUniqueName": "F:\\Everything_Code\\REPO\\PORTFOLIO-OF-PROJECTS\\PROJECTS\\HuntTheWumpusM4edition\\HuntTheWumpusM4edition.csproj",
       "projectName": "HuntTheWumpusM4edition",
-      "projectPath": "C:\\Github\\repo\\PORTFOLIO-OF-PROJECTS\\PROJECTS\\HuntTheWumpusM4edition\\HuntTheWumpusM4edition.csproj",
+      "projectPath": "F:\\Everything_Code\\REPO\\PORTFOLIO-OF-PROJECTS\\PROJECTS\\HuntTheWumpusM4edition\\HuntTheWumpusM4edition.csproj",
       "packagesPath": "C:\\Users\\silco\\.nuget\\packages\\",
-      "outputPath": "C:\\Github\\repo\\PORTFOLIO-OF-PROJECTS\\PROJECTS\\HuntTheWumpusM4edition\\obj\\",
+      "outputPath": "F:\\Everything_Code\\REPO\\PORTFOLIO-OF-PROJECTS\\PROJECTS\\HuntTheWumpusM4edition\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
         "C:\\Users\\silco\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -199,10 +206,12 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {}
         }
       },
@@ -214,6 +223,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "MonoGame.Content.Builder.Task": {
             "target": "Package",
@@ -230,7 +240,8 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -239,7 +250,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

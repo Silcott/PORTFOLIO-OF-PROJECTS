@@ -1,23 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Github\\repo\\PORTFOLIO-OF-PROJECTS\\PROJECTS\\HTW_ConsoleApp\\HTW_ConsoleApp.csproj": {}
+    "F:\\Everything_Code\\REPO\\PORTFOLIO-OF-PROJECTS\\PROJECTS\\HTW_ConsoleApp\\HTW_ConsoleApp.csproj": {}
   },
   "projects": {
-    "C:\\Github\\repo\\PORTFOLIO-OF-PROJECTS\\PROJECTS\\HTW_ConsoleApp\\HTW_ConsoleApp.csproj": {
+    "F:\\Everything_Code\\REPO\\PORTFOLIO-OF-PROJECTS\\PROJECTS\\HTW_ConsoleApp\\HTW_ConsoleApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Github\\repo\\PORTFOLIO-OF-PROJECTS\\PROJECTS\\HTW_ConsoleApp\\HTW_ConsoleApp.csproj",
+        "projectUniqueName": "F:\\Everything_Code\\REPO\\PORTFOLIO-OF-PROJECTS\\PROJECTS\\HTW_ConsoleApp\\HTW_ConsoleApp.csproj",
         "projectName": "HTW_ConsoleApp",
-        "projectPath": "C:\\Github\\repo\\PORTFOLIO-OF-PROJECTS\\PROJECTS\\HTW_ConsoleApp\\HTW_ConsoleApp.csproj",
+        "projectPath": "F:\\Everything_Code\\REPO\\PORTFOLIO-OF-PROJECTS\\PROJECTS\\HTW_ConsoleApp\\HTW_ConsoleApp.csproj",
         "packagesPath": "C:\\Users\\silco\\.nuget\\packages\\",
-        "outputPath": "C:\\Github\\repo\\PORTFOLIO-OF-PROJECTS\\PROJECTS\\HTW_ConsoleApp\\obj\\",
+        "outputPath": "F:\\Everything_Code\\REPO\\PORTFOLIO-OF-PROJECTS\\PROJECTS\\HTW_ConsoleApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
           "C:\\Users\\silco\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -26,10 +28,12 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -41,6 +45,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -56,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.415\\RuntimeIdentifierGraph.json"
         }
       }
     }
