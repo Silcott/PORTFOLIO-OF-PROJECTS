@@ -4,8 +4,9 @@
     "\\src",
     "\\src\\app",
     "\\src\\app\\server",
-    "\\src\\app\\servers"
+    "\\src\\app\\servers",
+    "\\src\\assets"
   ],
-  "SelectedNode": "\\src\\app\\servers\\servers.component.html",
+  "SelectedNode": "\\src\\app\\server\\server.component.html",
   "PreviewInSolutionExplorer": false
 }
