@@ -1,23 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Github\\repo\\PORTFOLIO-OF-PROJECTS\\PROJECTS\\VectorDistanceCalculation\\VectorDistanceCalculation.csproj": {}
+    "F:\\Everything_Code\\REPO\\PORTFOLIO-OF-PROJECTS\\PROJECTS\\VectorDistanceCalculation\\VectorDistanceCalculation.csproj": {}
   },
   "projects": {
-    "C:\\Github\\repo\\PORTFOLIO-OF-PROJECTS\\PROJECTS\\VectorDistanceCalculation\\VectorDistanceCalculation.csproj": {
+    "F:\\Everything_Code\\REPO\\PORTFOLIO-OF-PROJECTS\\PROJECTS\\VectorDistanceCalculation\\VectorDistanceCalculation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Github\\repo\\PORTFOLIO-OF-PROJECTS\\PROJECTS\\VectorDistanceCalculation\\VectorDistanceCalculation.csproj",
+        "projectUniqueName": "F:\\Everything_Code\\REPO\\PORTFOLIO-OF-PROJECTS\\PROJECTS\\VectorDistanceCalculation\\VectorDistanceCalculation.csproj",
         "projectName": "VectorDistanceCalculation",
-        "projectPath": "C:\\Github\\repo\\PORTFOLIO-OF-PROJECTS\\PROJECTS\\VectorDistanceCalculation\\VectorDistanceCalculation.csproj",
+        "projectPath": "F:\\Everything_Code\\REPO\\PORTFOLIO-OF-PROJECTS\\PROJECTS\\VectorDistanceCalculation\\VectorDistanceCalculation.csproj",
         "packagesPath": "C:\\Users\\silco\\.nuget\\packages\\",
-        "outputPath": "C:\\Github\\repo\\PORTFOLIO-OF-PROJECTS\\PROJECTS\\VectorDistanceCalculation\\obj\\",
+        "outputPath": "F:\\Everything_Code\\REPO\\PORTFOLIO-OF-PROJECTS\\PROJECTS\\VectorDistanceCalculation\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
           "C:\\Users\\silco\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -26,10 +28,12 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -41,6 +45,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "System.Drawing.Common": {
               "target": "Package",
@@ -53,7 +58,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -62,7 +68,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
