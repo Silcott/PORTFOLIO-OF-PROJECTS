@@ -1,0 +1,255 @@
+TICKET TRACKER
+Management System
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CODE BREAKDOWN 
+
+Brief Introduction"  About me:
+	James B. Silcott, a Software Developer.  This is my first "solo" project.
+
+Describe Project:
+	This is a ticket tracking program.  You can insert, update, or delete tickets that captures dates, names, priorities, categories, email, phones, etc 
+	This also allows selective users by means of logging in with a distinct username and password.  Users can be given security rights to access the Admin page
+	that allows users to be added, updated, or deleted from the database.  The database is constructed from SQLite.  The database will recreate itself if 
+	deleted or tampered with.  Users and Tickets have the ability to upload files (which can be printed or exported to excel), email users associated with
+	tickets or other users, user can update their profile to include a picture, there is a logbook (txt file) that documents all activity with the 
+	program and can be only accessed by Admin rights, and a dashboard that tracks total tickets, displays the users tickets total number and information on each
+	of their current tickets and finally a chart that is hard coded showing two charts in one of the total ticket count values from ticket categories
+	and ticket priority levels when the user hovers over the chart with the mouse cursor.  
+	
+Process: (iterations, increments, requirements development, specification, design)
+Software Requirements Specification (SRS)
+	R1 User must be able to : Create an account
+	R2 User must be able to : Add their personnel information to the account
+	R3 User must be able to : Log in to their account
+	R4 User must be able to : Add and save information about self
+	R5 User must be able to : Update and Delete information about self
+	R6 User must be able to : Create and Access a ticket
+	R7 User must be able to : Add and save information about ticket requests
+	R8 User must be able to : Update and Delete information about the ticket requests
+	R9 Admin must be able to: Create an account
+	R10 Admin must be able to: Add their personnel information to the account
+	R11 Admin must be able to: Log in to their account
+	R12 Admin must be able to: Add and save information about self and other accounts
+	R13 Admin must be able to: Update and Delete information about self and other accounts
+	R14 Admin must be able to: Create and Access a ticket
+	R15 Admin must be able to: Add and save information about ticket requests
+	R16 Admin must be able to: Update and Delete information about the ticket requests
+	R17 Admin must be able to: Submit a Ticket to Technical Department
+	R18 Admin must be able to: Close a ticket request
+
+-biggest challenge:
+	Entire project! However, if I had to pick one thing, which I won't, I'll pick three:
+		1. By far the biggest challenge was the bugs! There were tons of bugs and trials and error. My first big problem came with incorporating SQL, not SQLite.  
+			That is right, I did this all first with Microsoft-SQL on the first run.  It wasn't until I deployed this on another computer, I realized I would need to download 
+			the Microsoft SQL program to run it, so instead rewrote the entire code to be in SQLite.  SQLite was different.  There isn't much info out there using it with C#
+			However, I got through it, thanks stackoverflow...lol.
+		2. Publish.  No kidding I had no idea the work that goes into publishing the code.  I thought click the button and poof you have a finished product.  
+			Well that did not happen.  Error after error after error, and sometimes error with it showing me an error.  The main issue, but not the only was SQLite
+			Not sure why still today but the framework would not stay with the code, so I had to embed it and write script to allow it.  
+		3. Picture & File deletion.  If you think deleting images and files from a folder is easy, well you are correct.
+			However, if you want some files to be left behind in the program so it loads with them, such as the default images that are the profile pictures
+			for the auto-created users, then that is different.  Maybe if those files were in another folder than the saved files, that would have been less of a 
+			challenge.  So, every update to a picture I noticed that the folder never deleted
+			any of the old images.  So, I created a code that would delete them, but the problem was it was deleting the default images too.
+			So, I wrote a code to not delete those, but that was harder than it sounds.  The problem being when the images switched from old to new, the old image 
+			could not be deleted, due to error "The process cannot access the file because it is being used by another process."  The file
+			was still in thread.  I used the garbage collector, that didn't work, I created a method to wait for the file using file stream and
+			threading thread sleep which worked but sometimes froze the screen up to 20 seconds, I even tried moving the files out and back after purging the 
+			folder which ended up working better than those others but when I published (this is just one of the hundreds of issues that
+			arise when publishing) in order to move the files in the folder, the users owner must have folder privileges to access, so this was not
+			an option and also a bad tactic, but I just wanted to know what would happen.  Finally, after "walking away", which I'll get to why it's in quotes later
+			I created a process to purge just those files and leaving the ones I wanted.  Here is how:
+			1. Gathered all the file names in the folder that contained the images
+			2. Put them into a list, called "filesInDir"
+			3. Created a SQLIte query to gather all the image file path names loaded in the database
+			4. Loaded the database names into a list named "imagesList"
+			5. Since the default images I didn't want to delete had a shorter names than the new ones created, because the naming format is
+				file: DateTime.Now.ToString("yyyt-d-M-HH-mm-ss") + RandomInteger + file extensions
+			6. Then I used foreach to iterate through the filesInDir list and compare that to the imagesList
+			7. If it was in the imageList, do not delete
+			8. However, the error still was there, so I add in the if statement
+			9. Delete only files not in the imageList (database) and files who string length is greater than the largest name of the default
+				image, which was 15 characters versus the smallest characters created in new images which is 23
+			10. I still had the error, but the process was fast, way faster than before
+			11. Last touch was to combine things, I inserted the "wait for file" threading method I created and now it worked perfectly
+				Also added a Bitmap function that allows the use of method to "Dispose" which releases all resources of the image
+			12. Now if the process (file) is not ready to be deleted it will wait and if it does not have the time for whatever reason
+				it will not freeze the screen, but instead move on, then the folder will purge, leaving just those files I have in the database
+				and the default images because their file name length is shorter than new ones created.  And if the images are not deleted
+				when the user updates, it will get it the next time a user does adn update, ensuring an automatic clean up and restoration of the folder
+				
+-one thing you learned
+	I will keep this to one:
+		Like I metioned earlier, walk away! Just walk away when things are not working right.  I know now how to build the program with my eyes close, but the struggle was teaching
+		myself "how".  Lots of problem solving, but I found the hardest challenges (like the publish issue) came to me after I walked away and my mind
+		had time to think.  I know I can make anything work after doing this project, just one problem to solve at a time.  So, break the problems up and if
+		you are stuck, take a break.  
+
+Software - This is all down below. I methodically went through each line of code and include what and why for those interested.  I also include comments
+	throughout the code, more for my reference, but it turns out it will help anyone.
+	I choose to use the DAL, BLL, UI approach since this is a WINFORM app. 
+
+Demonstrate your Code - Expect 15 minutes
+
+Talk about next step and where it is going, deployment, usefulness, etc.
+	The plan is to sell this.  Not for the Ticket thing, but as a tutorial for learning c#.  I cannot tell you how much I learned off doing this without it taking 
+	I couple hours.  My intent is to either sell my knowledge or give it away like doing youtube video tutorials.  
+	Also, my next plan is to build a MVC version online.  I already have the code and I broke everything out away from the button and form controls to allow for 
+	copy and pasting.  
+
+Brief Conclusion (cherry on top)
+	To me it was all about the smallest detail.  It was important to me to have an app that did what it says it will do.  This has so many little capabilities
+	that could lead to large one if I wanted to.  The splash page that grabs your attention, logbook that captures every move, the email function for tickets or user
+	 and send an email to request security rights, the dashboard page that shows total ticket count and populates the user that logged on tickets, the chart
+	 that is hard coded which is one chart but has two charts merged inside it, the delete pictures and files functions that the computer could access, 
+	 the recreate the database function that allows if the user deleted it by accident to rebuild itself, having it publish and I can have people download 
+	 and try it out now and to have SQLite instead of SQL that allows the ease of transport, and finally the smallest of details was coding autocomplete textboxes, format 
+	 validation for email and phone entries, hashing passwords, allowing user to drag the form around the screen and removing a flickering by accessing 
+	 WINDOWS settings and the screen settings.  When you add all of these (little things), it makes a big cherry on top!
+	 
+	 This project gave me the confidence that NOW, I can call myself a Software Developer.
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+This is a breakdown of all the folders, classes, and methods I created to make this possible.
+
+1. Created 3 main Folders to hold: 
+	Data Access Layers, Business Logic Layers, and User Interface Functions
+	
+2. Business Logic Layers	
+	Contains 3 layers which holds the properties
+		1. LoginBLL - 
+			Username, Password, and UserID
+		2. TicketBLL - 
+			TicketID, FirstName, LastName, Email, TicketCreatorName, Phone, Loaction, IssueCategory, PriorityLevel, ISssueDescruption, AddedDate, CompletedDate,Cost,FilePathName, TicketCreatorUserID
+		3. UserBLL -
+			UserID, UserName, Email, Password, FullName, Phone, Address, AddedDate, ImageName, SecurityLevel
+	Purpose - Encapsulation to make sure that "sensitive" data is hidden from users
+	
+3. Data Access Layers
+	Contains 3 layers which hold the access points to the stored database (SQLite)
+		1. LoginDAL - 
+			LoginCheck Method - Return Bool - Check if username and password exists
+				SELECT user_id FROM tbl_users WHERE username=@username AND password=@password
+			GetUserID Method - Return INT - Retreive the UserID from Username on login
+				SELECT user_id FROM tbl_users WHERE username='{username}'
+			PasswordCheck Method - Return Bool - Check the password matches the input from user to delete ADMIN, failsafe
+				SELECT password FROM tbl_users WHERE username='{username}' and password='{password}';
+		2. TicketDAL -
+			CheckIfSuccess Method - Return Bool - Check if the table has rows or not - used in the other methods (INSERT, UPDATE, DELETE) to verify success of method or not
+				SELECT * from tbl_requesters
+			Select Method - Return DataTable - Retreive table from database of all tickets - used to update the DataGridViews
+				SELECT * from tbl_requesters
+			Insert Method - Return Bool - When User clicks add button insert all the data from the textboxes
+				INSERT INTO tbl_requesters (first_name, last_name, email, ticket_creator_name, phone, location, issue_category, priority_level, issue_description, added_date, completed_date, cost, file_name_path, ticket_creator_userId) VALUES (@first_name, @last_name, @email, @ticket_creator_name, @phone, @location, @issue_category, @priority_level, @issue_description, @added_date, @completed_date, @cost, @file_name_path, @ticket_creator_userId)"
+			Update Method - Return Bool - When User clicks update button update all the data from the textboxes
+	     		UPDATE tbl_requesters SET first_name=@first_name, last_name=@last_name, email=@email, ticket_creator_name=@ticket_creator_name, phone=@phone, location=@location, issue_category=@issue_category, priority_level=@priority_level, issue_description=@issue_description, completed_date=@completed_date, cost=@cost, file_name_path=@file_name_path, ticket_creator_userId=@ticket_creator_userId WHERE ticket_id=@ticket_id";
+			Delete Method - Return Bool - When User clicks delete button delete all from that ticketID
+				DELETE FROM tbl_requesters WHERE ticket_id=@ticket_id"
+			CountTickets Method - Return INT - Get the number of tickets from users’ parameters
+				SELECT COUNT(ticket_creator_userId) FROM tbl_requesters WHERE {columnName} ='" + fields + "';"
+			CountMyTickets Method - Return INT - Get the number of tickets for ONLY the logged in user
+				SELECT COUNT(*) FROM tbl_requesters WHERE {columnName} ='" + fields + "' AND ticket_creator_userId = " + userID+ ";"
+			LoadUserNameTickets Method - Return DataTable - Get the tickets of the logged in user and update the DataGridView
+				SELECT ticket_id, first_name, last_name, email, phone, location, issue_category, priority_level, added_date, cost FROM tbl_requesters WHERE ticket_creator_userId = '" + user_ID + "'"
+		3. UserDAL - 
+			CheckIfSuccess Method - Return Bool - Check if the table has rows or not - used in the other methods (INSERT, UPDATE, DELETE) to verify success of method or not
+				SELECT * from tbl_users
+			Select Method - Return DataTable - Retreive table from database of all tickets - used to update the DataGridViews
+				SELECT * from tbl_users
+			Insert Method - Return Bool - When User clicks add button insert all the data from the textboxes
+				INSERT INTO tbl_users(username, email, password, full_name, phone, address, added_date, security_level, image_name) VALUES (@username, @email, @password, @full_name, @phone, @address, @added_date, @security_level, @image_name)";
+			Update Method - Return Bool - When User clicks update button update all the data from the textboxes
+				UPDATE tbl_users SET username=@username, email=@email, password=@password, full_name=@full_name, phone=@phone, address=@address, added_date=@added_date, security_level=@security_level, image_name=@image_name WHERE user_id=@user_id";
+			UpdateImageName Method - VOID - Set the new profile image file path into database
+				UPDATE tbl_users SET image_name='{imageName}' WHERE user_id='{FormLogin.loggedInUserID}'"
+			Delete Method - Return Bool - When User clicks delete button delete all from that userID
+				Delete FROM tbl_users WHERE user_id=@user_id
+			Search Method - Return DataTable - When user types into the search textbox search database for "keywords"
+				SELECT * FROM tbl_users WHERE user_id LIKE '%" + keywords + "%' OR full_name LIKE '%" + keywords + "%' OR address LIKE '%" + keywords + "%' OR username LIKE '%" + keywords + "%'
+			FindUsername Mehtod - Return Bool - Search database for the username to see if that username already exists do you don't add another user with that name
+				SELECT username FROM tbl_users WHERE {columnName} ='" + usernameToCompare + "'
+			GetCreatorNameFromUser Method - Return String - Retreive the creator name from logged in username to update the tickets showing who last updated a ticket
+				SELECT full_name FROM tbl_users WHERE username='" + username + "'
+			SelectCurrentUser Method - Return DataTable - Retreive only the tickets from the selected user
+				SELECT {selectionName} FROM tbl_users WHERE username = '{FormLogin.loggedInUser}' and password = '{FormLogin.loggedInPassword}'
+
+4. User Interface - UI
+	Contains 6 Forms
+		1. FormSplash - Starting Form - Splash page that shows moving "loading" bar
+		2. FormLogin - Loads after splash page 
+			LoginCheck Method - VOID - Hashes password through database and verifies username and password match the database
+		3. FormHome - Loads after the login form is successful. Shows DashBoard screen showing Chart, Myticket DGV, and number of Total and Myticket Count, also has links to other pages (Admin, Tickets, User Profile)
+			LoadHeadersDGV Method - VOID - Inserts new header names in the DataGridView
+			ShowMytickets Method - VOID - Display the myticket count from the users logged in ID
+			ChartLoad Method - VOID - Creates two charts (pie chart in center and doughnut chart on the outside of the pie chart) in one and loads the chart with the labels, and colors
+			AddChartToolTip Method - VOID - Adds a tooltip, pop-up window that displays the values of the chart sections when mouse hovers over
+			Form Links in ToolStripMenu
+				Admin Link - 
+					Verify security level of logged in user and if Admin level grant access then log the time and person that entered the page
+					If not admin rights, user can send an email to Admin requesting rights - has a counter to ensure only one email is sent
+				Ticket Link -
+					Sends user to the Ticket page
+				User Profile Link - 
+					Sends user to the User Profile page
+		4. FormUser - Load the User Profile Page - Allows user to update self-profile, if Admin you cannot update password here - must be done on admin page - failsafe
+			ClearPasswordTextBox Method - VOID - CLEAR Password Textbox When User Clicks on It, unless "Admin"
+			AdminReadOnlyTextBox Method - VOID - Ensures that the admin cannot update here, must update this in the admin page - failsafe
+			ShowUserInfoInTextboxes Method - VOID - Display ONLY User info for the Logged in User
+			LoadProfilePicture Method - VOID - Display the Image of the selected User
+			IsValidPhone - Return Bool - Verify phone is using the REGEX format "^\d\d\d.\d\d\d.\d\d\d\d$" - xxx-xxx-xxxx
+			IsValidEmail - Retrurn Bool - Verify email is using the REGEX format  @"^((([a-z]|\d|[!#\$%&'\*\+\-\/=\?\^_`{\|}~]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])+(\.([a-z]|\d|[!#\$%&'\*\+\-\/=\?\^_`{\|}~]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])+)*)|((\x22)((((\x20|\x09)*(\x0d\x0a))?(\x20|\x09)+)?(([\x01-\x08\x0b\x0c\x0e-\x1f\x7f]|\x21|[\x23-\x5b]|[\x5d-\x7e]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(\\([\x01-\x09\x0b\x0c\x0d-\x7f]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]))))*(((\x20|\x09)*(\x0d\x0a))?(\x20|\x09)+)?(\x22)))@((([a-z]|\d|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(([a-z]|\d|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])([a-z]|\d|-|\.|_|~|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])*([a-z]|\d|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])))\.)+(([a-z]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(([a-z]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])([a-z]|\d|-|\.|_|~|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])*([a-z]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])))\.?$";
+			Update Method - VOID - Update user in database with info in textboxes and check for blanks or incorrect format
+			SelectImage - VOID - Opens file dialog for user to choose image, sets filter to image extensions only, checks if file exists, writes files with timestamp, and removes old picture and updates database with no image file path
+			DeleteFilesCannotAccess - VOID - Delete and files or images that are not stored in database
+		5. FormTickets - Load all the tickets in database and populate info into textboxes
+			LoadAutoCompleteTextbox Method - VOID - This allows the user when select the textbox to have a dropdown box show a pre-determined text to be auto inserted
+			LoadHeadersDGVTickets Method - VOID - Inserts new header names in the DataGridView
+			LoadDGVTicketsMouseTrigger - VOID - Used when the user moves along the DVG using the mouse, alos TRIM is used to remove any white spaces that the textboxes may produce
+			LoadDGVTicketsKeyboardTrigger - VOID - Used when the user moves along the DVG using the keyboard, alos TRIM is used to remove any white spaces that the textboxes may produce
+			AddTicket Method - VOID - Adds tickets with the values in textboxes and tells user if a box is blank or incorrect format
+			ClearTicket Method - Assign empty string text to all textboxes, used to clear, and allow user to reset or add new ticket
+			UpdateTicket Method - VOID - Updates the ticket with the textbox data and saves it in the database, also checks for correct phone and email formatting
+			DeleteTicket Method - VOID - Asks user if they are sure to delete and deletes ticket from database
+			SearchTickets Method - VOID - Allows user to search the entire DGV using text and pulls that ticket up from the database
+			UploadFile Method - VOID - Opens file dialog for user to choose file, sets filter to file extensions only, checks if file exists, writes files with timestamp, and removes old picture and updates database with no file path
+			OpenFile Method - VOID - Grabs file path from database that is saves with ticketID and loads that path
+			ExcelExport Method - VOID - Open dialog to save file, copies the DGV results to clipboard, creates excel file with the copied data and opens the file
+			PDFExport Method - VOID - Open dialog to save file, copies the DGV results to clipboard, allows user to print as PDF or to printer uses the Class DGVPrinter that sets the page and printer settings
+			Send Email Method - Bool - Opens email message, establishes SmtpClient and uses GMAIL with Network Credentials to send an email, also populates the email to have textbox information
+			MonthCalendar Method - Allows the form calendar to open when the user selects the textbox to complete date then takes the date enter and stores it in the textbox
+		6. FormAdmin - Load all users in database and populate info in textboxes and profile picture box
+			LoadDGVUsersMouseTrigger - VOID - Used when the user moves along the DVG using the mouse, also TRIM is used to remove any white spaces that the textboxes may produce
+			LoadDGVUsersKeyboardTrigger - VOID - Used when the user moves along the DVG using the keyboard, also TRIM is used to remove any white spaces that the textboxes may produce
+			LoadProfilePicture Method - VOID - Display the Image of the selected User
+			LoadHeadersDGVTickets Method - VOID - Inserts new header names in the DataGridView
+			AddUser Method - VOID - Adds tickets with the values in textboxes and tells user if a box is blank or incorrect format
+			ClearUser Method - Assign empty string text to all textboxes, used to clear, and allow user to reset or add new ticket
+			UpdateUser Method - VOID - Updates the ticket with the textbox data and saves it in the database, also checks for correct phone and email formatting
+			DeleteUser Method - VOID - Asks user if they are sure to delete and deletes ticket from database
+			SearchUser Method - VOID - Allows user to search the entire DGV using text and pulls that ticket up from the database
+			ExcelExport Method - VOID - Open dialog to save file, copies the DGV results to clipboard, creates excel file with the copied data and opens the file
+			PDFExport Method - VOID - Open dialog to save file, copies the DGV results to clipboard, allows user to print as PDF or to printer uses the Class DGVPrinter that sets the page and printer settings
+			Send Email Method - Bool - Opens email message, establishes SmtpClient and uses GMAIL with Network Credentials to send an email, also populates the email to have textbox information
+			DeleteAdmin Method - VOID - Verifies that a picture is not one of the default images that come with program, if not, it deletes the image and user info from database
+			LogBook Button Method - VOID - Opens text file and show the logs that are capture from Logins, Admin Page Request, Admin Page Enter and Leave, Ticket & User Add, Update, Delete for Successful and Failed Attempts
+			DeleteFilesCannotAccess - VOID - Delete and files or images that are not stored in database
+5. Support Classes - 
+	There are 10 support classes
+		1. DGVPrinter - used set up the settings and format of a print page with the DataViewGrid
+		2. Email - used to make the connection to send emails
+		3. ExportToExcel - Used to send the DVG to excel
+		4. ExportToPDF - Used to send the DVG to pdf & printer
+		5. HashPassword - Takes users password and hashes it
+		6. LogBook - Creates the file if needed and contains method to send messages to the logbook
+		7. MyToolTip - Used for the Chart ToolTIp to customize the view to make it bigger and better looking
+		8. NativeWinAPI - Used to eliminate the flickering when changing between forms
+		9. ValidationREGEX - Uses the REGEX language to format the phone and email text to accept only correct formats
+		10. WindowDrag - Allows user to be able to drag the forms across the screen
+		11. PurgeImageFiles - This will remove any images in the "image" directory that’s not loaded in the database or a default image
+6. Additional Files -
+	There are two folders that are used for different Window computers setups that contains the sqlite.interop.dll to allow the framework
+		1. x64
+		2. x86
+	Files folder holds the logbook and storage of any ticket files
+	Database folder holds the database from sqlite called db.sqlite and an embedded folder that contains System.Data.SQLite.dll
