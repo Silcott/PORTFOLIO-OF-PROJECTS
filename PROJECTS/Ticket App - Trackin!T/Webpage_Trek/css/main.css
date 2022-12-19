@@ -1,0 +1,109 @@
+        
+                
+/* ------------------ HEADER HERE -------------------*/
+
+#header {
+  	background-color: #3b3838;
+}
+#logo {
+	background-image: url(../assets/pictures/bannerTop.png);
+	background-size:  cover;
+  	padding: 7.5%;
+  	background-color: #3b3838;
+}
+#navbar {
+  	background-color: #3b3838;
+  	}
+ #navbar a:hover {
+  background-color: #ffc000;
+  border-radius: 1em;
+  color: #6f8294;
+  font-weight: bold;
+}
+#navbar ul {
+  list-style-type: none;
+  margin: 10px;
+  overflow: hidden;
+  color: #ffc000;
+  background-color: #3b3838;
+  text-decoration: none;
+}
+
+#navbar li {
+  float: right;
+}
+
+#navbar li a {
+  display: inline;
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  padding: 1em;
+  text-decoration: none;
+}
+
+#searchbar {
+	background-image: url(../assets/pictures/office.png);
+	background-size:  cover;
+  	padding: 9%;
+  	background-color: #3b3838;
+
+}
+/* ------------------------ MAIN CONTENT HERE --------------*/
+
+main {
+	padding: 50px 0;
+	background-color: #6f8294;
+}
+main::after {
+	clear: both;
+	display: block;
+	content: "";
+}
+#block_feature {
+	float: left;
+	width: 30%;
+	background: blue;
+	color: #ffffff;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	height: 300px;
+	padding: 40px 0 0 0;
+}
+#block_content {
+	float: right;
+	width: 65%;
+	background: blue;
+	color: #ffffff;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	height: 300px;
+	padding: 40px 0 0 0;
+}
+/* ------------------ FOOTER HERE --------------------------*/
+
+#footer {
+	background: lightgreen;
+	line-height: 100px;
+	color: #ffffff;
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    #block_feature {
+        float: none;
+        margin: 0 0 20px 0;
+        width: auto;
+    }
+    #block_content {
+        float: none;
+        width: auto;
+    }
+    #footer {
+        font-size: 20px;
+    }
+}

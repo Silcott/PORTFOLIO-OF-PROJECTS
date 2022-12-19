@@ -1,0 +1,51 @@
+Schedule for remainder of Term 1
+M, Aug 17 - C# ch 13 (interfaces)
+T, Aug 18 - C# ch 14 (GC)
+W, Aug 19 - ASP.NET ch 3 (Party Invites)*
+Th, Aug 20 - ASP.NET ch 4 (CSS)
+F, Aug 21 - C# ch 15
+
+M, Aug 24 - C# ch 16
+T, Aug 25 - C# ch 17
+W, Aug 26 - ASP.NET ch 5
+Th, Aug 27 - ASP.NET ch 6
+F, Aug 28 - C# - ch 18
+============================================================================
+break from Saturday, Aug 29 to Tuesday September 8
+first class day of Term 2 is Wednesday, September 9
+============================================================================
+Homework, all ten chapters
+Labs, all ten chapters
+Quizzes, 2 quizzes, both C#, on Tuesday
+Programming Exercises, 4 (2 on C# and 2 on ASP.NET
+Project Steps 2
+===========================================================================
+six chapters of C#, 13 through 18
+four chapters of ASP.NET, 3 through 6
+
+
+===========================================================================
+ISTA 322 Assignments,
+Date,Assignment
+"Sunday, August 23, 2020",C# ProgEx Roulette
+"Sunday, August 30, 2020",C# ProgEx Bisection
+"Sunday, August 23, 2020",ProjStep SRS
+"Sunday, August 30, 2020",ProjStep Design
+"Monday, August 24, 2020",C# HW 16
+"Tuesday, August 25, 2020",C# HW 17
+"Friday, August 28, 2020",C# HW 18
+"Wednesday, August 26, 2020",ASP.NET HW 5
+"Thursday, August 27, 2020",ASP.NET HW 6
+"Monday, August 24, 2020",C# Lab 16
+"Tuesday, August 25, 2020",C# Lab 17
+"Friday, August 28, 2020",C# Lab 18
+"Wednesday, August 26, 2020",ASP.NET Lab 5
+"Thursday, August 27, 2020",ASP.NET Lab 6
+"Monday, August 24, 2020",C# Quiz 3
+"Friday, August 28, 2020",C# Quiz 4
+dropped,C# ProgEx Passwords - Sept 13 due
+dropped,ASP.NET ProEx 1
+dropped,ASP.NET ProEx 2
+dropped,ASP.NET ProEx 3
+dropped,ASP.NET Quiz 3
+dropped,ProjStep Implementation - Sept 13 due

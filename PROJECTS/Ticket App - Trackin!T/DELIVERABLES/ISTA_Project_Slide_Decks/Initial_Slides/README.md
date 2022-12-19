@@ -1,0 +1,17 @@
+# Initial Slide Deck - 15 July 2020
+# By James Silcott
+## This was used with my Deliverable01 Presentation
+
+<img align="left" height="1200px" width="800px" src="https://raw.githubusercontent.com/Silcott/ISTA_Project/master/myProject/Project_Track!T/Pictures/Slide_Decks/Initial_Conception/Slide1-stroke-and-fill.svg" alt="html" style="vertical-align:top; margin:4px">  
+<img align="left" height="1200px" width="800px" src="https://raw.githubusercontent.com/Silcott/ISTA_Project/master/myProject/Project_Track!T/Pictures/Slide_Decks/Initial_Conception/Slide2-stroke-and-fill.svg" alt="html" style="vertical-align:top; margin:4px">  
+<img align="left" height="1200px" width="800px" src="https://raw.githubusercontent.com/Silcott/ISTA_Project/master/myProject/Project_Track!T/Pictures/Slide_Decks/Initial_Conception/Slide3-stroke-and-fill.svg" alt="html" style="vertical-align:top; margin:4px">  
+<img align="left" height="1200px" width="800px" src="https://raw.githubusercontent.com/Silcott/ISTA_Project/master/myProject/Project_Track!T/Pictures/Slide_Decks/Initial_Conception/Slide4-stroke-and-fill.svg" alt="html" style="vertical-align:top; margin:4px">  
+<img align="left" height="1200px" width="800px" src="https://raw.githubusercontent.com/Silcott/ISTA_Project/master/myProject/Project_Track!T/Pictures/Slide_Decks/Initial_Conception/Slide5-stroke-and-fill.svg" alt="html" style="vertical-align:top; margin:4px">  
+<img align="left" height="1200px" width="800px" src="https://raw.githubusercontent.com/Silcott/ISTA_Project/master/myProject/Project_Track!T/Pictures/Slide_Decks/Initial_Conception/Slide6-stroke-and-fill.svg" alt="html" style="vertical-align:top; margin:4px">  
+<img align="left" height="1200px" width="800px" src="https://raw.githubusercontent.com/Silcott/ISTA_Project/master/myProject/Project_Track!T/Pictures/Slide_Decks/Initial_Conception/Slide7-stroke-and-fill.svg" alt="html" style="vertical-align:top; margin:4px">  
+<img align="left" height="1200px" width="800px" src="https://raw.githubusercontent.com/Silcott/ISTA_Project/master/myProject/Project_Track!T/Pictures/Slide_Decks/Initial_Conception/Slide8-stroke-and-fill.svg" alt="html" style="vertical-align:top; margin:4px">  
+<img align="left" height="1200px" width="800px" src="https://raw.githubusercontent.com/Silcott/ISTA_Project/master/myProject/Project_Track!T/Pictures/Slide_Decks/Initial_Conception/Slide9-stroke-and-fill.svg" alt="html" style="vertical-align:top; margin:4px">  
+<img align="left" height="1200px" width="800px" src="https://raw.githubusercontent.com/Silcott/ISTA_Project/master/myProject/Project_Track!T/Pictures/Slide_Decks/Initial_Conception/Slide10-stroke-and-fill.svg" alt="html" style="vertical-align:top; margin:4px">  
+<img align="left" height="1200px" width="800px" src="https://raw.githubusercontent.com/Silcott/ISTA_Project/master/myProject/Project_Track!T/Pictures/Slide_Decks/Initial_Conception/Slide11-stroke-and-fill.svg" alt="html" style="vertical-align:top; margin:4px">  
+<img align="left" height="1200px" width="800px" src="https://raw.githubusercontent.com/Silcott/ISTA_Project/master/myProject/Project_Track!T/Pictures/Slide_Decks/Initial_Conception/Slide12-stroke-and-fill.svg" alt="html" style="vertical-align:top; margin:4px">  
+<img align="left" height="1200px" width="800px" src="https://raw.githubusercontent.com/Silcott/ISTA_Project/master/myProject/Project_Track!T/Pictures/Slide_Decks/Initial_Conception/Slide13-stroke-and-fill.svg" alt="html" style="vertical-align:top; margin:4px">  
