@@ -41,7 +41,7 @@ https://silcott.github.io/
 <img align="right" height="270px" width="450px" src="https://raw.githubusercontent.com/Silcott/ISTA_Project/master/myProject/Project_Track!T/Pictures/gif/trackIT.gif" alt="html" style="vertical-align:top; margin:4px">  
   
   * **Repository:**  https://github.com/Silcott/ISTA_Project/tree/master/myProject/Project_Track!T
-  * **Description:**  This program consists of a multi-role, ticket creation login page, dashboard for users, dashboard for administrators, report page for a database that holds ticket information such as auto-generated ticket ID, requester names, assigned groups, dates, phone numbers and email address. This allows ticket searches and updates or deletes. There are profiles created through the login screen that is added to the database as well. Roles are assigned by the administrators and levels of security are established by those levels given. The database creation is with Microsoft SQL server and Sqlite. .
+  * **Description:**  This program consists of a multi-role, ticket creation login page, dashboard for users, dashboard for administrators, report page for a database that holds ticket information such as auto-generated ticket ID, requester names, assigned groups, dates, phone numbers and email address. This allows ticket searches and updates or deletes. There are profiles created through the login screen that is added to the database as well. Roles are assigned by the administrators and levels of security are established by those levels given. There are two version, one with a database creation using Microsoft SQL server and the other with Sqlite to be more compact and deployable.
   * **Tools:**  C#, SQL, JavaScript, HTML, CSS
 
 ### C# Console App - My Animal Farm
