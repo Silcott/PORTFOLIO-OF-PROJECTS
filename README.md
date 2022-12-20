@@ -54,7 +54,7 @@ https://silcott.github.io/
   * **Description:**  This program consists of a multi-role, ticket creation login page, dashboard for users, dashboard for administrators, report page for a database that holds ticket information such as auto-generated ticket ID, requester names, assigned groups, dates, phone numbers and email address. This allows ticket searches and updates or deletes. There are profiles created through the login screen that is added to the database as well. Roles are assigned by the administrators and levels of security are established by those levels given. There are two versions, one with a database creation using Microsoft SQL server and the other with Sqlite to be more compact and deployable.  The Sqlite version was all created line by line and automatically recreates itself if deleted.  [Click Here](https://github.com/Silcott/PORTFOLIO-OF-PROJECTS/blob/master/PROJECTS/Ticket%20App%20-%20Trackin!T/CodeBreakDown.txt) to view my text file that explains the code break down and challenges I faced.
   * **Tools:**  C#, SQL, JavaScript, HTML, CSS
   
-###  Monogame - "Hunt the Wumpas - JB Version"
+###  Monogame - "Hunt the Wumpus - JB Version"
   <!--* **View Project:**  http://www.insertpage.com-->
   
 <img align="right" height="270" width="450px" src="https://github.com/Silcott/PORTFOLIO-OF-PROJECTS/blob/master/PROJECTS/HuntTheWumpus%20-%20JB%20Version/Hunt%20the%20Wumpas%20-%20JB%20Version.gif?raw=true" alt="html" style="vertical-align:top; margin:4px">  
