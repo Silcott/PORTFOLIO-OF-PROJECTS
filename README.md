@@ -15,6 +15,7 @@
 ## Languages & Skills
 * Python
 * C#
+* Blazer
 * Javascript
 * T-SQL
 * WordPress
