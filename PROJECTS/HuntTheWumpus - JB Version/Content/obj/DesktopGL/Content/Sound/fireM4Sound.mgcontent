@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SourceFile>C:/Users/silco/Downloads/HuntTheWumpus/Content/Sound/fireM4Sound.mp3</SourceFile>
+  <SourceTime>2022-12-19T21:14:38.5269245-05:00</SourceTime>
+  <DestFile>C:/Users/silco/Downloads/HuntTheWumpus/Content/bin/DesktopGL/Content/Sound/fireM4Sound.xnb</DestFile>
+  <DestTime>2022-12-19T21:15:27.2929213-05:00</DestTime>
+  <Importer>Mp3Importer</Importer>
+  <ImporterTime>2020-08-10T12:17:54-04:00</ImporterTime>
+  <Processor>SoundEffectProcessor</Processor>
+  <ProcessorTime>2020-08-10T12:17:54-04:00</ProcessorTime>
+  <Parameters>
+    <Key>Quality</Key>
+    <Value>Best</Value>
+  </Parameters>
+  <Dependencies />
+  <BuildAsset />
+  <BuildOutput />
+</PipelineBuildEvent>

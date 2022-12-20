@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "w8HaOuPNmWTbZ2kMrg2Ju78Tyl/FCZujiUmESMKyUHZErzzMMR4w8fWNC4byUTJAO/OLuna+d14BN3aBNArHXQ==",
+  "dgSpecHash": "7jY1HBfgUWxqZH7VUgXMQMQfWAKlT4JsmqfGUl8lRIkpzueUu5/OG2etNgqStV55zHDYX6QcSDKu63HMI7uBkQ==",
   "success": true,
-  "projectFilePath": "C:\\Github\\repo\\PORTFOLIO-OF-PROJECTS\\PROJECTS\\SQLITE_demo\\SQLITE_demo.csproj",
+  "projectFilePath": "F:\\Everything_Code\\REPO\\PORTFOLIO-OF-PROJECTS\\PROJECTS\\SQLITE_demo\\SQLITE_demo.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\silco\\.nuget\\packages\\antlr4.runtime.standard\\4.8.0\\antlr4.runtime.standard.4.8.0.nupkg.sha512",
     "C:\\Users\\silco\\.nuget\\packages\\entityframework\\6.3.0\\entityframework.6.3.0.nupkg.sha512",
