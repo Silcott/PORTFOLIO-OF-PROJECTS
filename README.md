@@ -36,13 +36,13 @@ https://silcott.github.io/
 
 ## My Top Projects
 
-### Ticket Application - "Lawyer App"
+###  Lawyer and Client App - "Legal Lead Closer"
   <!--* **View Project:**  http://www.insertpage.com-->
   
 <img align="right" height="270" width="450px" src="https://github.com/Silcott/LegalLeadCloser/blob/main/LLC%20images/LLC_Logo_colored.png?raw=true" alt="html" style="vertical-align:top; margin:4px">  
   
   * **Repository:**  https://github.com/Silcott/LegalLeadCloser
-  * **Description:**  LegalLeadCloser is an app for attorneys. It offers quick and effective detailed walk-throughs with clients about their case and captures all the information for the attorney to best understand the clients needs and secure the business closure. It takes the guess work out, streamlines the buisness communication, and keeps all the information secure and mobile. Designed using Blazor Webassembly 5.0 built with MudBlazor Components. [Click Here](https://github.com/Silcott/LegalLeadCloser) to see more info on this.
+  * **Description:**  Legal Lead Closer is an app for attorneys. It offers quick and effective detailed walk-throughs with clients about their case and captures all the information for the attorney to best understand the clients needs and secure the business closure. It takes the guess work out, streamlines the buisness communication, and keeps all the information secure and mobile. Designed using Blazor Webassembly 5.0 built with MudBlazor Components. [Click Here](https://github.com/Silcott/LegalLeadCloser) to see more info on this.
   * **Tools:**  BLAZOR, C#, SQL, JavaScript, HTML, CSS
 
 ### Ticket Application - "Trackin!T"
