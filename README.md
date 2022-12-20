@@ -38,7 +38,7 @@ https://silcott.github.io/
 ### Ticket Application - "Lawyer App"
   <!--* **View Project:**  http://www.insertpage.com-->
   
-<img align="right" height="auto" width="450px" src="https://github.com/Silcott/LegalLeadCloser/blob/main/LLC%20images/Mobile.gif?raw=true" alt="html" style="vertical-align:top; margin:4px">  
+<img align="right" height="400" width="450px" src="https://github.com/Silcott/LegalLeadCloser/blob/main/LLC%20images/Mobile.gif?raw=true" alt="html" style="vertical-align:top; margin:4px">  
   
   * **Repository:**  https://github.com/Silcott/LegalLeadCloser
   * **Description:**  LegalLeadCloser is an app for attorneys. It offers quick and effective detailed walk-throughs with clients about their case and captures all the information for the attorney to best understand the clients needs and secure the business closure. It takes the guess work out, streamlines the buisness communication, and keeps all the information secure and mobile. Designed using Blazor Webassembly 5.0 built with MudBlazor Components. [Click Here](https://github.com/Silcott/LegalLeadCloser) to see more info on this.
