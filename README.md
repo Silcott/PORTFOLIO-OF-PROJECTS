@@ -57,7 +57,7 @@ https://silcott.github.io/
 ###  Monogame - "Hunt the Wumpas - JB Version"
   <!--* **View Project:**  http://www.insertpage.com-->
   
-<img align="right" height="270" width="450px" src="https://github.com/Silcott/LegalLeadCloser/blob/main/LLC%20images/LLC_Logo_colored.png?raw=true" alt="html" style="vertical-align:top; margin:4px">  
+<img align="right" height="270" width="450px" src="https://github.com/Silcott/PORTFOLIO-OF-PROJECTS/blob/master/PROJECTS/HuntTheWumpus%20-%20JB%20Version/Hunt%20the%20Wumpas%20-%20JB%20Version.gif?raw=true" alt="html" style="vertical-align:top; margin:4px">  
   
   * **Repository:**  https://github.com/Silcott/PORTFOLIO-OF-PROJECTS/tree/master/PROJECTS/HuntTheWumpus%20-%20JB%20Version
   * **Description:** This is a game I built using monogame framework.  Our instructor asked if we could create this on a console, but I like the visual display so I found some images and coded everything.  First time using load game states and I liked it! [Click Here](https://github.com/Silcott/PORTFOLIO-OF-PROJECTS/blob/master/PROJECTS/HuntTheWumpus%20-%20JB%20Version/HuntWumpus.cs) to see the code.
