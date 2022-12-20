@@ -61,7 +61,7 @@ https://silcott.github.io/
   
   * **Repository:**  https://github.com/Silcott/PORTFOLIO-OF-PROJECTS/tree/master/PROJECTS/HuntTheWumpus%20-%20JB%20Version
   * **Description:** This is a game I built using monogame framework.  Our instructor asked if we could create this on a console, but I like the visual display so I found some images and coded everything.  First time using load game states and I liked it! [Click Here](https://github.com/Silcott/PORTFOLIO-OF-PROJECTS/blob/master/PROJECTS/HuntTheWumpus%20-%20JB%20Version/HuntWumpus.cs) to see the code.
-  * **Tools:**  BLAZOR, C#, SQL, JavaScript, HTML, CSS
+  * **Tools:**  MonoGame, C#
   
 ### C# Console App - My Animal Farm
   <!--* **View Project:**  http://www.insertpage.com-->
