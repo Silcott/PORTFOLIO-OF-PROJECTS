@@ -53,7 +53,16 @@ https://silcott.github.io/
   * **Repository:**  https://github.com/Silcott/ISTA_Project/tree/master/myProject/Project_Track!T
   * **Description:**  This program consists of a multi-role, ticket creation login page, dashboard for users, dashboard for administrators, report page for a database that holds ticket information such as auto-generated ticket ID, requester names, assigned groups, dates, phone numbers and email address. This allows ticket searches and updates or deletes. There are profiles created through the login screen that is added to the database as well. Roles are assigned by the administrators and levels of security are established by those levels given. There are two versions, one with a database creation using Microsoft SQL server and the other with Sqlite to be more compact and deployable.  The Sqlite version was all created line by line and automatically recreates itself if deleted.  [Click Here](https://github.com/Silcott/PORTFOLIO-OF-PROJECTS/blob/master/PROJECTS/Ticket%20App%20-%20Trackin!T/CodeBreakDown.txt) to view my text file that explains the code break down and challenges I faced.
   * **Tools:**  C#, SQL, JavaScript, HTML, CSS
-
+  
+###  Monogame - "Hunt the Wumpas - JB Version"
+  <!--* **View Project:**  http://www.insertpage.com-->
+  
+<img align="right" height="270" width="450px" src="https://github.com/Silcott/LegalLeadCloser/blob/main/LLC%20images/LLC_Logo_colored.png?raw=true" alt="html" style="vertical-align:top; margin:4px">  
+  
+  * **Repository:**  https://github.com/Silcott/PORTFOLIO-OF-PROJECTS/tree/master/PROJECTS/HuntTheWumpus%20-%20JB%20Version
+  * **Description:** This is a game I built using monogame framework.  Our instructor asked if we could create this on a console, but I like the visual display so I found some images and coded everything.  First time using load game states and I liked it! [Click Here](https://github.com/Silcott/PORTFOLIO-OF-PROJECTS/blob/master/PROJECTS/HuntTheWumpus%20-%20JB%20Version/HuntWumpus.cs) to see the code.
+  * **Tools:**  BLAZOR, C#, SQL, JavaScript, HTML, CSS
+  
 ### C# Console App - My Animal Farm
   <!--* **View Project:**  http://www.insertpage.com-->
   
