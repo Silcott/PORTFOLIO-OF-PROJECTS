@@ -43,7 +43,7 @@ https://silcott.github.io/
   * **Repository:**  https://github.com/Silcott/LegalLeadCloser
   * **Description:**  LegalLeadCloser is an app for attorneys. It offers quick and effective detailed walk-throughs with clients about their case and captures all the information for the attorney to best understand the clients needs and secure the business closure. It takes the guess work out, streamlines the buisness communication, and keeps all the information secure and mobile. Designed using Blazor Webassembly 5.0 built with MudBlazor Components. [Click Here](https://github.com/Silcott/LegalLeadCloser) to see more info on this.
   * **Tools:**  BLAZOR, C#, SQL, JavaScript, HTML, CSS
-  <br />
+  <br><br><br><br>
 ### Ticket Application - "Trackin!T"
   <!--* **View Project:**  http://www.insertpage.com-->
   
