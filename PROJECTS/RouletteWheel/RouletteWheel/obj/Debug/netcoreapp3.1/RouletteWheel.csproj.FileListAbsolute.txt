@@ -10,3 +10,17 @@ C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\RouletteWheel\RouletteWheel\obj\De
 C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\RouletteWheel\RouletteWheel\obj\Debug\netcoreapp3.1\RouletteWheel.dll
 C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\RouletteWheel\RouletteWheel\obj\Debug\netcoreapp3.1\RouletteWheel.pdb
 C:\Github\repo\PORTFOLIO-OF-PROJECTS\PROJECTS\RouletteWheel\RouletteWheel\obj\Debug\netcoreapp3.1\RouletteWheel.genruntimeconfig.cache
+F:\Everything_Code\REPO\PORTFOLIO-OF-PROJECTS\PROJECTS\RouletteWheel\RouletteWheel\bin\Debug\netcoreapp3.1\RouletteWheel.exe
+F:\Everything_Code\REPO\PORTFOLIO-OF-PROJECTS\PROJECTS\RouletteWheel\RouletteWheel\bin\Debug\netcoreapp3.1\RouletteWheel.deps.json
+F:\Everything_Code\REPO\PORTFOLIO-OF-PROJECTS\PROJECTS\RouletteWheel\RouletteWheel\bin\Debug\netcoreapp3.1\RouletteWheel.runtimeconfig.json
+F:\Everything_Code\REPO\PORTFOLIO-OF-PROJECTS\PROJECTS\RouletteWheel\RouletteWheel\bin\Debug\netcoreapp3.1\RouletteWheel.runtimeconfig.dev.json
+F:\Everything_Code\REPO\PORTFOLIO-OF-PROJECTS\PROJECTS\RouletteWheel\RouletteWheel\bin\Debug\netcoreapp3.1\RouletteWheel.dll
+F:\Everything_Code\REPO\PORTFOLIO-OF-PROJECTS\PROJECTS\RouletteWheel\RouletteWheel\bin\Debug\netcoreapp3.1\RouletteWheel.pdb
+F:\Everything_Code\REPO\PORTFOLIO-OF-PROJECTS\PROJECTS\RouletteWheel\RouletteWheel\obj\Debug\netcoreapp3.1\RouletteWheel.csproj.AssemblyReference.cache
+F:\Everything_Code\REPO\PORTFOLIO-OF-PROJECTS\PROJECTS\RouletteWheel\RouletteWheel\obj\Debug\netcoreapp3.1\RouletteWheel.GeneratedMSBuildEditorConfig.editorconfig
+F:\Everything_Code\REPO\PORTFOLIO-OF-PROJECTS\PROJECTS\RouletteWheel\RouletteWheel\obj\Debug\netcoreapp3.1\RouletteWheel.AssemblyInfoInputs.cache
+F:\Everything_Code\REPO\PORTFOLIO-OF-PROJECTS\PROJECTS\RouletteWheel\RouletteWheel\obj\Debug\netcoreapp3.1\RouletteWheel.AssemblyInfo.cs
+F:\Everything_Code\REPO\PORTFOLIO-OF-PROJECTS\PROJECTS\RouletteWheel\RouletteWheel\obj\Debug\netcoreapp3.1\RouletteWheel.csproj.CoreCompileInputs.cache
+F:\Everything_Code\REPO\PORTFOLIO-OF-PROJECTS\PROJECTS\RouletteWheel\RouletteWheel\obj\Debug\netcoreapp3.1\RouletteWheel.dll
+F:\Everything_Code\REPO\PORTFOLIO-OF-PROJECTS\PROJECTS\RouletteWheel\RouletteWheel\obj\Debug\netcoreapp3.1\RouletteWheel.pdb
+F:\Everything_Code\REPO\PORTFOLIO-OF-PROJECTS\PROJECTS\RouletteWheel\RouletteWheel\obj\Debug\netcoreapp3.1\RouletteWheel.genruntimeconfig.cache
