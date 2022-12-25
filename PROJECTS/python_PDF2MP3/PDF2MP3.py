@@ -1,19 +1,3 @@
-# import pyttsx3, PyPDF2
-
-
-# pdfreader = PyPDF2.PdfFileReader(open('book.pdf',  'rb'))
-# speaker = pyttsx3.init()
-
-# for page_num in range(pdfreader.numPages):
-    # text = pdfreader.getPage(page_num).extractText()
-    # clean_text = text.strip().replace('\n', ' ')
-    # print(clean_text)
-
-# speaker.save_to_file(clean_text, 'story.mp3')
-# speaker.runAndWait()
-
-# speaker.stop()
-
 ###############################################################
 
 #How to add more voices to microsoft win11
@@ -85,14 +69,42 @@
 
 ###############################################################
 
-import pyttsx3, PyPDF2
+#import pyttsx3, PyPDF2
 
+#engine = pyttsx3.init()
+#voices = engine.getProperty('voices')
+#engine.setProperty('voice', voices[12].id)
+
+#pdfreader = PyPDF2.PdfFileReader(open('book.pdf',  'rb'))
+#speaker = pyttsx3.init()
+
+#for page_num in range(pdfreader.numPages):
+#    text = pdfreader.getPage(page_num).extractText()
+#    clean_text = text.strip().replace('\n', ' ')
+#    print(clean_text)
+
+#speaker.save_to_file(clean_text, 'story.mp3')
+#speaker.runAndWait()
+
+#speaker.stop()
+
+###############################################################\
+
+import pyttsx3, PyPDF2
+import easygui
+
+#Open a dialog box to instruct to find the pdf file
+easygui.msgbox("Please select PDF file location that you want to convert into a MP3", title="WELCOME to PDF2MP3!")
+#print(easygui.fileopenbox())
+#Demo what easygui can do
+#easygui.egdemo()
+
+# Select the voice to use for the pdf reading
 engine = pyttsx3.init()
 voices = engine.getProperty('voices')
-#Choose the index number of the voice you want and insert it below
 engine.setProperty('voice', voices[12].id)
 
-pdfreader = PyPDF2.PdfFileReader(open('book.pdf',  'rb'))
+pdfreader = PyPDF2.PdfFileReader(open(easygui.fileopenbox(),  'rb'))
 speaker = pyttsx3.init()
 
 for page_num in range(pdfreader.numPages):
@@ -100,9 +112,26 @@ for page_num in range(pdfreader.numPages):
     clean_text = text.strip().replace('\n', ' ')
     print(clean_text)
 
-speaker.save_to_file(clean_text, 'story.mp3')
+easygui.msgbox("Please select the location and name the mp3 file", title="WELCOME to PDF2MP3!")
+speaker.save_to_file(clean_text, easygui.filesavebox())
 speaker.runAndWait()
 
 speaker.stop()
 
-###############################################################
+
+
+
+
+#messgabox example with MBOX
+#import ctypes  # An included library with Python install.
+#def Mbox(title, text, style):
+#    return ctypes.windll.user32.MessageBoxW(0, text, title, style)
+##  Styles:
+##  0 : OK
+##  1 : OK | Cancel
+##  2 : Abort | Retry | Ignore
+##  3 : Yes | No | Cancel
+##  4 : Yes | No
+##  5 : Retry | Cancel 
+##  6 : Cancel | Try Again | Continue
+#Mbox('WELCOME to PDF2MP3!', 'Please select PDF file location', 0)
